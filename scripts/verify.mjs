@@ -255,7 +255,7 @@ const summary = {
   browserQA:
     "Unavailable: in-app browser returned no available browsers. Responsive CSS and semantic HTML checked; visual rendering and keyboard interactions require a browser pass.",
 };
-fs.writeFileSync(
+if (!process.argv.includes("--no-report")) fs.writeFileSync(
   "audit/verification.json",
   JSON.stringify({ summary, issues, results }, null, 2),
 );

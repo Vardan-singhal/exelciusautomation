@@ -3,11 +3,25 @@ import rawPages from "@/data/legacy.json";
 import rawBlogs from "@/data/blogs.json";
 import seo from "@/data/seo.json";
 import seoConfig from "@/data/seo-config.json";
+import sourcePresentation from "@/data/source-presentation.json";
 import { siteUrl, solutions } from "@/data/site";
 import { imageHtml, imageSrc, imageData } from "./image-urls.mjs";
+type SourcePresentation = {
+  images: { src: string; alt: string; width?: number; height?: number; unavailable?: boolean }[];
+  subtitle?: string;
+};
+const escapeHtml = (value: string) => value.replaceAll("&", "&amp;").replaceAll('"', "&quot;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
+function retainedPresentation(slug: string) {
+  const source = (sourcePresentation as Record<string, SourcePresentation>)[slug];
+  if (!source) return "";
+  const images = source.images.filter((image) => !image.unavailable).map((image) =>
+    `<img src="${escapeHtml(image.src)}" alt="${escapeHtml(image.alt)}" width="${image.width}" height="${image.height}" loading="lazy" decoding="async">`,
+  ).join("\n");
+  return images + (source.subtitle ? `<p>${escapeHtml(source.subtitle)}</p>` : "");
+}
 export const pages = rawPages.map((page) => ({
   ...page,
-  html: imageHtml(page.html),
+  html: imageHtml(retainedPresentation(page.slug) + page.html),
 }));
 export const blogs = rawBlogs.map((blog) => ({
   ...blog,

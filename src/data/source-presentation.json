@@ -1,0 +1,548 @@
+{
+  "ATCC": {
+    "images": [
+      {
+        "src": "images/product-wise-images/Infrastructure-Solutions/ATCC.png",
+        "alt": "Exelcius Automation: Advanced ATCC System Solutions",
+        "width": 700,
+        "height": 400
+      },
+      {
+        "src": "images/product-wise-images/Infrastructure-Solutions/ATCC2.png",
+        "alt": "ATCC",
+        "width": 700,
+        "height": 400
+      }
+    ]
+  },
+  "best-companies-for-automation-solutions": {
+    "images": [
+      {
+        "src": "images/product/Control-System-Upgradation.jpg",
+        "alt": "Best Companies for Automation Solutions in India",
+        "width": 1439,
+        "height": 1027
+      }
+    ]
+  },
+  "best-companies-for-electrical-automation-solutions": {
+    "images": [
+      {
+        "src": "images/banner/Best Companies for Electrical Automation.webp",
+        "alt": "Best Companies for Electrical Automation Solutions",
+        "width": 1536,
+        "height": 1024
+      }
+    ]
+  },
+  "best-highway-electrical-automation-service-providers": {
+    "images": [
+      {
+        "src": "images/product-wise-images/inner-product-img/HIGHWAYS-SOLUTION/loop-detector.jpeg",
+        "alt": "Best Highway Electrical Automation Service Providers",
+        "width": 869,
+        "height": 603
+      }
+    ]
+  },
+  "best-lithium-battery-for-solar-system-performance": {
+    "images": [
+      {
+        "src": "admin/assets/uploads/blogs/1793278478_49633594233b.png",
+        "alt": "Best Lithium Battery for Solar System Performance--",
+        "width": 1774,
+        "height": 887
+      }
+    ]
+  },
+  "cables": {
+    "images": [
+      {
+        "src": "images/product-wise-images/electric-solution/cables.jpeg",
+        "alt": "Cables : Polycab, Finolex and Custom Solutions",
+        "width": 517,
+        "height": 319
+      },
+      {
+        "src": "images/product-wise-images/inner-product-img/new/main-cable.jpg",
+        "alt": "main cable",
+        "width": 737,
+        "height": 492
+      }
+    ]
+  },
+  "Camera-Mounting-Brackets": {
+    "images": [
+      {
+        "src": "images/product-wise-images/Infrastructure-Solutions/Camera-Mounting.png",
+        "alt": "Camera Mounting Brackets",
+        "width": 700,
+        "height": 400
+      }
+    ]
+  },
+  "Different-Types-Electric-Panels": {
+    "images": [
+      {
+        "src": "images/blogs/2.jpg",
+        "alt": "Different Types of Electric Panels",
+        "width": 1024,
+        "height": 747
+      }
+    ]
+  },
+  "field-instruments": {
+    "images": [
+      {
+        "src": "images/product-wise-images/inner-product-img/field-intrastructure.png",
+        "alt": "Field Instruments",
+        "width": 850,
+        "height": 510
+      }
+    ]
+  },
+  "highway-electrical-automation-service-providers": {
+    "images": [
+      {
+        "src": "images/product-wise-images/inner-product-img/HIGHWAYS-SOLUTION/loop-detector.jpeg",
+        "alt": "Top Highway Electrical Automation Service Providers",
+        "width": 869,
+        "height": 603
+      },
+      {
+        "src": "images/product-wise-images/inner-product-img/new/loop-dectore.jpg",
+        "alt": "",
+        "width": 1000,
+        "height": 691
+      }
+    ]
+  },
+  "how-to-choose-the-best-companies-for-industrial-automation": {
+    "images": [
+      {
+        "src": "/admin/assets/uploads/blogs/1793276174_f8235397f306.png",
+        "alt": "How to Choose the Best Companies for Industrial Automation",
+        "width": 1774,
+        "height": 887
+      }
+    ]
+  },
+  "Human-Machine-Interfaces": {
+    "images": [
+      {
+        "src": "images/product-wise-images/industrial-automation/hmi.png",
+        "alt": "Human Machine Interfaces",
+        "width": 700,
+        "height": 400
+      }
+    ]
+  },
+  "Hybrid-Solar-MPPT-Inverter-10.2KW": {
+    "images": [
+      {
+        "src": "https://spautomation.org/assets/ourproducts/hybridinverter.png",
+        "alt": "Hybrid Solar MPPT Inverter 10.2kW",
+        "unavailable": true
+      }
+    ]
+  },
+  "industrial-automation-service-providers": {
+    "images": [
+      {
+        "src": "images/product/Control-System-Upgradation.jpg",
+        "alt": "Industrial Automation Service Providers: Driving Smart Industry Growth",
+        "width": 1439,
+        "height": 1027
+      }
+    ]
+  },
+  "Joint-Enclosures": {
+    "images": [
+      {
+        "src": "images/product-wise-images/inner-product-img/HIGHWAYS-SOLUTION/JOINT-ENCLOSURE.jpeg",
+        "alt": "Joint Enclosures and Fiber Splice Closures (CommScope\n                                            Make)",
+        "width": 1024,
+        "height": 578
+      },
+      {
+        "src": "images/product-wise-images/inner-product-img/new/joint-enclosure.jpg",
+        "alt": "Exelcius Automation",
+        "width": 727,
+        "height": 415
+      }
+    ]
+  },
+  "LFP-Battery-25.6V-100Ah": {
+    "images": [
+      {
+        "src": "https://spautomation.org/assets/ourproducts/lithiumbattery.png",
+        "alt": "Exelcius Automation",
+        "unavailable": true
+      }
+    ]
+  },
+  "LFP-Battery-25.6V-120Ah": {
+    "images": [
+      {
+        "src": "https://spautomation.org/assets/ourproducts/lithiumbattery.png",
+        "alt": "Exelcius Automation",
+        "unavailable": true
+      }
+    ]
+  },
+  "LFP-Battery-25.6V-240Ah": {
+    "images": [
+      {
+        "src": "https://spautomation.org/assets/ourproducts/lithiumbattery.png",
+        "alt": "Exelcius Automation",
+        "unavailable": true
+      }
+    ]
+  },
+  "LFP-Battery-25.6V-310Ah": {
+    "images": [
+      {
+        "src": "https://spautomation.org/assets/ourproducts/lithiumbattery.png",
+        "alt": "Exelcius Automation",
+        "unavailable": true
+      }
+    ]
+  },
+  "LFP-Battery-25.6V-344Ah": {
+    "images": [
+      {
+        "src": "https://spautomation.org/assets/ourproducts/lithiumbattery.png",
+        "alt": "Exelcius Automation",
+        "unavailable": true
+      }
+    ]
+  },
+  "LFP-Battery-48V-230Ah": {
+    "images": [
+      {
+        "src": "https://spautomation.org/assets/ourproducts/lithiumbattery.png",
+        "alt": "Exelcius Automation",
+        "unavailable": true
+      }
+    ]
+  },
+  "Lightning-Arresters": {
+    "images": [
+      {
+        "src": "images/product-wise-images/inner-product-img/HIGHWAYS-SOLUTION/LIGHTNING-ARRESTER.jpeg",
+        "alt": "Lightning Arresters (SG Power Make)",
+        "width": 1000,
+        "height": 1000
+      }
+    ]
+  },
+  "lithium-battery-for-solar-system": {
+    "images": [
+      {
+        "src": "images/product-wise-images/inner-product-img/SOLAR-SOLUTIONS/LITHIUM-ION.jpeg",
+        "alt": "High Performance Lithium Battery for Solar System",
+        "width": 1260,
+        "height": 695
+      }
+    ]
+  },
+  "lithium-ion-battery-manufacturers-in-india-for-power-backup": {
+    "images": [
+      {
+        "src": "images/industries/LITHIUM-ION.jpeg",
+        "alt": "Lithium Ion Battery Manufacturers in India for Power Backup",
+        "width": 1260,
+        "height": 695
+      }
+    ]
+  },
+  "Lithium-Ion-battery-manufacturers-in-India": {
+    "images": [
+      {
+        "src": "images/product-wise-images/inner-product-img/SOLAR-SOLUTIONS/LITHIUM-ION.jpeg",
+        "alt": "Top Rated Lithium Ion Battery Manufacturers in India",
+        "width": 1260,
+        "height": 695
+      }
+    ]
+  },
+  "Loop-Detectors": {
+    "images": [
+      {
+        "src": "images/product-wise-images/inner-product-img/HIGHWAYS-SOLUTION/loop-detector.jpeg",
+        "alt": "Loop Detectors for Vehicle Detection",
+        "width": 869,
+        "height": 603
+      },
+      {
+        "src": "images/product-wise-images/inner-product-img/new/loop-dectore.jpg",
+        "alt": "Loop Detectors",
+        "width": 1000,
+        "height": 691
+      }
+    ]
+  },
+  "Mono-Crystalline-solar-Panel-550W": {
+    "images": [
+      {
+        "src": "https://i.pinimg.com/1200x/ae/95/e8/ae95e843431997e2e4362ef3a20e6534.jpg",
+        "alt": "Mono-Crystalline Solar Panel 550W",
+        "width": 1200,
+        "height": 800
+      }
+    ]
+  },
+  "Mono-Crystalline-solar-Panel": {
+    "images": [
+      {
+        "src": "https://i.pinimg.com/1200x/ae/95/e8/ae95e843431997e2e4362ef3a20e6534.jpg",
+        "alt": "Mono-Crystalline Solar Panel 550W",
+        "width": 1200,
+        "height": 800
+      }
+    ]
+  },
+  "MPPT-Solar-Charge-Controller": {
+    "images": [
+      {
+        "src": "https://spautomation.org/assets/ourproducts/mppt.png",
+        "alt": "MPPT Solar Charge Controller (Solar Series)",
+        "unavailable": true
+      }
+    ]
+  },
+  "MS-Poles": {
+    "images": [
+      {
+        "src": "images/product-wise-images/Infrastructure-Solutions/Mspole.png",
+        "alt": "MS Poles",
+        "width": 700,
+        "height": 400
+      }
+    ]
+  },
+  "On-Grid-Solar-Inverter": {
+    "images": [
+      {
+        "src": "https://solstrom.in/wp-content/uploads/2024/03/gLVX2Rnq72v8m-xxlarge.webp",
+        "alt": "On-Grid Solar Inverter",
+        "width": 800,
+        "height": 800
+      }
+    ]
+  },
+  "Poly-Crystalline-Solar-Panel-330W": {
+    "images": [
+      {
+        "src": "https://i.pinimg.com/736x/98/09/ee/9809eea100c0e73a0df58a3fb47dc4ac.jpg",
+        "alt": "Poly-Crystalline Solar Panel 330W",
+        "width": 626,
+        "height": 376
+      }
+    ]
+  },
+  "power-supplies": {
+    "images": [
+      {
+        "src": "images/product-wise-images/electric-solution/power supply.png",
+        "alt": "Switched Mode Power Supply (SMPS)",
+        "width": 700,
+        "height": 400
+      },
+      {
+        "src": "images/product-wise-images/electric-solution/s8vkg.png",
+        "alt": "electric solution",
+        "width": 700,
+        "height": 400
+      }
+    ]
+  },
+  "power": {
+    "images": [
+      {
+        "src": "images/product/PLC-HMI-SCADA.avif",
+        "alt": "Power",
+        "width": 626,
+        "height": 352
+      }
+    ]
+  },
+  "Precautionary-Guidelines-for-Electrical": {
+    "images": [
+      {
+        "src": "images/blogs/3.jpg",
+        "alt": "Precautionary Guidelines for Electrical HT/LT Panels",
+        "width": 1024,
+        "height": 585
+      }
+    ]
+  },
+  "Programmable-Logic-Controllers": {
+    "images": [
+      {
+        "src": "images/product-wise-images/industrial-automation/plc.png",
+        "alt": "Industrial Automation",
+        "width": 597,
+        "height": 334
+      }
+    ]
+  },
+  "Roadside-and-Pole": {
+    "images": [
+      {
+        "src": "images/product-wise-images/Infrastructure-Solutions/Roadside-cabinets.png",
+        "alt": "Roadside and Pole-Mounted Cabinets",
+        "width": 700,
+        "height": 400
+      }
+    ]
+  },
+  "Rooftop-Solar-Mounting-Structure": {
+    "images": [
+      {
+        "src": "https://spautomation.org/assets/ourproducts/solar-mounting-structure.avif",
+        "alt": "Rooftop Solar Mounting Structure",
+        "unavailable": true
+      }
+    ]
+  },
+  "SCADA": {
+    "images": [
+      {
+        "src": "images/product-wise-images/industrial-automation/scada1.jpg",
+        "alt": "SCADA Solutions",
+        "width": 920,
+        "height": 612
+      }
+    ]
+  },
+  "Solar-charge-controller": {
+    "images": [
+      {
+        "src": "images/product-wise-images/inner-product-img/SOLAR-SOLUTIONS/SOLAR-CHARGE.jpeg",
+        "alt": "Solar Charge Controller",
+        "width": 1080,
+        "height": 810
+      },
+      {
+        "src": "images/product-wise-images/inner-product-img/new/solar-charge.jpg",
+        "alt": "SOLAR CHARGE",
+        "width": 850,
+        "height": 671
+      }
+    ]
+  },
+  "solar-solution-providers": {
+    "images": [
+      {
+        "src": "images/industries_img/Solar%20Solutions.png",
+        "alt": "Best Solar Solution Providers for Smart Solar Power",
+        "width": 869,
+        "height": 603
+      },
+      {
+        "src": "images/industries_img/Solar%20Solution%20Provider.png",
+        "alt": "Solar Solution Providers ",
+        "width": 1000,
+        "height": 691
+      }
+    ],
+    "subtitle": "This is because solar energy has emerged as one of the most stable and future-conscious sources of energy in the world, which has gone green with clean and renewable energy. Increasing electricity prices, issues with the environment, and even governmental incentives are making businesses and homeowners turn to the use of solar solutions. Nevertheless, an effective solar project would highly rely on the selection of Solar Solution Providers. These suppliers design, install, and maintain intelligent solar systems capable of providing long-term efficiency and performance."
+  },
+  "SPD": {
+    "images": [
+      {
+        "src": "images/product-wise-images/inner-product-img/SOLAR-SOLUTIONS/SURGE-PROTECTION.jpeg",
+        "alt": "Surge Protective Devices (SPD)",
+        "width": 800,
+        "height": 715
+      }
+    ]
+  },
+  "toll-lane": {
+    "images": [
+      {
+        "src": "images/product-wise-images/inner-product-img/HIGHWAYS-SOLUTION/tlc.jpeg",
+        "alt": "Toll Lane Controller (TLC)",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "images/product-wise-images/inner-product-img/new/tlc.jpeg",
+        "alt": "TLC",
+        "width": 1464,
+        "height": 1550
+      }
+    ]
+  },
+  "top-solar-solution-providers-for-clean-energy-systems": {
+    "images": [
+      {
+        "src": "images/industries_img/Solar Solution Provider.webp",
+        "alt": "Top Solar Solution Providers for Clean Energy Systems",
+        "width": 1000,
+        "height": 691
+      }
+    ]
+  },
+  "top-solar-solution-providers-for-sustainable-energy": {
+    "images": [
+      {
+        "src": "images/banner/Solar Solution Providers (1).png",
+        "alt": "Top Solar Solution Providers for Sustainable\n                            Energy",
+        "width": 1536,
+        "height": 1024
+      }
+    ]
+  },
+  "ups": {
+    "images": [
+      {
+        "src": "images/product-wise-images/inner-product-img/new/main-ups.jpg",
+        "alt": "Uninterruptible Power Supply (UPS) Solutions for Industrial and Infrastructure Applications",
+        "width": 1600,
+        "height": 914
+      }
+    ]
+  },
+  "Variable-Frequency-Drives": {
+    "images": [
+      {
+        "src": "images/product-wise-images/industrial-automation/VFD-panel-1.jpg",
+        "alt": "Variable Frequency Drive (VFD) Solutions",
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  "What-is-ACDB": {
+    "images": [
+      {
+        "src": "images/blogs/unnamed.jpg",
+        "alt": "What is an ACDB (AC Distribution Box)",
+        "width": 1024,
+        "height": 747
+      }
+    ]
+  },
+  "What-is-Synchronizing-Panel": {
+    "images": [
+      {
+        "src": "images/blogs/4.jpg",
+        "alt": "What is a Synchronizing Panel",
+        "width": 1024,
+        "height": 747
+      }
+    ]
+  },
+  "who-are-the-best-industrial-automation-service-providers": {
+    "images": [
+      {
+        "src": "images/blogs/Who-Are-the-Best-Industrial-Automation-Service-Providers.webp",
+        "alt": "Who Are the Best Industrial Automation Service Providers?",
+        "width": 1536,
+        "height": 1024
+      }
+    ]
+  }
+}

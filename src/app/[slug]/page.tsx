@@ -21,6 +21,7 @@ import {
   blogs,
 } from "@/lib/content";
 import Link from "next/link";
+import Home from "@/components/Home";
 type Props = {
   params: Promise<{ slug: string }>;
   searchParams: Promise<{ slug?: string; project?: string; view?: string }>;
@@ -30,7 +31,9 @@ export async function generateMetadata({ params, searchParams }: Props) {
   const query = await searchParams;
   slug = slug.replace(/\.php$/, "");
   const blogQuery = slug === "blog" && !!query.slug;
+  const homeQuery = slug === "page" && (!query.slug || query.slug === "index");
   if (["blog", "page"].includes(slug) && query.slug) slug = query.slug;
+  if (homeQuery) slug = "";
   return getMetadata(slug, blogQuery);
 }
 export default async function Page({ params, searchParams }: Props) {
@@ -38,9 +41,12 @@ export default async function Page({ params, searchParams }: Props) {
   const query = await searchParams;
   slug = slug.replace(/\.php$/, "");
   const blogQuery = slug === "blog" && !!query.slug;
+  const homeQuery = slug === "page" && (!query.slug || query.slug === "index");
   if (["blog", "page"].includes(slug) && query.slug) slug = query.slug;
+  if (homeQuery) slug = "";
   let content;
-  if (blogQuery && findBlog(slug)) content = <BlogPage slug={slug} />;
+  if (!slug) content = <Home />;
+  else if (blogQuery && findBlog(slug)) content = <BlogPage slug={slug} />;
   else if (slug === "about-us") content = <AboutPage />;
   else if (slug === "contact") content = <ContactPage />;
   else if (slug === "career") content = <CareerPage />;

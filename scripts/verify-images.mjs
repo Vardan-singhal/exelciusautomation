@@ -23,6 +23,14 @@ const report = JSON.parse(
 const records = new Map(
   report.records.map((record) => [record.target, record]),
 );
+// Restored PHP product images carry their source dimensions with the content.
+const restored = JSON.parse(fs.readFileSync("src/data/source-presentation.json", "utf8"));
+for (const page of Object.values(restored)) {
+  for (const image of page.images.filter((image) => !image.unavailable)) {
+    const target = manifest[image.src] || manifest["/" + image.src];
+    if (target && !records.has(target)) records.set(target, image);
+  }
+}
 let total = 0,
   largest = 0,
   transparent = 0;
