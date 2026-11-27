@@ -1,0 +1,37 @@
+[
+  {
+    "path": "/index.php",
+    "status": 301,
+    "location": "/"
+  },
+  {
+    "path": "/blog.php",
+    "status": 302,
+    "location": "/blogs"
+  },
+  {
+    "path": "/about-us/",
+    "status": 301,
+    "location": "/about-us"
+  },
+  {
+    "imageOptimization": 200,
+    "type": "image/webp",
+    "bytes": 190086,
+    "sourceBytes": 190086
+  },
+  {
+    "homeCanonicalInHead": "https://www.exelciusautomation.com/",
+    "homeSchemaTypes": [
+      "Organization",
+      "LocalBusiness",
+      "FAQPage",
+      "WebSite"
+    ]
+  },
+  {
+    "formControls": 7,
+    "labelledControls": 7,
+    "emailRequired": true
+  }
+]

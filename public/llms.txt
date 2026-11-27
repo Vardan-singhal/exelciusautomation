@@ -1,0 +1,117 @@
+# llms.txt for Exelcius Automation
+# Generated for https://www.exelciusautomation.com/
+
+[project]
+name = "Exelcius Automation"
+website = "https://www.exelciusautomation.com/"
+company_type = "Industrial Automation & Engineering Solutions Provider"
+founded = "2021"
+location = "Noida, Uttar Pradesh, India"
+
+[about]
+Exelcius Automation provides industrial automation, infrastructure, electrical, highway, and solar energy solutions. The company specializes in PLC, SCADA, HMI, VFD systems, control panels, roadside cabinets, traffic systems, and industrial IoT integration.
+
+[services]
+- Industrial Automation
+- PLC Programming & Integration
+- SCADA Solutions
+- HMI Systems
+- VFD Control Panels
+- PCC & MCC Panels
+- APFC Panels
+- Power Distribution Panels
+- Electrical System Integration
+- RFID Tracking Solutions
+- Alarm Management
+- Sensors & IoT Solutions
+- Energy Metering Systems
+- Highway Automation Systems
+- Traffic Monitoring Systems
+- Solar Energy Solutions
+- UPS & Power Backup Systems
+
+[industries]
+- Highways & Railways
+- Chemical & Agrochemical
+- Power Plants
+- Pulp & Paper
+- Cement Industry
+- Sugar Industry
+- Infrastructure Projects
+- Manufacturing Plants
+
+[technologies]
+- Allen Bradley
+- Siemens
+- Schneider Electric
+- ABB
+- Omron
+- Eaton
+- FactoryTalk
+- PLC
+- SCADA
+- HMI
+- IoT
+- VFD
+
+[key_pages]
+home = "https://www.exelciusautomation.com/"
+about = "https://www.exelciusautomation.com/about-us.php"
+plc = "https://exelciusautomation.com/Programmable-Logic-Controllers.php"
+scada = "https://exelciusautomation.com/SCADA.php"
+hmi = "https://exelciusautomation.com/Human-Machine-Interfaces.php"
+atcc = "https://exelciusautomation.com/ATCC.php"
+ups = "https://exelciusautomation.com/ups.php"
+
+[contact]
+email = "sales@exelciusautomation.com"
+phone_1 = "+91 9910089643"
+phone_2 = "+91 9205551105"
+
+[address]
+office = "B-71, Ground Floor, Transport Nagar, Sector 69, Noida, Uttar Pradesh 201301, India"
+
+[capabilities]
+- Custom Automation Solutions
+- System Design & Engineering
+- Electrical Panel Manufacturing
+- Industrial Software Integration
+- Infrastructure Automation
+- Remote Monitoring Systems
+- Smart Traffic Solutions
+- Industrial Energy Optimization
+- Predictive Maintenance Systems
+
+[clients]
+- Hindalco Industries
+- Indian Railways
+- Cube Highways
+- JSW Energy
+- VRS Foods
+- Star Cement
+
+[seo_keywords]
+industrial automation india,
+PLC integration company,
+SCADA solution provider,
+industrial control panels,
+highway automation systems,
+VFD control panel manufacturer,
+IoT industrial automation,
+electrical automation company,
+smart infrastructure solutions,
+energy management systems
+
+[crawling]
+allow_ai_training = true
+allow_llm_indexing = true
+preferred_content = [
+  "service_pages",
+  "technical_solutions",
+  "case_studies",
+  "blogs",
+  "product_information"
+]
+
+[last_updated]
+date = "2026-05-15"

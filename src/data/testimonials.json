@@ -1,0 +1,23 @@
+[
+  {
+    "text": "DELHI HAPUR MEERUT EXPRESSWAY PRIVATE LIMITED values Exelcius Automation for their outstanding quality and reliability in providing critical infrastructure, including camera mounting brackets, toll lane controllers, poles, cabinets with switchgear, loop detectors, LOGO PLCs, and power supplies. Their precision, excellence, and timely delivery greatly enhanced our expressway project.",
+    "name": "Chandra Prakash Soni",
+    "roles": [
+      "Manager–TMS Maintenance",
+      "Delhi Hapur Meerut Expressway Private Limited"
+    ],
+    "image": "/images/testimonial-img/1.webp"
+  },
+  {
+    "text": "EAPL, our trusted automation and electrical solutions provider, has successfully executed multiple projects at VRS Food. The Exelcius Automation team consistently delivers excellence and professionalism in every project and service. Their expertise in Allen Bradley system integration at our plant has been remarkable, ensuring seamless operations and efficiency.",
+    "name": "Omkar Dwivedi",
+    "roles": ["Manager - Automation", "VRS Foods Ltd. (Paras Dairy) - Sandila"],
+    "image": "/images/testimonial-img/2.webp"
+  },
+  {
+    "text": "Exelcius Automation successfully delivered two projects at the Cast House (Smelter) of Hindalco, Mahan Unit. Their project execution and support were outstanding, especially during our critical shutdown period. The Asset Management System integration was a complex task, but the Exelcius team completed it with excellence and within the stipulated timeline.",
+    "name": "Ravi Kumar Gupta",
+    "roles": ["Manager, E&I", "Cast House (Smelter)"],
+    "image": "/images/testimonial-img/3.webp"
+  }
+]

@@ -1,0 +1,38 @@
+# robots.txt for Exelcius Automation
+# https://www.exelciusautomation.com/
+
+User-agent: *
+Allow: /
+
+# Block sensitive/system paths
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /includes/
+Disallow: /backup/
+
+# Allow important assets
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# Sitemap
+Sitemap: https://www.exelciusautomation.com/sitemap.xml
+
+# AI Crawlers (optional control)
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Crawl delay for aggressive bots
+User-agent: *
+Crawl-delay: 5

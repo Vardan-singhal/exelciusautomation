@@ -1,0 +1,142 @@
+{
+  "tables": {
+    "admins": {
+      "rows": 1,
+      "columns": [
+        "id",
+        "username",
+        "email",
+        "password",
+        "full_name",
+        "profile_image",
+        "status",
+        "last_login",
+        "created_at",
+        "updated_at"
+      ]
+    },
+    "blogs": {
+      "rows": 31,
+      "columns": [
+        "id",
+        "title",
+        "slug",
+        "admin_name",
+        "blog_date",
+        "status",
+        "featured_image",
+        "description",
+        "meta_title",
+        "canonical_url",
+        "meta_description",
+        "meta_keywords",
+        "category_id",
+        "views",
+        "created_at",
+        "updated_at"
+      ]
+    },
+    "career_applications": {
+      "rows": 3,
+      "columns": [
+        "id",
+        "name",
+        "mobile",
+        "email",
+        "position",
+        "resume_path",
+        "resume_original_name",
+        "message",
+        "status",
+        "notes",
+        "ip_address",
+        "user_agent",
+        "created_at",
+        "updated_at"
+      ]
+    },
+    "contact_inquiries": {
+      "rows": 49,
+      "columns": [
+        "id",
+        "form_type",
+        "name",
+        "email",
+        "phone",
+        "company",
+        "category",
+        "product",
+        "address",
+        "message",
+        "status",
+        "notes",
+        "ip_address",
+        "user_agent",
+        "created_at"
+      ]
+    },
+    "contact_settings": {
+      "rows": 1,
+      "columns": [
+        "id",
+        "phone_primary",
+        "phone_secondary",
+        "whatsapp_number",
+        "email_sales",
+        "email_support",
+        "address",
+        "working_hours",
+        "facebook_url",
+        "linkedin_url",
+        "instagram_url",
+        "twitter_url",
+        "youtube_url",
+        "map_embed_url",
+        "map_link",
+        "contact_banner",
+        "contact_heading",
+        "contact_intro",
+        "updated_at"
+      ]
+    },
+    "pages_seo": {
+      "rows": 57,
+      "columns": [
+        "id",
+        "page_name",
+        "page_identifier",
+        "page_group",
+        "slug",
+        "heading",
+        "subtitle",
+        "banner_image",
+        "product_image",
+        "content",
+        "features",
+        "meta_title",
+        "meta_description",
+        "meta_keywords",
+        "canonical_url",
+        "og_title",
+        "og_description",
+        "og_image",
+        "robots",
+        "schema_type",
+        "custom_head_tags",
+        "status",
+        "show_in_nav",
+        "nav_order",
+        "is_system",
+        "created_at",
+        "updated_at"
+      ]
+    }
+  },
+  "backupTables": {
+    "admins": 1,
+    "blogs": 22,
+    "contact_settings": 1,
+    "pages_seo": 57
+  },
+  "note": "No separate product/project/testimonial tables. Product content lives in pages_seo; testimonials in index.php. Private enquiries, resumes and admin records are intentionally excluded from frontend data."
+}

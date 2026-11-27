@@ -1,0 +1,32 @@
+{
+  "name": "exelcius-automation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "prebuild": "node scripts/check-image-budget.mjs",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1",
+    "audit": "node scripts/rebuild-data.mjs",
+    "crawl": "node scripts/crawl.mjs",
+    "verify": "node scripts/verify.mjs",
+    "images:optimize": "node scripts/optimize-images.mjs",
+    "images:verify": "node scripts/verify-images.mjs",
+    "images:verify-delivery": "node scripts/verify-image-delivery.mjs",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "lucide-react": "^0.468.0",
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "^5.9.0"
+  }
+}

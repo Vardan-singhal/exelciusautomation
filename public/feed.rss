@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:media="http://search.yahoo.com/mrss/">
+
+<channel>
+
+<title>Exelcius Automation | Industrial Automation & Smart Infrastructure Solutions</title>
+
+<link>https://www.exelciusautomation.com/</link>
+
+<description>
+Exelcius Automation provides PLC, SCADA, HMI, electrical automation,
+highway automation, IoT integration, smart infrastructure,
+control panels, and industrial engineering solutions across India.
+</description>
+
+<language>en-in</language>
+
+<copyright>
+Copyright © 2026 Exelcius Automation. All Rights Reserved.
+</copyright>
+
+<managingEditor>
+sales@exelciusautomation.com (Exelcius Automation)
+</managingEditor>
+
+<webMaster>
+sales@exelciusautomation.com (Exelcius Automation)
+</webMaster>
+
+<generator>
+Exelcius Automation Professional RSS Feed v2.0
+</generator>
+
+<lastBuildDate>Fri, 15 May 2026 15:30:00 +0530</lastBuildDate>
+
+<ttl>60</ttl>
+
+<!-- SELF RSS LINK -->
+<atom:link
+href="https://www.exelciusautomation.com/feed.xml"
+rel="self"
+type="application/rss+xml" />
+
+<!-- WEBSITE IMAGE -->
+<image>
+<title>Exelcius Automation</title>
+<link>https://www.exelciusautomation.com/</link>
+<url>https://www.exelciusautomation.com/images/logo.png</url>
+<width>250</width>
+<height>60</height>
+</image>
+
+<!-- CATEGORY -->
+<category>Industrial Automation</category>
+<category>PLC Solutions</category>
+<category>SCADA Systems</category>
+<category>Electrical Engineering</category>
+<category>IoT Solutions</category>
+<category>Highway Automation</category>
+<category>Smart Infrastructure</category>
+
+<!-- ===================================================== -->
+<!-- ITEM 1 -->
+<!-- ===================================================== -->
+
+<item>
+
+<title>
+Advanced PLC Programming & Industrial Automation Solutions
+</title>
+
+<link>
+https://www.exelciusautomation.com/Programmable-Logic-Controllers.php
+</link>
+
+<guid isPermaLink="true">
+https://www.exelciusautomation.com/Programmable-Logic-Controllers.php
+</guid>
+
+<description>
+Exelcius Automation delivers advanced PLC programming,
+industrial control systems, automation integration,
+commissioning, troubleshooting, and process optimization
+solutions for manufacturing and infrastructure industries.
+</description>
+
+<content:encoded><![CDATA[
+
+<h2>PLC Automation Solutions</h2>
+
+<p>
+We provide industrial PLC automation solutions using
+Siemens, Allen Bradley, Schneider Electric, ABB,
+and Omron technologies.
+</p>
+
+<p>
+Our services include:
+</p>
+
+<ul>
+<li>PLC Programming</li>
+<li>Automation Panel Integration</li>
+<li>Industrial Process Control</li>
+<li>Remote Monitoring</li>
+<li>Plant Automation</li>
+<li>Industrial IoT Integration</li>
+</ul>
+
+<p>
+Exelcius Automation helps industries improve productivity,
+reduce downtime, and optimize operational efficiency.
+</p>
+
+]]></content:encoded>
+
+<pubDate>Fri, 15 May 2026 11:00:00 +0530</pubDate>
+
+<dc:creator>Exelcius Automation</dc:creator>
+
+<category>PLC Automation</category>
+
+<media:content
+url="https://www.exelciusautomation.com/images/plc.jpg"
+medium="image" />
+
+</item>
+
+<!-- ===================================================== -->
+<!-- ITEM 2 -->
+<!-- ===================================================== -->
+
+<item>
+
+<title>
+SCADA Monitoring & Smart Industrial Control Systems
+</title>
+
+<link>
+https://www.exelciusautomation.com/SCADA.php
+</link>
+
+<guid isPermaLink="true">
+https://www.exelciusautomation.com/SCADA.php
+</guid>
+
+<description>
+Smart SCADA solutions for industrial monitoring,
+data acquisition, reporting, visualization,
+and remote operations management.
+</description>
+
+<content:encoded><![CDATA[
+
+<h2>SCADA Solutions</h2>
+
+<p>
+Exelcius Automation designs and implements
+advanced SCADA systems for industries,
+power plants, manufacturing units,
+and infrastructure projects.
+</p>
+
+<ul>
+<li>Real-Time Monitoring</li>
+<li>Alarm Management</li>
+<li>Industrial Analytics</li>
+<li>Remote Access Systems</li>
+<li>Centralized Process Control</li>
+</ul>
+
+<p>
+Our SCADA solutions improve operational visibility
+and industrial efficiency.
+</p>
+
+]]></content:encoded>
+
+<pubDate>Fri, 15 May 2026 12:00:00 +0530</pubDate>
+
+<dc:creator>Exelcius Automation</dc:creator>
+
+<category>SCADA Systems</category>
+
+<media:content
+url="https://www.exelciusautomation.com/images/scada.jpg"
+medium="image" />
+
+</item>
+
+<!-- ===================================================== -->
+<!-- ITEM 3 -->
+<!-- ===================================================== -->
+
+<item>
+
+<title>
+Industrial HMI Systems for Smart Process Visualization
+</title>
+
+<link>
+https://www.exelciusautomation.com/Human-Machine-Interfaces.php
+</link>
+
+<guid isPermaLink="true">
+https://www.exelciusautomation.com/Human-Machine-Interfaces.php
+</guid>
+
+<description>
+Modern HMI systems for industrial process visualization,
+machine monitoring, operational control,
+and smart user interaction.
+</description>
+
+<content:encoded><![CDATA[
+
+<h2>Human Machine Interface (HMI)</h2>
+
+<p>
+We develop advanced HMI interfaces
+that improve machine interaction,
+visualization, and operational efficiency.
+</p>
+
+<ul>
+<li>Touchscreen Interfaces</li>
+<li>Industrial Dashboards</li>
+<li>Alarm Notifications</li>
+<li>Machine Visualization</li>
+<li>Performance Monitoring</li>
+</ul>
+
+]]></content:encoded>
+
+<pubDate>Fri, 15 May 2026 13:00:00 +0530</pubDate>
+
+<dc:creator>Exelcius Automation</dc:creator>
+
+<category>HMI Systems</category>
+
+<media:content
+url="https://www.exelciusautomation.com/images/hmi.jpg"
+medium="image" />
+
+</item>
+
+<!-- ===================================================== -->
+<!-- ITEM 4 -->
+<!-- ===================================================== -->
+
+<item>
+
+<title>
+Highway Automation & Smart Traffic Infrastructure Systems
+</title>
+
+<link>
+https://www.exelciusautomation.com/ATCC.php
+</link>
+
+<guid isPermaLink="true">
+https://www.exelciusautomation.com/ATCC.php
+</guid>
+
+<description>
+Integrated highway automation systems including
+ATCC, traffic monitoring,
+electrical roadside cabinets,
+and intelligent transportation infrastructure.
+</description>
+
+<content:encoded><![CDATA[
+
+<h2>Highway Automation Solutions</h2>
+
+<p>
+Exelcius Automation provides smart highway
+and infrastructure automation systems
+for transportation projects across India.
+</p>
+
+<ul>
+<li>ATCC Systems</li>
+<li>Traffic Monitoring</li>
+<li>Roadside Electrical Cabinets</li>
+<li>Smart Infrastructure</li>
+<li>Control Room Integration</li>
+</ul>
+
+]]></content:encoded>
+
+<pubDate>Fri, 15 May 2026 14:00:00 +0530</pubDate>
+
+<dc:creator>Exelcius Automation</dc:creator>
+
+<category>Infrastructure Automation</category>
+
+<media:content
+url="https://www.exelciusautomation.com/images/highway.jpg"
+medium="image" />
+
+</item>
+
+<!-- ===================================================== -->
+<!-- ITEM 5 -->
+<!-- ===================================================== -->
+
+<item>
+
+<title>
+Reliable UPS & Industrial Power Backup Solutions
+</title>
+
+<link>
+https://www.exelciusautomation.com/ups.php
+</link>
+
+<guid isPermaLink="true">
+https://www.exelciusautomation.com/ups.php
+</guid>
+
+<description>
+Industrial UPS systems and backup power solutions
+for uninterrupted industrial operations
+and automation system protection.
+</description>
+
+<content:encoded><![CDATA[
+
+<h2>UPS & Power Backup Systems</h2>
+
+<p>
+We provide industrial-grade UPS systems,
+power conditioning,
+and backup solutions for critical infrastructure.
+</p>
+
+<ul>
+<li>Industrial UPS</li>
+<li>Battery Backup Systems</li>
+<li>Power Distribution</li>
+<li>Voltage Protection</li>
+<li>Critical Equipment Safety</li>
+</ul>
+
+]]></content:encoded>
+
+<pubDate>Fri, 15 May 2026 15:00:00 +0530</pubDate>
+
+<dc:creator>Exelcius Automation</dc:creator>
+
+<category>Power Solutions</category>
+
+<media:content
+url="https://www.exelciusautomation.com/images/ups.jpg"
+medium="image" />
+
+</item>
+
+</channel>
+</rss>

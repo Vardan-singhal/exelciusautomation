@@ -1,0 +1,65 @@
+EXELCIUS AUTOMATION — FRONTEND IMPLEMENTATION REPORT
+26 November 2026
+
+Implementation location: New/
+Stack: Next.js 16 App Router, React, TypeScript, custom responsive CSS, Lucide icons and a locally hosted original Roboto font. No Tailwind, backend endpoints, database connections or production integrations.
+
+AUDIT
+Read the PHP business pages, shared header/footer, routing rules, enquiry forms, SEO helper, contact helper, both database exports, sitemap/robots/RSS and original assets. Extracted the text of all 46 company-profile slides, all embedded media and slide-image relationships; inspected image contact sheets before selecting assets. The latest SQL export is the primary CMS source; the earlier export is retained for comparison.
+
+Source inventory: 57 PHP/CMS content records, 30 published database articles (one additional draft excluded), 458 original image-folder assets and three genuine attributed testimonials. The database has no separate product/project/testimonial/customer tables; technical products are represented in pages_seo, while portfolio/customer evidence comes from the profile and testimonials from index.php. Private administrator, applicant and enquiry records are excluded from frontend content and public assets.
+
+Live crawl: 114 successful source URLs, including sitemap targets, published article slugs and all blog.php query variants. Twelve database article slugs overlap physical PHP page slugs. Both versions are retained: physical-page content at the root/physical PHP alias; database article content at blog.php?slug=... and blog?slug=....
+
+DELIVERED EXPERIENCE
+- New teal/navy/white industrial identity using the unaltered original company logo.
+- Sticky header, five-category disclosure menu, mobile navigation and mobile call/WhatsApp/enquiry actions.
+- Photographic homepage, verified 2021 establishment statement, company introduction, five solution presentations, sourced project features, engineering advantages, industries, verified customer logos, genuine testimonials and enquiry CTA.
+- Five solution landing experiences on existing routes:
+  Industrial Automation: /industrial-automation-service-providers
+  Electrical Engineering: /pcc-and-mcc-panel
+  Highway & Tunnel Automation: /highway-electrical-automation-service-providers
+  Solar & Energy: /solar-solution-providers
+  Digital & Monitoring: /field-instruments
+- Reusable product/article, company, contact, careers, gallery and project layouts. Complete technical copy and specifications are retained in articles or expandable sections.
+- Twelve sourced portfolio records, filters and detail views on /gallery using query parameters; no competing project URL tree.
+- Actual leadership portraits and photographs from original project records. Unavailable project photographs are not replaced with fictitious installations. Technical screens and testimonial portraits are identified for what they represent.
+- JLTL is explicitly a TWO-SYSTEM DEMONSTRATION. The proposed 1,300-pole scheme is not presented as delivered work. Jhansi completed projects and illustrative tunnel architectures retain their distinct status.
+- Native form validation, email-draft preparation, verified centrally configured WhatsApp and telephone alternatives. No fake submission, success response or data storage. Careers use email with an applicant-supplied attachment.
+
+SEO PRESERVATION
+Preserved case-sensitive content paths, PHP aliases, query variants, existing canonical strings, titles, descriptions, keywords, existing JSON-LD, original image alt text in retained content, source technical text and relevant internal links. The XML sitemap and robots file are unchanged copies. RSS and the search verification file are retained.
+
+Canonical links are emitted as React resource links in the document head. This avoids Next.js Metadata normalization of the homepage trailing slash and two relative legacy canonical strings. CMS Open Graph settings are retained even where the old PHP templates did not emit them. Source Organization, LocalBusiness and FAQ schema is retained; supported WebSite, breadcrumb, Service, Product and Article data is added without invented offers, ratings or reviews. FAQ answers are also accessible in expandable content.
+
+Existing index.php and trailing-slash permanent redirects are retained. Blog routes without a slug retain the listing redirect. There are no redirects to renamed business pages.
+
+The original sitemap contains /images/certificate/3.pdf, which is absent locally and resolves to an unrelated directory index on the old site. An internal rewrite now serves the existing certificate3.pdf linked from the original About page at that public path. Certificate contents are unchanged, and no certification claims were inferred.
+
+Source discrepancies deliberately recorded for the SEO/content team:
+- /power contains camera-bracket content; it remains available unchanged in substance. The electrical landing experience instead uses the relevant existing PCC/MCC route.
+- Several original titles/OG titles are generic or inconsistent with their page. They were preserved rather than silently rewritten.
+- Two blog canonical values are relative. Exact original strings are retained.
+- Existing LocalBusiness schema has opening hours that differ from current contact_settings. The source schema is retained; visible contact information follows the latest database record.
+- Original backend form handlers, admin tools, mailer code and private uploads are not ported into the frontend.
+
+VALIDATION
+Production build and TypeScript checks pass. Dependency audit reports zero known vulnerabilities.
+
+Automated HTTP verification covers 208 requests across 88 base page/document targets plus PHP/query aliases and the new presentations. It compares source titles, descriptions, exact canonicals, original schema, retained article/product text, heading count, image alt attributes, asset existence, internal links, original SEO files and 404 handling.
+
+Latest detailed results are in audit/verification.json. Additional image, redirect, schema/head and form-label checks are in audit/additional-checks.json. All 796 files in the original checksum inventory were verified unchanged. This includes the original PHP, SQL, profile and assets.
+
+Image optimization was exercised successfully: the 1920px WebP hero response was 84,196 bytes versus the original JPEG's 164,400 bytes. The homepage is statically rendered; query-aware content pages are server-rendered. Below-fold images are lazy loaded; local font loading, restrained CSS interactions, focus indicators and reduced-motion styling are implemented. The hero adapts to narrow-screen content height.
+
+VERIFICATION LIMITS
+The in-app browser returned no available browsers. Desktop/mobile visual rendering, actual keyboard and form interactions, screen-reader behavior, Lighthouse and Core Web Vitals have NOT been verified. Responsive rules and server-rendered semantics were checked, but those checks do not replace browser QA. No numerical Lighthouse/performance score is claimed. Browser QA is required before replacing production.
+
+HANDOVER
+Run npm ci, then npm run dev from New/. Production commands are npm run build and npm run start. See README.md for content files, routes, audit regeneration and validation commands.
+
+Hero video is intentionally disabled until the supplied asset exists. Add public/videos/exelcius-industrial-hero.mp4 and enable heroVideo in src/data/site.ts. The current fallback is a verified original workshop photograph, optimized by Next/Image; there is no missing-video network request.
+
+The form requires a future separately scoped delivery integration to submit enquiries directly. The current email and WhatsApp alternatives are usable by the visitor.
+
+No production deployment, DNS change, database import or modification of Previous/ or PPT/ was performed.

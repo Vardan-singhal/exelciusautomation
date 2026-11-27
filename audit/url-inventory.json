@@ -1,0 +1,569 @@
+{
+  "pages": [
+    {
+      "url": "/about-us",
+      "phpAlias": "/about-us.php",
+      "canonical": "https://www.exelciusautomation.com/about-us",
+      "source": "about-us.php"
+    },
+    {
+      "url": "/ATCC",
+      "phpAlias": "/ATCC.php",
+      "canonical": "https://www.exelciusautomation.com/ATCC",
+      "source": "ATCC.php"
+    },
+    {
+      "url": "/best-companies-for-automation-solutions",
+      "phpAlias": "/best-companies-for-automation-solutions.php",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-automation-solutions",
+      "source": "best-companies-for-automation-solutions.php"
+    },
+    {
+      "url": "/best-companies-for-electrical-automation-solutions",
+      "phpAlias": "/best-companies-for-electrical-automation-solutions.php",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-electrical-automation-solutions",
+      "source": "best-companies-for-electrical-automation-solutions.php"
+    },
+    {
+      "url": "/best-highway-electrical-automation-service-providers",
+      "phpAlias": "/best-highway-electrical-automation-service-providers.php",
+      "canonical": "https://www.exelciusautomation.com/best-highway-electrical-automation-service-providers",
+      "source": "best-highway-electrical-automation-service-providers.php"
+    },
+    {
+      "url": "/best-lithium-battery-for-solar-system-performance",
+      "phpAlias": "/best-lithium-battery-for-solar-system-performance.php",
+      "canonical": "https://www.exelciusautomation.com/best-lithium-battery-for-solar-system-performance",
+      "source": "best-lithium-battery-for-solar-system-performance.php"
+    },
+    {
+      "url": "/blogs",
+      "phpAlias": "/blogs.php",
+      "canonical": "https://www.exelciusautomation.com/blogs",
+      "source": "blogs.php"
+    },
+    {
+      "url": "/cables",
+      "phpAlias": "/cables.php",
+      "canonical": "https://www.exelciusautomation.com/cables",
+      "source": "cables.php"
+    },
+    {
+      "url": "/Camera-Mounting-Brackets",
+      "phpAlias": "/Camera-Mounting-Brackets.php",
+      "canonical": "https://www.exelciusautomation.com/Camera-Mounting-Brackets",
+      "source": "Camera-Mounting-Brackets.php"
+    },
+    {
+      "url": "/career",
+      "phpAlias": "/career.php",
+      "canonical": "https://www.exelciusautomation.com/career",
+      "source": "career.php"
+    },
+    {
+      "url": "/contact",
+      "phpAlias": "/contact.php",
+      "canonical": "https://www.exelciusautomation.com/contact",
+      "source": "contact.php"
+    },
+    {
+      "url": "/Different-Types-Electric-Panels",
+      "phpAlias": "/Different-Types-Electric-Panels.php",
+      "canonical": "https://www.exelciusautomation.com/Different-Types-Electric-Panels",
+      "source": "Different-Types-Electric-Panels.php"
+    },
+    {
+      "url": "/field-instruments",
+      "phpAlias": "/field-instruments.php",
+      "canonical": "https://www.exelciusautomation.com/field-instruments",
+      "source": "field-instruments.php"
+    },
+    {
+      "url": "/gallery",
+      "phpAlias": "/gallery.php",
+      "canonical": "",
+      "source": "gallery.php"
+    },
+    {
+      "url": "/highway-electrical-automation-service-providers",
+      "phpAlias": "/highway-electrical-automation-service-providers.php",
+      "canonical": "https://www.exelciusautomation.com/highway-electrical-automation-service-providers",
+      "source": "highway-electrical-automation-service-providers.php"
+    },
+    {
+      "url": "/how-to-choose-the-best-companies-for-industrial-automation",
+      "phpAlias": "/how-to-choose-the-best-companies-for-industrial-automation.php",
+      "canonical": "https://www.exelciusautomation.com/how-to-choose-the-best-companies-for-industrial-automation",
+      "source": "how-to-choose-the-best-companies-for-industrial-automation.php"
+    },
+    {
+      "url": "/Human-Machine-Interfaces",
+      "phpAlias": "/Human-Machine-Interfaces.php",
+      "canonical": "https://www.exelciusautomation.com/Human-Machine-Interfaces",
+      "source": "Human-Machine-Interfaces.php"
+    },
+    {
+      "url": "/Hybrid-Solar-MPPT-Inverter-10.2KW",
+      "phpAlias": "/Hybrid-Solar-MPPT-Inverter-10.2KW.php",
+      "canonical": "https://www.exelciusautomation.com/Hybrid-Solar-MPPT-Inverter-10.2KW",
+      "source": "Hybrid-Solar-MPPT-Inverter-10.2KW.php"
+    },
+    {
+      "url": "/",
+      "phpAlias": "/index.php",
+      "canonical": "https://www.exelciusautomation.com/",
+      "source": "index.php"
+    },
+    {
+      "url": "/industrial-automation-service-providers",
+      "phpAlias": "/industrial-automation-service-providers.php",
+      "canonical": "https://www.exelciusautomation.com/industrial-automation-service-providers",
+      "source": "industrial-automation-service-providers.php"
+    },
+    {
+      "url": "/Joint-Enclosures",
+      "phpAlias": "/Joint-Enclosures.php",
+      "canonical": "https://www.exelciusautomation.com/Joint-Enclosures",
+      "source": "Joint-Enclosures.php"
+    },
+    {
+      "url": "/LFP-Battery-25.6V-100Ah",
+      "phpAlias": "/LFP-Battery-25.6V-100Ah.php",
+      "canonical": "https://www.exelciusautomation.com/LFP-Battery-25.6V-100Ah",
+      "source": "LFP-Battery-25.6V-100Ah.php"
+    },
+    {
+      "url": "/LFP-Battery-25.6V-120Ah",
+      "phpAlias": "/LFP-Battery-25.6V-120Ah.php",
+      "canonical": "https://www.exelciusautomation.com/LFP-Battery-25.6V-120Ah",
+      "source": "LFP-Battery-25.6V-120Ah.php"
+    },
+    {
+      "url": "/LFP-Battery-25.6V-240Ah",
+      "phpAlias": "/LFP-Battery-25.6V-240Ah.php",
+      "canonical": "https://www.exelciusautomation.com/LFP-Battery-25.6V-240Ah",
+      "source": "LFP-Battery-25.6V-240Ah.php"
+    },
+    {
+      "url": "/LFP-Battery-25.6V-310Ah",
+      "phpAlias": "/LFP-Battery-25.6V-310Ah.php",
+      "canonical": "https://www.exelciusautomation.com/LFP-Battery-25.6V-310Ah",
+      "source": "LFP-Battery-25.6V-310Ah.php"
+    },
+    {
+      "url": "/LFP-Battery-25.6V-344Ah",
+      "phpAlias": "/LFP-Battery-25.6V-344Ah.php",
+      "canonical": "https://www.exelciusautomation.com/LFP-Battery-25.6V-344Ah",
+      "source": "LFP-Battery-25.6V-344Ah.php"
+    },
+    {
+      "url": "/LFP-Battery-48V-230Ah",
+      "phpAlias": "/LFP-Battery-48V-230Ah.php",
+      "canonical": "https://www.exelciusautomation.com/LFP-Battery-48V-230Ah",
+      "source": "LFP-Battery-48V-230Ah.php"
+    },
+    {
+      "url": "/Lightning-Arresters",
+      "phpAlias": "/Lightning-Arresters.php",
+      "canonical": "https://www.exelciusautomation.com/Lightning-Arresters",
+      "source": "Lightning-Arresters.php"
+    },
+    {
+      "url": "/lithium-battery-for-solar-system",
+      "phpAlias": "/lithium-battery-for-solar-system.php",
+      "canonical": "https://www.exelciusautomation.com/lithium-battery-for-solar-system",
+      "source": "lithium-battery-for-solar-system.php"
+    },
+    {
+      "url": "/lithium-ion-battery-manufacturers-in-india-for-power-backup",
+      "phpAlias": "/lithium-ion-battery-manufacturers-in-india-for-power-backup.php",
+      "canonical": "https://www.exelciusautomation.com/lithium-ion-battery-manufacturers-in-india-for-power-backup",
+      "source": "lithium-ion-battery-manufacturers-in-india-for-power-backup.php"
+    },
+    {
+      "url": "/Lithium-Ion-battery-manufacturers-in-India",
+      "phpAlias": "/Lithium-Ion-battery-manufacturers-in-India.php",
+      "canonical": "https://www.exelciusautomation.com/Lithium-Ion-battery-manufacturers-in-India",
+      "source": "Lithium-Ion-battery-manufacturers-in-India.php"
+    },
+    {
+      "url": "/Loop-Detectors",
+      "phpAlias": "/Loop-Detectors.php",
+      "canonical": "https://www.exelciusautomation.com/Loop-Detectors",
+      "source": "Loop-Detectors.php"
+    },
+    {
+      "url": "/Mono-Crystalline-solar-Panel-550W",
+      "phpAlias": "/Mono-Crystalline-solar-Panel-550W.php",
+      "canonical": "https://www.exelciusautomation.com/Mono-Crystalline-solar-Panel-550W",
+      "source": "Mono-Crystalline-solar-Panel-550W.php"
+    },
+    {
+      "url": "/Mono-Crystalline-solar-Panel",
+      "phpAlias": "/Mono-Crystalline-solar-Panel.php",
+      "canonical": "https://www.exelciusautomation.com/Mono-Crystalline-solar-Panel",
+      "source": "Mono-Crystalline-solar-Panel.php"
+    },
+    {
+      "url": "/MPPT-Solar-Charge-Controller",
+      "phpAlias": "/MPPT-Solar-Charge-Controller.php",
+      "canonical": "https://www.exelciusautomation.com/MPPT-Solar-Charge-Controller",
+      "source": "MPPT-Solar-Charge-Controller.php"
+    },
+    {
+      "url": "/MS-Poles",
+      "phpAlias": "/MS-Poles.php",
+      "canonical": "https://www.exelciusautomation.com/MS-Poles",
+      "source": "MS-Poles.php"
+    },
+    {
+      "url": "/On-Grid-Solar-Inverter",
+      "phpAlias": "/On-Grid-Solar-Inverter.php",
+      "canonical": "https://www.exelciusautomation.com/On-Grid-Solar-Inverter",
+      "source": "On-Grid-Solar-Inverter.php"
+    },
+    {
+      "url": "/pcc-and-mcc-panel",
+      "phpAlias": "/pcc-and-mcc-panel.php",
+      "canonical": "",
+      "source": "pcc-and-mcc-panel.php"
+    },
+    {
+      "url": "/Poly-Crystalline-Solar-Panel-330W",
+      "phpAlias": "/Poly-Crystalline-Solar-Panel-330W.php",
+      "canonical": "https://www.exelciusautomation.com/Poly-Crystalline-Solar-Panel-330W",
+      "source": "Poly-Crystalline-Solar-Panel-330W.php"
+    },
+    {
+      "url": "/power-supplies",
+      "phpAlias": "/power-supplies.php",
+      "canonical": "https://www.exelciusautomation.com/power-supplies",
+      "source": "power-supplies.php"
+    },
+    {
+      "url": "/power",
+      "phpAlias": "/power.php",
+      "canonical": "",
+      "source": "power.php"
+    },
+    {
+      "url": "/Precautionary-Guidelines-for-Electrical",
+      "phpAlias": "/Precautionary-Guidelines-for-Electrical.php",
+      "canonical": "https://www.exelciusautomation.com/Precautionary-Guidelines-for-Electrical",
+      "source": "Precautionary-Guidelines-for-Electrical.php"
+    },
+    {
+      "url": "/Programmable-Logic-Controllers",
+      "phpAlias": "/Programmable-Logic-Controllers.php",
+      "canonical": "https://www.exelciusautomation.com/Programmable-Logic-Controllers",
+      "source": "Programmable-Logic-Controllers.php"
+    },
+    {
+      "url": "/Roadside-and-Pole",
+      "phpAlias": "/Roadside-and-Pole.php",
+      "canonical": "https://www.exelciusautomation.com/Roadside-and-Pole",
+      "source": "Roadside-and-Pole.php"
+    },
+    {
+      "url": "/Rooftop-Solar-Mounting-Structure",
+      "phpAlias": "/Rooftop-Solar-Mounting-Structure.php",
+      "canonical": "https://www.exelciusautomation.com/Rooftop-Solar-Mounting-Structure",
+      "source": "Rooftop-Solar-Mounting-Structure.php"
+    },
+    {
+      "url": "/SCADA",
+      "phpAlias": "/SCADA.php",
+      "canonical": "https://www.exelciusautomation.com/SCADA",
+      "source": "SCADA.php"
+    },
+    {
+      "url": "/Solar-charge-controller",
+      "phpAlias": "/Solar-charge-controller.php",
+      "canonical": "https://www.exelciusautomation.com/Solar-charge-controller",
+      "source": "Solar-charge-controller.php"
+    },
+    {
+      "url": "/solar-solution-providers",
+      "phpAlias": "/solar-solution-providers.php",
+      "canonical": "https://www.exelciusautomation.com/solar-solution-providers",
+      "source": "solar-solution-providers.php"
+    },
+    {
+      "url": "/SPD",
+      "phpAlias": "/SPD.php",
+      "canonical": "https://www.exelciusautomation.com/SPD",
+      "source": "SPD.php"
+    },
+    {
+      "url": "/toll-lane",
+      "phpAlias": "/toll-lane.php",
+      "canonical": "https://www.exelciusautomation.com/toll-lane",
+      "source": "toll-lane.php"
+    },
+    {
+      "url": "/top-solar-solution-providers-for-clean-energy-systems",
+      "phpAlias": "/top-solar-solution-providers-for-clean-energy-systems.php",
+      "canonical": "https://www.exelciusautomation.com/top-solar-solution-providers-for-clean-energy-systems",
+      "source": "top-solar-solution-providers-for-clean-energy-systems.php"
+    },
+    {
+      "url": "/top-solar-solution-providers-for-sustainable-energy",
+      "phpAlias": "/top-solar-solution-providers-for-sustainable-energy.php",
+      "canonical": "https://www.exelciusautomation.com/top-solar-solution-providers-for-sustainable-energy",
+      "source": "top-solar-solution-providers-for-sustainable-energy.php"
+    },
+    {
+      "url": "/ups",
+      "phpAlias": "/ups.php",
+      "canonical": "https://www.exelciusautomation.com/ups",
+      "source": "ups.php"
+    },
+    {
+      "url": "/Variable-Frequency-Drives",
+      "phpAlias": "/Variable-Frequency-Drives.php",
+      "canonical": "https://www.exelciusautomation.com/Variable-Frequency-Drives",
+      "source": "Variable-Frequency-Drives.php"
+    },
+    {
+      "url": "/What-is-ACDB",
+      "phpAlias": "/What-is-ACDB.php",
+      "canonical": "https://www.exelciusautomation.com/What-is-ACDB",
+      "source": "What-is-ACDB.php"
+    },
+    {
+      "url": "/What-is-Synchronizing-Panel",
+      "phpAlias": "/What-is-Synchronizing-Panel.php",
+      "canonical": "https://www.exelciusautomation.com/What-is-Synchronizing-Panel",
+      "source": "What-is-Synchronizing-Panel.php"
+    },
+    {
+      "url": "/who-are-the-best-industrial-automation-service-providers",
+      "phpAlias": "/who-are-the-best-industrial-automation-service-providers.php",
+      "canonical": "https://www.exelciusautomation.com/who-are-the-best-industrial-automation-service-providers",
+      "source": "who-are-the-best-industrial-automation-service-providers.php"
+    }
+  ],
+  "blogs": [
+    {
+      "url": "/how-do-best-companies-for-automation-solutions-help",
+      "queryAlias": "/blog.php?slug=how-do-best-companies-for-automation-solutions-help",
+      "canonical": "how-do-best-companies-for-automation-solutions-help"
+    },
+    {
+      "url": "/how-to-find-the-best-companies-for-electrical-automation",
+      "queryAlias": "/blog.php?slug=how-to-find-the-best-companies-for-electrical-automation",
+      "canonical": "how-to-find-the-best-companies-for-electrical-automation"
+    },
+    {
+      "url": "/best-companies-for-industrial-automation-solutions",
+      "queryAlias": "/blog.php?slug=best-companies-for-industrial-automation-solutions",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-industrial-automation-solutions"
+    },
+    {
+      "url": "/automation-solutions-for-industries-helping-businesses-grow-faster",
+      "queryAlias": "/blog.php?slug=automation-solutions-for-industries-helping-businesses-grow-faster",
+      "canonical": "https://www.exelciusautomation.com/automation-solutions-for-industries-helping-businesses-grow-faster"
+    },
+    {
+      "url": "/best-companies-for-automation-solutions-you-can-trust",
+      "queryAlias": "/blog.php?slug=best-companies-for-automation-solutions-you-can-trust",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-automation-solutions-you-can-trust"
+    },
+    {
+      "url": "/best-industrial-automation-service-providers-in-2026",
+      "queryAlias": "/blog.php?slug=best-industrial-automation-service-providers-in-2026",
+      "canonical": "https://www.exelciusautomation.com/best-industrial-automation-service-providers-in-2026"
+    },
+    {
+      "url": "/best-companies-for-industrial-automation-in-india",
+      "queryAlias": "/blog.php?slug=best-companies-for-industrial-automation-in-india",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-industrial-automation-in-india"
+    },
+    {
+      "url": "/best-companies-for-automation-solutions-for-reliable-systems",
+      "queryAlias": "/blog.php?slug=best-companies-for-automation-solutions-for-reliable-systems",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-automation-solutions-for-reliable-systems"
+    },
+    {
+      "url": "/automation-solutions-for-industries-for-improved-efficiency",
+      "queryAlias": "/blog.php?slug=automation-solutions-for-industries-for-improved-efficiency",
+      "canonical": "https://www.exelciusautomation.com/automation-solutions-for-industries-for-improved-efficiency"
+    },
+    {
+      "url": "/industrial-automation-service-providers-for-modern-industry",
+      "queryAlias": "/blog.php?slug=industrial-automation-service-providers-for-modern-industry",
+      "canonical": "https://www.exelciusautomation.com/industrial-automation-service-providers-for-modern-industry"
+    },
+    {
+      "url": "/how-to-choose-the-best-companies-for-industrial-automation",
+      "queryAlias": "/blog.php?slug=how-to-choose-the-best-companies-for-industrial-automation",
+      "canonical": "https://www.exelciusautomation.com/how-to-choose-the-best-companies-for-industrial-automation"
+    },
+    {
+      "url": "/who-are-the-best-industrial-automation-service-providers",
+      "queryAlias": "/blog.php?slug=who-are-the-best-industrial-automation-service-providers",
+      "canonical": "https://www.exelciusautomation.com/who-are-the-best-industrial-automation-service-providers"
+    },
+    {
+      "url": "/best-companies-for-electrical-automation-solutions",
+      "queryAlias": "/blog.php?slug=best-companies-for-electrical-automation-solutions",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-electrical-automation-solutions"
+    },
+    {
+      "url": "/top-solar-solution-providers-for-sustainable-energy",
+      "queryAlias": "/blog.php?slug=top-solar-solution-providers-for-sustainable-energy",
+      "canonical": "https://www.exelciusautomation.com/top-solar-solution-providers-for-sustainable-energy"
+    },
+    {
+      "url": "/lithium-ion-battery-manufacturers-in-india-for-power-backup",
+      "queryAlias": "/blog.php?slug=lithium-ion-battery-manufacturers-in-india-for-power-backup",
+      "canonical": "https://www.exelciusautomation.com/lithium-ion-battery-manufacturers-in-india-for-power-backup"
+    },
+    {
+      "url": "/top-solar-solution-providers-for-clean-energy-systems",
+      "queryAlias": "/blog.php?slug=top-solar-solution-providers-for-clean-energy-systems",
+      "canonical": "https://www.exelciusautomation.com/top-solar-solution-providers-for-clean-energy-systems"
+    },
+    {
+      "url": "/best-highway-electrical-automation-service-providers",
+      "queryAlias": "/blog.php?slug=best-highway-electrical-automation-service-providers",
+      "canonical": "https://www.exelciusautomation.com/best-highway-electrical-automation-service-providers"
+    },
+    {
+      "url": "/What-is-ACDB",
+      "queryAlias": "/blog.php?slug=What-is-ACDB",
+      "canonical": "https://www.exelciusautomation.com/What-is-ACDB"
+    },
+    {
+      "url": "/Precautionary-Guidelines-for-Electrical",
+      "queryAlias": "/blog.php?slug=Precautionary-Guidelines-for-Electrical",
+      "canonical": "https://www.exelciusautomation.com/Precautionary-Guidelines-for-Electrical"
+    },
+    {
+      "url": "/Different-Types-Electric-Panels",
+      "queryAlias": "/blog.php?slug=Different-Types-Electric-Panels",
+      "canonical": "https://www.exelciusautomation.com/Different-Types-Electric-Panels"
+    },
+    {
+      "url": "/What-is-Synchronizing-Panel",
+      "queryAlias": "/blog.php?slug=What-is-Synchronizing-Panel",
+      "canonical": "https://www.exelciusautomation.com/What-is-Synchronizing-Panel"
+    },
+    {
+      "url": "/lithium-battery-for-solar-system-for-better-performance",
+      "queryAlias": "/blog.php?slug=lithium-battery-for-solar-system-for-better-performance",
+      "canonical": null
+    },
+    {
+      "url": "/best-companies-for-industrial-automation-reliable-solutions",
+      "queryAlias": "/blog.php?slug=best-companies-for-industrial-automation-reliable-solutions",
+      "canonical": null
+    },
+    {
+      "url": "/industrial-automation-service-providers-for-reliable-systems",
+      "queryAlias": "/blog.php?slug=industrial-automation-service-providers-for-reliable-systems",
+      "canonical": null
+    },
+    {
+      "url": "/smart-industrial-automation-for-reliable-system-performance",
+      "queryAlias": "/blog.php?slug=smart-industrial-automation-for-reliable-system-performance",
+      "canonical": null
+    },
+    {
+      "url": "/advanced-battery-technology-for-reliable-energy-storage",
+      "queryAlias": "/blog.php?slug=advanced-battery-technology-for-reliable-energy-storage",
+      "canonical": null
+    },
+    {
+      "url": "/best-lithium-battery-for-solar-system-performance",
+      "queryAlias": "/blog.php?slug=best-lithium-battery-for-solar-system-performance",
+      "canonical": "https://www.exelciusautomation.com/best-lithium-battery-for-solar-system-performance"
+    },
+    {
+      "url": "/advanced-electrical-systems-for-modern-tunnel-projects",
+      "queryAlias": "/blog.php?slug=advanced-electrical-systems-for-modern-tunnel-projects",
+      "canonical": null
+    },
+    {
+      "url": "/advanced-automation-solutions-for-modern-industries",
+      "queryAlias": "/blog.php?slug=advanced-automation-solutions-for-modern-industries",
+      "canonical": null
+    },
+    {
+      "url": "/how-solar-power-supports-business-energy-needs",
+      "queryAlias": "/blog.php?slug=how-solar-power-supports-business-energy-needs",
+      "canonical": null
+    }
+  ],
+  "sitemap": [
+    "https://www.exelciusautomation.com/",
+    "https://www.exelciusautomation.com/about-us",
+    "https://www.exelciusautomation.com/blogs",
+    "https://www.exelciusautomation.com/career",
+    "https://www.exelciusautomation.com/contact",
+    "https://www.exelciusautomation.com/industrial-automation-service-providers",
+    "https://www.exelciusautomation.com/Programmable-Logic-Controllers",
+    "https://www.exelciusautomation.com/Variable-Frequency-Drives",
+    "https://www.exelciusautomation.com/Human-Machine-Interfaces",
+    "https://www.exelciusautomation.com/SCADA",
+    "https://www.exelciusautomation.com/MS-Poles",
+    "https://www.exelciusautomation.com/Camera-Mounting-Brackets",
+    "https://www.exelciusautomation.com/Roadside-and-Pole",
+    "https://www.exelciusautomation.com/ATCC",
+    "https://www.exelciusautomation.com/ups",
+    "https://www.exelciusautomation.com/power-supplies",
+    "https://www.exelciusautomation.com/cables",
+    "https://www.exelciusautomation.com/LFP-Battery-25.6V-310Ah",
+    "https://www.exelciusautomation.com/LFP-Battery-25.6V-120Ah",
+    "https://www.exelciusautomation.com/LFP-Battery-48V-230Ah",
+    "https://www.exelciusautomation.com/LFP-Battery-25.6V-240Ah",
+    "https://www.exelciusautomation.com/LFP-Battery-25.6V-100Ah",
+    "https://www.exelciusautomation.com/LFP-Battery-25.6V-344Ah",
+    "https://www.exelciusautomation.com/highway-electrical-automation-service-providers",
+    "https://www.exelciusautomation.com/Loop-Detectors",
+    "https://www.exelciusautomation.com/Joint-Enclosures",
+    "https://www.exelciusautomation.com/Lightning-Arresters",
+    "https://www.exelciusautomation.com/toll-lane",
+    "https://www.exelciusautomation.com/solar-solution-providers",
+    "https://www.exelciusautomation.com/Lithium-Ion-battery-manufacturers-in-India",
+    "https://www.exelciusautomation.com/MPPT-Solar-Charge-Controller",
+    "https://www.exelciusautomation.com/SPD",
+    "https://www.exelciusautomation.com/Mono-Crystalline-solar-Panel-550W",
+    "https://www.exelciusautomation.com/Poly-Crystalline-Solar-Panel-330W",
+    "https://www.exelciusautomation.com/On-Grid-Solar-Inverter",
+    "https://www.exelciusautomation.com/Hybrid-Solar-MPPT-Inverter-10.2KW",
+    "https://www.exelciusautomation.com/Rooftop-Solar-Mounting-Structure",
+    "https://www.exelciusautomation.com/lithium-battery-for-solar-system",
+    "https://www.exelciusautomation.com/field-instruments",
+    "https://www.exelciusautomation.com/best-companies-for-automation-solutions",
+    "https://www.exelciusautomation.com/best-companies-for-industrial-automation-solutions",
+    "https://www.exelciusautomation.com/how-to-find-the-best-companies-for-electrical-automation",
+    "https://www.exelciusautomation.com/how-do-best-companies-for-automation-solutions-help",
+    "https://www.exelciusautomation.com/how-to-choose-the-best-companies-for-industrial-automation",
+    "https://www.exelciusautomation.com/who-are-the-best-industrial-automation-service-providers",
+    "https://www.exelciusautomation.com/best-companies-for-electrical-automation-solutions",
+    "https://www.exelciusautomation.com/top-solar-solution-providers-for-sustainable-energy",
+    "https://www.exelciusautomation.com/best-lithium-battery-for-solar-system-performance",
+    "https://www.exelciusautomation.com/lithium-ion-battery-manufacturers-in-india-for-power-backup",
+    "https://www.exelciusautomation.com/top-solar-solution-providers-for-clean-energy-systems",
+    "https://www.exelciusautomation.com/best-highway-electrical-automation-service-providers",
+    "https://www.exelciusautomation.com/What-is-ACDB",
+    "https://www.exelciusautomation.com/Precautionary-Guidelines-for-Electrical",
+    "https://www.exelciusautomation.com/Different-Types-Electric-Panels",
+    "https://www.exelciusautomation.com/What-is-Synchronizing-Panel",
+    "https://www.exelciusautomation.com/images/certificate/2.pdf",
+    "https://www.exelciusautomation.com/images/certificate/3.pdf",
+    "https://www.exelciusautomation.com/images/certificate/1.PDF",
+    "https://www.exelciusautomation.com/images/certificate/cert_4.pdf",
+    "https://www.exelciusautomation.com/images/certificate/cert_2.pdf",
+    "https://www.exelciusautomation.com/images/certificate/4.pdf",
+    "https://www.exelciusautomation.com/images/certificate/cert_6.pdf",
+    "https://www.exelciusautomation.com/images/certificate/cert_5.pdf",
+    "https://www.exelciusautomation.com/images/certificate/cert_1.pdf",
+    "https://www.exelciusautomation.com/images/certificate/cert_3.pdf",
+    "https://www.exelciusautomation.com/images/certificate/cert_9.pdf",
+    "https://www.exelciusautomation.com/images/certificate/cert_7.pdf",
+    "https://www.exelciusautomation.com/images/certificate/cert_8.pdf",
+    "https://www.exelciusautomation.com/Solar-charge-controller"
+  ]
+}

@@ -1,0 +1,1827 @@
+{
+  "summary": {
+    "checkedAt": "2026-11-27T06:54:09.461Z",
+    "pages": 88,
+    "requests": 208,
+    "internalLinks": 133,
+    "assets": 176,
+    "sourceFilesVerified": 796,
+    "issues": 0,
+    "browserQA": "Unavailable: in-app browser returned no available browsers. Responsive CSS and semantic HTML checked; visual rendering and keyboard interactions require a browser pass."
+  },
+  "issues": [],
+  "results": [
+    {
+      "route": "/about-us",
+      "status": 200,
+      "title": "About Exelcius Automation | Industrial Automation Experts",
+      "description": "Learn about Exelcius Automation, experts in industrial automation, infrastructure, electrical systems and solar solutions delivering reliable engineering services.",
+      "canonical": "https://www.exelciusautomation.com/about-us",
+      "h1": 1,
+      "bytes": 63730
+    },
+    {
+      "route": "/ATCC",
+      "status": 200,
+      "title": "ATCC Aluminium Cabinets Manufacturers & Suppliers",
+      "description": "Trusted supplier of ATCC Aluminium Cabinets for highway automation, smart city projects and industrial electrical enclosures.",
+      "canonical": "https://www.exelciusautomation.com/ATCC",
+      "h1": 1,
+      "bytes": 63003
+    },
+    {
+      "route": "/best-companies-for-automation-solutions",
+      "status": 200,
+      "title": "Best Companies for Automation Solutions for Industries",
+      "description": "Looking for the Best Companies for Automation Solutions? Discover Automation Solutions for Industries tailored to modern manufacturing needs.",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-automation-solutions",
+      "h1": 1,
+      "bytes": 59050
+    },
+    {
+      "route": "/best-companies-for-electrical-automation-solutions",
+      "status": 200,
+      "title": "Best Companies for Electrical Automation Solutions in India",
+      "description": "Discover the Best Companies for Electrical Automation Solutions offering industrial automation, highway systems, and tunnel automation services across industries.",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-electrical-automation-solutions",
+      "h1": 1,
+      "bytes": 65249
+    },
+    {
+      "route": "/best-highway-electrical-automation-service-providers",
+      "status": 200,
+      "title": "Highway Electrical Automation Service Providers in India",
+      "description": "Highway Electrical Automation Service Providers are very vital here. They also make certain that all the electrical elements are in coordination with the automation systems to provide real-time control and dependable operations.",
+      "canonical": "https://www.exelciusautomation.com/best-highway-electrical-automation-service-providers",
+      "h1": 1,
+      "bytes": 68112
+    },
+    {
+      "route": "/blogs",
+      "status": 200,
+      "title": "Blog | Automation Solutions for Industries & Electrical Systems",
+      "description": "Explore insights on industrial automation service providers, solar solution providers, highway electrical automation and lithium ion battery systems.",
+      "canonical": "https://www.exelciusautomation.com/blogs",
+      "h1": 1,
+      "bytes": 66299
+    },
+    {
+      "route": "/cables",
+      "status": 200,
+      "title": "Industrial Cables Solutions | Exelcius Automation",
+      "description": "Discover high-quality industrial cables from Exelcius Automation designed for durability, safety, and reliable electrical performance across automation systems",
+      "canonical": "https://www.exelciusautomation.com/cables",
+      "h1": 1,
+      "bytes": 90791
+    },
+    {
+      "route": "/best-lithium-battery-for-solar-system-performance",
+      "status": 200,
+      "title": "Lithium Battery for Solar System for Efficient Energy",
+      "description": "Upgrade your power backup with a Lithium Battery for Solar System. Get high efficiency, long life, fast charging, and reliable energy storage solutions.",
+      "canonical": "https://www.exelciusautomation.com/best-lithium-battery-for-solar-system-performance",
+      "h1": 1,
+      "bytes": 65114
+    },
+    {
+      "route": "/Camera-Mounting-Brackets",
+      "status": 200,
+      "title": "Camera Mounting Brackets | Heavy Duty & Durable",
+      "description": "High-quality Camera Mounting Brackets designed for highways, surveillance systems and industrial use. Strong, weather-resistant and reliable mounting solutions.",
+      "canonical": "https://www.exelciusautomation.com/Camera-Mounting-Brackets",
+      "h1": 1,
+      "bytes": 64454
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "title": "Contact Exelcius Automation | Automation Support",
+      "description": "Connect with Exelcius Automation for expert support in industrial automation, electrical systems, solar solutions and infrastructure projects.",
+      "canonical": "https://www.exelciusautomation.com/contact",
+      "h1": 1,
+      "bytes": 32195
+    },
+    {
+      "route": "/career",
+      "status": 200,
+      "title": "Exelcius Automation Careers – Join Our Team in Automation",
+      "description": "Explore exciting career opportunities at Exelcius Automation in Noida, India. Grow your career with a dynamic team specialized in industrial automation",
+      "canonical": "https://www.exelciusautomation.com/career",
+      "h1": 1,
+      "bytes": 35791
+    },
+    {
+      "route": "/Different-Types-Electric-Panels",
+      "status": 200,
+      "title": "Different Types of Electric Panels",
+      "description": "Electric panels are a critical part of electrical systems, facilitating the safe and efficient distribution of power to various loads.",
+      "canonical": "https://www.exelciusautomation.com/Different-Types-Electric-Panels",
+      "h1": 1,
+      "bytes": 52376
+    },
+    {
+      "route": "/field-instruments",
+      "status": 200,
+      "title": "Field Instruments for Industrial Automation | Exelcius Automation",
+      "description": "Explore high-quality field instruments from Exelcius Automation for accurate measurement and control in industrial automation, ensuring reliable performance and efficiency.",
+      "canonical": "https://www.exelciusautomation.com/field-instruments",
+      "h1": 1,
+      "bytes": 99756
+    },
+    {
+      "route": "/gallery",
+      "status": 200,
+      "title": "EXELCIUS AUTOMATION PVT. LTD || Gallery",
+      "canonical": "https://www.exelciusautomation.com/gallery",
+      "h1": 1,
+      "bytes": 37623
+    },
+    {
+      "route": "/highway-electrical-automation-service-providers",
+      "status": 200,
+      "title": "Highway Electrical Automation Service Providers | Exelcius Automation",
+      "description": "Exelcius Automation offers reliable highway electrical automation services including power systems, automation solutions, and efficient infrastructure support.",
+      "canonical": "https://www.exelciusautomation.com/highway-electrical-automation-service-providers",
+      "h1": 1,
+      "bytes": 71241
+    },
+    {
+      "route": "/how-to-choose-the-best-companies-for-industrial-automation",
+      "status": 200,
+      "title": "Best Companies for Industrial Automation | Exelcius Automation",
+      "description": "Looking for the Best Companies for Industrial Automation? Discover how to choose the right partner for reliable, scalable, and efficient industrial automation.",
+      "canonical": "https://www.exelciusautomation.com/how-to-choose-the-best-companies-for-industrial-automation",
+      "h1": 1,
+      "bytes": 73453
+    },
+    {
+      "route": "/Human-Machine-Interfaces",
+      "status": 200,
+      "title": "Human Machine Interfaces | Industrial HMI Solutions",
+      "description": "Advanced Human Machine Interfaces for industrial automation, offering real-time monitoring, control systems integration and efficient machine operation.",
+      "canonical": "https://www.exelciusautomation.com/Human-Machine-Interfaces",
+      "h1": 1,
+      "bytes": 40745
+    },
+    {
+      "route": "/Hybrid-Solar-MPPT-Inverter-10.2KW",
+      "status": 200,
+      "title": "Hybrid Solar MPPT Inverter 10.2KW | Exelcius Automation India",
+      "description": "Buy Hybrid Solar MPPT Inverter 10.2KW from Exelcius Automation. High efficiency solar inverter with advanced MPPT technology for reliable power and smart energy management.",
+      "canonical": "https://www.exelciusautomation.com/Hybrid-Solar-MPPT-Inverter-10.2KW",
+      "h1": 1,
+      "bytes": 37403
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "title": "Best Companies for Electrical Automation | Exelcius Automation",
+      "description": "Best Companies for Electrical Automation offering PLC, SCADA, and industrial control solutions for efficient operations – Exelcius Automation.",
+      "canonical": "https://www.exelciusautomation.com/",
+      "h1": 1,
+      "bytes": 165046
+    },
+    {
+      "route": "/Joint-Enclosures",
+      "status": 200,
+      "title": "Joint Enclosures for Cable Protection | Exelcius Automation",
+      "description": "Explore durable Joint Enclosures by Exelcius Automation for secure cable joint protection. Designed for reliability, safety, and long-lasting performance.",
+      "canonical": "https://www.exelciusautomation.com/Joint-Enclosures",
+      "h1": 1,
+      "bytes": 48821
+    },
+    {
+      "route": "/industrial-automation-service-providers",
+      "status": 200,
+      "title": "Best Companies for Industrial Automation | Industrial Automation Service Providers",
+      "description": "Explore the Best Companies for Industrial Automation and Industrial Automation Service Providers offering smart solutions to boost efficiency and productivity",
+      "canonical": "https://www.exelciusautomation.com/industrial-automation-service-providers",
+      "h1": 1,
+      "bytes": 56156
+    },
+    {
+      "route": "/LFP-Battery-25.6V-100Ah",
+      "status": 200,
+      "title": "LFP Battery 25.6V 100Ah | Lithium Battery – Exelcius Automation",
+      "description": "Discover LFP Battery 25.6V 100Ah by Exelcius Automation. Reliable LiFePO4 battery offering efficient energy storage, long lifespan, and stable power backup.",
+      "canonical": "https://www.exelciusautomation.com/LFP-Battery-25.6V-100Ah",
+      "h1": 1,
+      "bytes": 34286
+    },
+    {
+      "route": "/LFP-Battery-25.6V-120Ah",
+      "status": 200,
+      "title": "LFP Battery 25.6V 120Ah | Lithium Battery – Exelcius Automation",
+      "description": "Buy high-performance LFP Battery 25.6V 120Ah from Exelcius Automation. Reliable lithium battery solution offering long life, high efficiency, and stable power backup.",
+      "canonical": "https://www.exelciusautomation.com/LFP-Battery-25.6V-120Ah",
+      "h1": 1,
+      "bytes": 34243
+    },
+    {
+      "route": "/LFP-Battery-25.6V-240Ah",
+      "status": 200,
+      "title": "LFP Battery 25.6V 240Ah | Lithium Battery – Exelcius Automation",
+      "description": "Explore LFP Battery 25.6V 240Ah from Exelcius Automation. High-capacity LiFePO4 battery offering reliable energy storage, long lifespan, and efficient power backup.",
+      "canonical": "https://www.exelciusautomation.com/LFP-Battery-25.6V-240Ah",
+      "h1": 1,
+      "bytes": 34260
+    },
+    {
+      "route": "/LFP-Battery-25.6V-310Ah",
+      "status": 200,
+      "title": "LFP Battery 25.6V 310Ah | Lithium Battery – Exelcius Automation",
+      "description": "Explore LFP Battery 25.6V 310Ah by Exelcius Automation. High-capacity lithium battery offering long life, reliable energy storage, and efficient power backup",
+      "canonical": "https://www.exelciusautomation.com/LFP-Battery-25.6V-310Ah",
+      "h1": 1,
+      "bytes": 32334
+    },
+    {
+      "route": "/LFP-Battery-25.6V-344Ah",
+      "status": 200,
+      "title": "LFP Battery 25.6V 344Ah | Lithium Battery – Exelcius Automation",
+      "description": "Explore LFP Battery 25.6V 344Ah from Exelcius Automation. High-capacity LiFePO4 battery offering reliable energy storage, long lifespan, and efficient power backup.",
+      "canonical": "https://www.exelciusautomation.com/LFP-Battery-25.6V-344Ah",
+      "h1": 1,
+      "bytes": 34152
+    },
+    {
+      "route": "/LFP-Battery-48V-230Ah",
+      "status": 200,
+      "title": "LFP Battery 48V 230Ah | Lithium Battery – Exelcius Automation",
+      "description": "Discover LFP Battery 48V 230Ah by Exelcius Automation. High-capacity lithium battery designed for reliable energy storage, long life, and efficient power backup.",
+      "canonical": "https://www.exelciusautomation.com/LFP-Battery-48V-230Ah",
+      "h1": 1,
+      "bytes": 34131
+    },
+    {
+      "route": "/Lightning-Arresters",
+      "status": 200,
+      "title": "Lightning Arresters for Electrical Protection | Exelcius Automation",
+      "description": "Explore high-quality Lightning Arresters from Exelcius Automation designed to protect electrical systems from surge and lightning damage. Reliable and durable solutions.",
+      "canonical": "https://www.exelciusautomation.com/Lightning-Arresters",
+      "h1": 1,
+      "bytes": 46460
+    },
+    {
+      "route": "/Lithium-Ion-battery-manufacturers-in-India",
+      "status": 200,
+      "title": "Lithium Ion Battery Manufacturers India | Exelcius Automations",
+      "description": "Exelcius Automation is a trusted lithium ion battery manufacturer in India, offering high-performance, durable, and efficient energy storage solutions",
+      "canonical": "https://www.exelciusautomation.com/Lithium-Ion-battery-manufacturers-in-India",
+      "h1": 1,
+      "bytes": 48108
+    },
+    {
+      "route": "/lithium-battery-for-solar-system",
+      "status": 200,
+      "title": "Lithium Battery for Solar System | Exelcius Automation",
+      "description": "Get high-performance lithium batteries for solar systems with long life, fast charging, and reliable energy storage for uninterrupted power supply.",
+      "canonical": "https://www.exelciusautomation.com/lithium-battery-for-solar-system",
+      "h1": 1,
+      "bytes": 45925
+    },
+    {
+      "route": "/lithium-ion-battery-manufacturers-in-india-for-power-backup",
+      "status": 200,
+      "title": "Lithium Ion Battery Manufacturers in India for Power Backup",
+      "description": "Lithium Ion Battery Manufacturers in India provide efficient and long-term energy solutions for homes, businesses, and industries with high energy density batteries.",
+      "canonical": "https://www.exelciusautomation.com/lithium-ion-battery-manufacturers-in-india-for-power-backup",
+      "h1": 1,
+      "bytes": 65085
+    },
+    {
+      "route": "/Loop-Detectors",
+      "status": 200,
+      "title": "Loop Detectors for Traffic Systems | Exelcius Automation",
+      "description": "Discover advanced Loop Detectors by Exelcius Automation for accurate vehicle detection and traffic control. Reliable solutions for highways, toll systems, and smart infrastructure.",
+      "canonical": "https://www.exelciusautomation.com/Loop-Detectors",
+      "h1": 1,
+      "bytes": 53773
+    },
+    {
+      "route": "/Mono-Crystalline-solar-Panel-550W",
+      "status": 200,
+      "title": "On-Grid Solar Inverter Solutions | Exelcius Automation",
+      "description": "Explore On-Grid Solar Inverter solutions by Exelcius Automation for efficient solar power conversion, grid connectivity, and reliable energy performance.",
+      "canonical": "https://www.exelciusautomation.com/Mono-Crystalline-solar-Panel-550W",
+      "h1": 1,
+      "bytes": 37252
+    },
+    {
+      "route": "/Mono-Crystalline-solar-Panel",
+      "status": 200,
+      "title": "Mono-Crystalline Solar Panel 550W | Exelcius Automation",
+      "description": "Explore high-efficiency Mono-Crystalline Solar Panel 550W by Exelcius Automation. Reliable solar energy solution designed for maximum performance and durability.",
+      "canonical": "https://www.exelciusautomation.com/Mono-Crystalline-solar-Panel",
+      "h1": 1,
+      "bytes": 36921
+    },
+    {
+      "route": "/MPPT-Solar-Charge-Controller",
+      "status": 200,
+      "title": "MPPT Solar Charge Controller | Exelcius Automation",
+      "description": "Explore MPPT Solar Charge Controller solutions by Exelcius Automation for efficient solar energy management, improved battery charging, and reliable power performance.",
+      "canonical": "https://www.exelciusautomation.com/MPPT-Solar-Charge-Controller",
+      "h1": 1,
+      "bytes": 36767
+    },
+    {
+      "route": "/MS-Poles",
+      "status": 200,
+      "title": "MS Poles for Highway & Infrastructure Projects",
+      "description": "Premium MS Poles designed for highway electrical systems, lighting installations and industrial infrastructure applications.",
+      "canonical": "https://www.exelciusautomation.com/MS-Poles",
+      "h1": 1,
+      "bytes": 50170
+    },
+    {
+      "route": "/On-Grid-Solar-Inverter",
+      "status": 200,
+      "title": "On-Grid Solar Inverter Solutions | Exelcius Automation",
+      "description": "Explore On-Grid Solar Inverter solutions by Exelcius Automation for efficient solar power conversion, grid connectivity, and reliable energy performance.",
+      "canonical": "https://www.exelciusautomation.com/On-Grid-Solar-Inverter",
+      "h1": 1,
+      "bytes": 35743
+    },
+    {
+      "route": "/Poly-Crystalline-Solar-Panel-330W",
+      "status": 200,
+      "title": "Poly-Crystalline Solar Panel 330W | Exelcius Automation",
+      "description": "Discover Poly-Crystalline Solar Panel 330W by Exelcius Automation for efficient solar energy generation, durability, and reliable performance.",
+      "canonical": "https://www.exelciusautomation.com/Poly-Crystalline-Solar-Panel-330W",
+      "h1": 1,
+      "bytes": 35796
+    },
+    {
+      "route": "/pcc-and-mcc-panel",
+      "status": 200,
+      "title": "EXELCIUS AUTOMATION PVT. LTD || HOME",
+      "canonical": "https://www.exelciusautomation.com/pcc-and-mcc-panel",
+      "h1": 1,
+      "bytes": 56051
+    },
+    {
+      "route": "/power-supplies",
+      "status": 200,
+      "title": "Switched Mode Power Supply (SMPS) | Exelcius Automation",
+      "description": "Explore high-quality Switched Mode Power Supply (SMPS) solutions by Exelcius Automation for reliable power conversion, efficiency, and stable performance.",
+      "canonical": "https://www.exelciusautomation.com/power-supplies",
+      "h1": 1,
+      "bytes": 97823
+    },
+    {
+      "route": "/power",
+      "status": 200,
+      "title": "EXELCIUS AUTOMATION PVT. LTD || HOME",
+      "canonical": "https://www.exelciusautomation.com/power",
+      "h1": 1,
+      "bytes": 64614
+    },
+    {
+      "route": "/Precautionary-Guidelines-for-Electrical",
+      "status": 200,
+      "title": "Precautionary Guidelines for Electrical HT/LT PanelsE",
+      "description": "High Tension (HT) and Low Tension (LT) panels are critical components in electrical power systems and protecting electrical energy in industrial",
+      "canonical": "https://www.exelciusautomation.com/Precautionary-Guidelines-for-Electrical",
+      "h1": 1,
+      "bytes": 46584
+    },
+    {
+      "route": "/Programmable-Logic-Controllers",
+      "status": 200,
+      "title": "Programmable Logic Controller (PLC) | Exelcius Automation India",
+      "description": "Discover reliable Programmable Logic Controllers (PLC) from Exelcius Automation for efficient industrial automation, precise control, and improved system performance.",
+      "canonical": "https://www.exelciusautomation.com/Programmable-Logic-Controllers",
+      "h1": 1,
+      "bytes": 76754
+    },
+    {
+      "route": "/Roadside-and-Pole",
+      "status": 200,
+      "title": "Roadside and Pole Systems for Highway Projects",
+      "description": "Durable Roadside and Pole systems designed for highway electrical automation, surveillance mounting and traffic infrastructure applications.",
+      "canonical": "https://www.exelciusautomation.com/Roadside-and-Pole",
+      "h1": 1,
+      "bytes": 62016
+    },
+    {
+      "route": "/Rooftop-Solar-Mounting-Structure",
+      "status": 200,
+      "title": "Rooftop Solar Mounting Structure | Exelcius Automation India",
+      "description": "Buy Rooftop Solar Mounting Structure from Exelcius Automation. Durable, corrosion-resistant structures designed for secure solar panel installation and long-term performance.",
+      "canonical": "https://www.exelciusautomation.com/Rooftop-Solar-Mounting-Structure",
+      "h1": 1,
+      "bytes": 35414
+    },
+    {
+      "route": "/Solar-charge-controller",
+      "status": 200,
+      "title": "Best Solar Charge Controller for Home & Industrial Use",
+      "description": "Get the right Solar Charge Controller for efficient battery management and longer system life. Ideal for home and industrial solar power solutions.",
+      "canonical": "https://www.exelciusautomation.com/Solar-charge-controller",
+      "h1": 1,
+      "bytes": 37157
+    },
+    {
+      "route": "/SCADA",
+      "status": 200,
+      "title": "SCADA Systems for Industrial Automation",
+      "description": "High-performance SCADA systems for monitoring, control and data acquisition across industrial automation and electrical applications.",
+      "canonical": "https://www.exelciusautomation.com/SCADA",
+      "h1": 1,
+      "bytes": 78602
+    },
+    {
+      "route": "/SPD",
+      "status": 200,
+      "title": "SPDs (Surge Protection Devices) | Exelcius Automation",
+      "description": "Explore SPDs (Surge Protection Devices) by Exelcius Automation designed to safeguard electrical systems from voltage surges and lightning damage.",
+      "canonical": "https://www.exelciusautomation.com/SPD",
+      "h1": 1,
+      "bytes": 38576
+    },
+    {
+      "route": "/solar-solution-providers",
+      "status": 200,
+      "title": "Solar Solution Providers in India | Exelcius Automation",
+      "description": "Looking for reliable Solar Solution Providers? Exelcius Automation offers customized solar solutions for commercial, industrial, and infrastructure projects.",
+      "canonical": "https://www.exelciusautomation.com/solar-solution-providers",
+      "h1": 1,
+      "bytes": 71996
+    },
+    {
+      "route": "/toll-lane",
+      "status": 200,
+      "title": "Toll Lane Controller (TLC) Systems | Exelcius Automation",
+      "description": "Explore Toll Lane Controller (TLC) solutions by Exelcius Automation for efficient toll management, automated lane control, and reliable highway traffic operations.",
+      "canonical": "https://www.exelciusautomation.com/toll-lane",
+      "h1": 1,
+      "bytes": 36870
+    },
+    {
+      "route": "/top-solar-solution-providers-for-clean-energy-systems",
+      "status": 200,
+      "title": "Top Solar Solution Providers for Clean Energy Systems",
+      "description": "Solar Solution Providers are firms which specialize in designing, installing and maintaining solar energy systems for commercial, industrial and infrastructure development.",
+      "canonical": "https://www.exelciusautomation.com/top-solar-solution-providers-for-clean-energy-systems",
+      "h1": 1,
+      "bytes": 67672
+    },
+    {
+      "route": "/top-solar-solution-providers-for-sustainable-energy",
+      "status": 200,
+      "title": "Top Solar Solution Providers for Sustainable Energy & Automation",
+      "description": "Leading solar solution providers offering lithium battery for solar system, advanced automation solutions for industries, highway and tunnel electrical automation services.",
+      "canonical": "https://www.exelciusautomation.com/top-solar-solution-providers-for-sustainable-energy",
+      "h1": 1,
+      "bytes": 70985
+    },
+    {
+      "route": "/Variable-Frequency-Drives",
+      "status": 200,
+      "title": "Variable Frequency Drives in India | VFD Experts",
+      "description": "Advanced Variable Frequency Drives designed for energy savings, motor speed control and automation solutions for industries and infrastructure projects.",
+      "canonical": "https://www.exelciusautomation.com/Variable-Frequency-Drives",
+      "h1": 1,
+      "bytes": 47994
+    },
+    {
+      "route": "/ups",
+      "status": 200,
+      "title": "Uninterruptible Power Supply (UPS) | Exelcius Automation",
+      "description": "Get reliable Uninterruptible Power Supply (UPS) solutions from Exelcius Automation. Ensure continuous power backup, protect equipment, and maintain productivity",
+      "canonical": "https://www.exelciusautomation.com/ups",
+      "h1": 1,
+      "bytes": 68510
+    },
+    {
+      "route": "/What-is-ACDB",
+      "status": 200,
+      "title": "ACDB for Solar Systems – Safe & Reliable Power Control",
+      "description": "Choose a high-quality ACDB for efficient AC power distribution in solar systems. Ensures safety, circuit protection, and stable performance for home and industrial use.",
+      "canonical": "https://www.exelciusautomation.com/What-is-ACDB",
+      "h1": 1,
+      "bytes": 43808
+    },
+    {
+      "route": "/What-is-Synchronizing-Panel",
+      "status": 200,
+      "title": "What is a Synchronizing Panel",
+      "description": "A synchronizing panel, also known as a synchronization panel, is a specialized control panel used in electrical systems to ensure the safe and efficient operation of multiple power sources.",
+      "canonical": "https://www.exelciusautomation.com/What-is-Synchronizing-Panel",
+      "h1": 1,
+      "bytes": 42513
+    },
+    {
+      "route": "/who-are-the-best-industrial-automation-service-providers",
+      "status": 200,
+      "title": "Best Industrial Automation Service Providers for Industries",
+      "description": "Explore the best industrial automation service providers offering PLC, SCADA, VFD, HMI, and smart automation solutions for modern industries.",
+      "canonical": "https://www.exelciusautomation.com/who-are-the-best-industrial-automation-service-providers",
+      "h1": 1,
+      "bytes": 71581
+    },
+    {
+      "route": "/how-do-best-companies-for-automation-solutions-help",
+      "status": 200,
+      "title": "Best Companies for Automation Solutions for Industries",
+      "description": "Boost productivity with Best Companies for Automation Solutions, offering smart industrial systems and efficient control solutions by Exelcius Automation.",
+      "canonical": "how-do-best-companies-for-automation-solutions-help",
+      "h1": 1,
+      "bytes": 70293
+    },
+    {
+      "route": "/how-to-find-the-best-companies-for-electrical-automation",
+      "status": 200,
+      "title": "How to Find Best Companies for Electrical Automation Guide",
+      "description": "Discover how to choose the best companies for electrical automation with expert tips on experience, technology, reliability.",
+      "canonical": "how-to-find-the-best-companies-for-electrical-automation",
+      "h1": 1,
+      "bytes": 64837
+    },
+    {
+      "route": "/best-companies-for-industrial-automation-solutions",
+      "status": 200,
+      "title": "Best Companies for Industrial Automation Services in India",
+      "description": "Find the Best Companies for Industrial Automation offering smart solutions, process control, and reliable systems for modern industries by Exelcius Automation",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-industrial-automation-solutions",
+      "h1": 1,
+      "bytes": 81737
+    },
+    {
+      "route": "/automation-solutions-for-industries-helping-businesses-grow-faster",
+      "status": 200,
+      "title": "Automation Solutions for Industries | Exelcius Automation",
+      "description": "Looking for reliable Automation Solutions for Industries? Exelcius Automation provides advanced industrial automation systems that improve productivity, efficie",
+      "canonical": "https://www.exelciusautomation.com/automation-solutions-for-industries-helping-businesses-grow-faster",
+      "h1": 1,
+      "bytes": 73445
+    },
+    {
+      "route": "/best-companies-for-automation-solutions-you-can-trust",
+      "status": 200,
+      "title": "Best Companies for Automation Solutions | Smart Industry",
+      "description": "Discover the Best Companies for Automation Solutions delivering smart industrial automation, advanced technology, reliable systems, and customized solutions.",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-automation-solutions-you-can-trust",
+      "h1": 1,
+      "bytes": 86345
+    },
+    {
+      "route": "/best-industrial-automation-service-providers-in-2026",
+      "status": 200,
+      "title": "Industrial Automation Service Providers for Smart Industries",
+      "description": "Looking for reliable Industrial Automation Service Providers? Exelcius Automation delivers smart automation solutions that improve productivity, efficiency, and",
+      "canonical": "https://www.exelciusautomation.com/best-industrial-automation-service-providers-in-2026",
+      "h1": 1,
+      "bytes": 64167
+    },
+    {
+      "route": "/best-companies-for-industrial-automation-in-india",
+      "status": 200,
+      "title": "Trusted Best Companies for Industrial Automation in India",
+      "description": "Looking for the Best Companies for Industrial Automation? Exelcius Automation delivers innovative automation solutions that improve productivity, efficiency, an",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-industrial-automation-in-india",
+      "h1": 1,
+      "bytes": 81602
+    },
+    {
+      "route": "/best-companies-for-automation-solutions-for-reliable-systems",
+      "status": 200,
+      "title": "Best Companies for Automation Solutions | Exelcius",
+      "description": "Looking for the Best Companies for Automation Solutions? Exelcius Automation delivers reliable automation systems that improve productivity and efficiency.",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-automation-solutions-for-reliable-systems",
+      "h1": 1,
+      "bytes": 77361
+    },
+    {
+      "route": "/automation-solutions-for-industries-for-improved-efficiency",
+      "status": 200,
+      "title": "Advanced Automation Solutions for Industries | Improved Effi",
+      "description": "Discover how smart industrial automation can improve productivity, reduce downtime, enhance process control, and support efficient, reliable business operations",
+      "canonical": "https://www.exelciusautomation.com/automation-solutions-for-industries-for-improved-efficiency",
+      "h1": 1,
+      "bytes": 73986
+    },
+    {
+      "route": "/industrial-automation-service-providers-for-modern-industry",
+      "status": 200,
+      "title": "Industrial Automation Service Providers for Smart Industry",
+      "description": "Discover reliable Industrial Automation Service Providers offering smart automation solutions to improve productivity, efficiency and process control,",
+      "canonical": "https://www.exelciusautomation.com/industrial-automation-service-providers-for-modern-industry",
+      "h1": 1,
+      "bytes": 61798
+    },
+    {
+      "route": "/lithium-battery-for-solar-system-for-better-performance",
+      "status": 200,
+      "title": "Lithium Battery for Solar System for Efficient Energy Storag",
+      "description": "Discover how lithium battery solutions support efficient solar energy storage, reliable power management, and better performance for modern solar applications.",
+      "canonical": "https://www.exelciusautomation.com/lithium-battery-for-solar-system-for-better-performance",
+      "h1": 1,
+      "bytes": 61047
+    },
+    {
+      "route": "/best-companies-for-industrial-automation-reliable-solutions",
+      "status": 200,
+      "title": "Best Companies for Industrial Automation for Modern Industri",
+      "description": "Best Companies for Industrial Automation, offering reliable solutions to improve productivity, process control, machine monitoring, and efficiency.",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-industrial-automation-reliable-solutions",
+      "h1": 1,
+      "bytes": 62621
+    },
+    {
+      "route": "/industrial-automation-service-providers-for-reliable-systems",
+      "status": 200,
+      "title": "Industrial Automation Service Providers for Smart Systems",
+      "description": "Explore reliable industrial automation solutions designed to improve process control, equipment monitoring, operational efficiency, and industrial performance.",
+      "canonical": "https://www.exelciusautomation.com/industrial-automation-service-providers-for-reliable-systems",
+      "h1": 1,
+      "bytes": 61439
+    },
+    {
+      "route": "/smart-industrial-automation-for-reliable-system-performance",
+      "status": 200,
+      "title": "Best Companies for Automation Solutions for Modern Systems",
+      "description": "Explore smart industrial automation solutions that support reliable system performance, efficient process control, and machine monitoring",
+      "canonical": "https://www.exelciusautomation.com/smart-industrial-automation-for-reliable-system-performance",
+      "h1": 1,
+      "bytes": 59962
+    },
+    {
+      "route": "/advanced-battery-technology-for-reliable-energy-storage",
+      "status": 200,
+      "title": "Lithium Battery Suppliers & Solutions in India",
+      "description": "Discover advanced lithium battery technology, energy storage applications",
+      "canonical": "https://www.exelciusautomation.com/advanced-battery-technology-for-reliable-energy-storage",
+      "h1": 1,
+      "bytes": 58936
+    },
+    {
+      "route": "/advanced-electrical-systems-for-modern-tunnel-projects",
+      "status": 200,
+      "title": "Tunnel Automation Systems & Electrical Solutions | Exelcius",
+      "description": "Explore advanced tunnel electrical and automation solutions, including lighting, ventilation and integrated control systems for modern  infrastructure.",
+      "canonical": "https://www.exelciusautomation.com/advanced-electrical-systems-for-modern-tunnel-projects",
+      "h1": 1,
+      "bytes": 61862
+    },
+    {
+      "route": "/advanced-automation-solutions-for-modern-industries",
+      "status": 200,
+      "title": "Smart Industrial Systems for Better Productivity",
+      "description": "Explore modern industrial technologies, advanced control systems, and smart automation methods that help businesses improve productivity, streamline operations",
+      "canonical": "https://www.exelciusautomation.com/advanced-automation-solutions-for-modern-industries",
+      "h1": 1,
+      "bytes": 59735
+    },
+    {
+      "route": "/how-solar-power-supports-business-energy-needs",
+      "status": 200,
+      "title": "Solar Energy Solutions for Reliable Business Power",
+      "description": "Explore how businesses can use solar technology to manage electricity needs, improve energy efficiency, and support long-term sustainable operations.",
+      "canonical": "https://www.exelciusautomation.com/how-solar-power-supports-business-energy-needs",
+      "h1": 1,
+      "bytes": 68925
+    },
+    {
+      "route": "/images/certificate/3.pdf",
+      "status": 200,
+      "asset": true
+    },
+    {
+      "route": "/images/certificate/2.pdf",
+      "status": 200,
+      "asset": true
+    },
+    {
+      "route": "/images/certificate/4.pdf",
+      "status": 200,
+      "asset": true
+    },
+    {
+      "route": "/images/certificate/cert_4.pdf",
+      "status": 200,
+      "asset": true
+    },
+    {
+      "route": "/images/certificate/cert_2.pdf",
+      "status": 200,
+      "asset": true
+    },
+    {
+      "route": "/images/certificate/cert_6.pdf",
+      "status": 200,
+      "asset": true
+    },
+    {
+      "route": "/images/certificate/cert_1.pdf",
+      "status": 200,
+      "asset": true
+    },
+    {
+      "route": "/images/certificate/cert_5.pdf",
+      "status": 200,
+      "asset": true
+    },
+    {
+      "route": "/images/certificate/cert_3.pdf",
+      "status": 200,
+      "asset": true
+    },
+    {
+      "route": "/images/certificate/cert_8.pdf",
+      "status": 200,
+      "asset": true
+    },
+    {
+      "route": "/images/certificate/cert_7.pdf",
+      "status": 200,
+      "asset": true
+    },
+    {
+      "route": "/images/certificate/cert_9.pdf",
+      "status": 200,
+      "asset": true
+    },
+    {
+      "route": "/images/certificate/1.PDF",
+      "status": 200,
+      "asset": true
+    },
+    {
+      "route": "/about-us.php",
+      "status": 200,
+      "title": "About Exelcius Automation | Industrial Automation Experts",
+      "description": "Learn about Exelcius Automation, experts in industrial automation, infrastructure, electrical systems and solar solutions delivering reliable engineering services.",
+      "canonical": "https://www.exelciusautomation.com/about-us",
+      "h1": 1,
+      "bytes": 63738
+    },
+    {
+      "route": "/ATCC.php",
+      "status": 200,
+      "title": "ATCC Aluminium Cabinets Manufacturers & Suppliers",
+      "description": "Trusted supplier of ATCC Aluminium Cabinets for highway automation, smart city projects and industrial electrical enclosures.",
+      "canonical": "https://www.exelciusautomation.com/ATCC",
+      "h1": 1,
+      "bytes": 63011
+    },
+    {
+      "route": "/best-companies-for-automation-solutions.php",
+      "status": 200,
+      "title": "Best Companies for Automation Solutions for Industries",
+      "description": "Looking for the Best Companies for Automation Solutions? Discover Automation Solutions for Industries tailored to modern manufacturing needs.",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-automation-solutions",
+      "h1": 1,
+      "bytes": 59058
+    },
+    {
+      "route": "/best-companies-for-electrical-automation-solutions.php",
+      "status": 200,
+      "title": "Best Companies for Electrical Automation Solutions in India",
+      "description": "Discover the Best Companies for Electrical Automation Solutions offering industrial automation, highway systems, and tunnel automation services across industries.",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-electrical-automation-solutions",
+      "h1": 1,
+      "bytes": 65257
+    },
+    {
+      "route": "/best-highway-electrical-automation-service-providers.php",
+      "status": 200,
+      "title": "Highway Electrical Automation Service Providers in India",
+      "description": "Highway Electrical Automation Service Providers are very vital here. They also make certain that all the electrical elements are in coordination with the automation systems to provide real-time control and dependable operations.",
+      "canonical": "https://www.exelciusautomation.com/best-highway-electrical-automation-service-providers",
+      "h1": 1,
+      "bytes": 68120
+    },
+    {
+      "route": "/best-lithium-battery-for-solar-system-performance.php",
+      "status": 200,
+      "title": "Lithium Battery for Solar System for Efficient Energy",
+      "description": "Upgrade your power backup with a Lithium Battery for Solar System. Get high efficiency, long life, fast charging, and reliable energy storage solutions.",
+      "canonical": "https://www.exelciusautomation.com/best-lithium-battery-for-solar-system-performance",
+      "h1": 1,
+      "bytes": 65122
+    },
+    {
+      "route": "/blogs.php",
+      "status": 200,
+      "title": "Blog | Automation Solutions for Industries & Electrical Systems",
+      "description": "Explore insights on industrial automation service providers, solar solution providers, highway electrical automation and lithium ion battery systems.",
+      "canonical": "https://www.exelciusautomation.com/blogs",
+      "h1": 1,
+      "bytes": 66307
+    },
+    {
+      "route": "/cables.php",
+      "status": 200,
+      "title": "Industrial Cables Solutions | Exelcius Automation",
+      "description": "Discover high-quality industrial cables from Exelcius Automation designed for durability, safety, and reliable electrical performance across automation systems",
+      "canonical": "https://www.exelciusautomation.com/cables",
+      "h1": 1,
+      "bytes": 90799
+    },
+    {
+      "route": "/Camera-Mounting-Brackets.php",
+      "status": 200,
+      "title": "Camera Mounting Brackets | Heavy Duty & Durable",
+      "description": "High-quality Camera Mounting Brackets designed for highways, surveillance systems and industrial use. Strong, weather-resistant and reliable mounting solutions.",
+      "canonical": "https://www.exelciusautomation.com/Camera-Mounting-Brackets",
+      "h1": 1,
+      "bytes": 64462
+    },
+    {
+      "route": "/career.php",
+      "status": 200,
+      "title": "Exelcius Automation Careers – Join Our Team in Automation",
+      "description": "Explore exciting career opportunities at Exelcius Automation in Noida, India. Grow your career with a dynamic team specialized in industrial automation",
+      "canonical": "https://www.exelciusautomation.com/career",
+      "h1": 1,
+      "bytes": 35799
+    },
+    {
+      "route": "/contact.php",
+      "status": 200,
+      "title": "Contact Exelcius Automation | Automation Support",
+      "description": "Connect with Exelcius Automation for expert support in industrial automation, electrical systems, solar solutions and infrastructure projects.",
+      "canonical": "https://www.exelciusautomation.com/contact",
+      "h1": 1,
+      "bytes": 32203
+    },
+    {
+      "route": "/Different-Types-Electric-Panels.php",
+      "status": 200,
+      "title": "Different Types of Electric Panels",
+      "description": "Electric panels are a critical part of electrical systems, facilitating the safe and efficient distribution of power to various loads.",
+      "canonical": "https://www.exelciusautomation.com/Different-Types-Electric-Panels",
+      "h1": 1,
+      "bytes": 52384
+    },
+    {
+      "route": "/gallery.php",
+      "status": 200,
+      "title": "EXELCIUS AUTOMATION PVT. LTD || Gallery",
+      "canonical": "https://www.exelciusautomation.com/gallery",
+      "h1": 1,
+      "bytes": 37631
+    },
+    {
+      "route": "/field-instruments.php",
+      "status": 200,
+      "title": "Field Instruments for Industrial Automation | Exelcius Automation",
+      "description": "Explore high-quality field instruments from Exelcius Automation for accurate measurement and control in industrial automation, ensuring reliable performance and efficiency.",
+      "canonical": "https://www.exelciusautomation.com/field-instruments",
+      "h1": 1,
+      "bytes": 99764
+    },
+    {
+      "route": "/highway-electrical-automation-service-providers.php",
+      "status": 200,
+      "title": "Highway Electrical Automation Service Providers | Exelcius Automation",
+      "description": "Exelcius Automation offers reliable highway electrical automation services including power systems, automation solutions, and efficient infrastructure support.",
+      "canonical": "https://www.exelciusautomation.com/highway-electrical-automation-service-providers",
+      "h1": 1,
+      "bytes": 71249
+    },
+    {
+      "route": "/how-to-choose-the-best-companies-for-industrial-automation.php",
+      "status": 200,
+      "title": "Best Companies for Industrial Automation | Exelcius Automation",
+      "description": "Looking for the Best Companies for Industrial Automation? Discover how to choose the right partner for reliable, scalable, and efficient industrial automation.",
+      "canonical": "https://www.exelciusautomation.com/how-to-choose-the-best-companies-for-industrial-automation",
+      "h1": 1,
+      "bytes": 73461
+    },
+    {
+      "route": "/Human-Machine-Interfaces.php",
+      "status": 200,
+      "title": "Human Machine Interfaces | Industrial HMI Solutions",
+      "description": "Advanced Human Machine Interfaces for industrial automation, offering real-time monitoring, control systems integration and efficient machine operation.",
+      "canonical": "https://www.exelciusautomation.com/Human-Machine-Interfaces",
+      "h1": 1,
+      "bytes": 40753
+    },
+    {
+      "route": "/Hybrid-Solar-MPPT-Inverter-10.2KW.php",
+      "status": 200,
+      "title": "Hybrid Solar MPPT Inverter 10.2KW | Exelcius Automation India",
+      "description": "Buy Hybrid Solar MPPT Inverter 10.2KW from Exelcius Automation. High efficiency solar inverter with advanced MPPT technology for reliable power and smart energy management.",
+      "canonical": "https://www.exelciusautomation.com/Hybrid-Solar-MPPT-Inverter-10.2KW",
+      "h1": 1,
+      "bytes": 37411
+    },
+    {
+      "route": "/industrial-automation-service-providers.php",
+      "status": 200,
+      "title": "Best Companies for Industrial Automation | Industrial Automation Service Providers",
+      "description": "Explore the Best Companies for Industrial Automation and Industrial Automation Service Providers offering smart solutions to boost efficiency and productivity",
+      "canonical": "https://www.exelciusautomation.com/industrial-automation-service-providers",
+      "h1": 1,
+      "bytes": 56164
+    },
+    {
+      "route": "/Joint-Enclosures.php",
+      "status": 200,
+      "title": "Joint Enclosures for Cable Protection | Exelcius Automation",
+      "description": "Explore durable Joint Enclosures by Exelcius Automation for secure cable joint protection. Designed for reliability, safety, and long-lasting performance.",
+      "canonical": "https://www.exelciusautomation.com/Joint-Enclosures",
+      "h1": 1,
+      "bytes": 48829
+    },
+    {
+      "route": "/LFP-Battery-25.6V-100Ah.php",
+      "status": 200,
+      "title": "LFP Battery 25.6V 100Ah | Lithium Battery – Exelcius Automation",
+      "description": "Discover LFP Battery 25.6V 100Ah by Exelcius Automation. Reliable LiFePO4 battery offering efficient energy storage, long lifespan, and stable power backup.",
+      "canonical": "https://www.exelciusautomation.com/LFP-Battery-25.6V-100Ah",
+      "h1": 1,
+      "bytes": 34294
+    },
+    {
+      "route": "/LFP-Battery-25.6V-120Ah.php",
+      "status": 200,
+      "title": "LFP Battery 25.6V 120Ah | Lithium Battery – Exelcius Automation",
+      "description": "Buy high-performance LFP Battery 25.6V 120Ah from Exelcius Automation. Reliable lithium battery solution offering long life, high efficiency, and stable power backup.",
+      "canonical": "https://www.exelciusautomation.com/LFP-Battery-25.6V-120Ah",
+      "h1": 1,
+      "bytes": 34251
+    },
+    {
+      "route": "/LFP-Battery-25.6V-240Ah.php",
+      "status": 200,
+      "title": "LFP Battery 25.6V 240Ah | Lithium Battery – Exelcius Automation",
+      "description": "Explore LFP Battery 25.6V 240Ah from Exelcius Automation. High-capacity LiFePO4 battery offering reliable energy storage, long lifespan, and efficient power backup.",
+      "canonical": "https://www.exelciusautomation.com/LFP-Battery-25.6V-240Ah",
+      "h1": 1,
+      "bytes": 34268
+    },
+    {
+      "route": "/LFP-Battery-25.6V-310Ah.php",
+      "status": 200,
+      "title": "LFP Battery 25.6V 310Ah | Lithium Battery – Exelcius Automation",
+      "description": "Explore LFP Battery 25.6V 310Ah by Exelcius Automation. High-capacity lithium battery offering long life, reliable energy storage, and efficient power backup",
+      "canonical": "https://www.exelciusautomation.com/LFP-Battery-25.6V-310Ah",
+      "h1": 1,
+      "bytes": 32342
+    },
+    {
+      "route": "/LFP-Battery-25.6V-344Ah.php",
+      "status": 200,
+      "title": "LFP Battery 25.6V 344Ah | Lithium Battery – Exelcius Automation",
+      "description": "Explore LFP Battery 25.6V 344Ah from Exelcius Automation. High-capacity LiFePO4 battery offering reliable energy storage, long lifespan, and efficient power backup.",
+      "canonical": "https://www.exelciusautomation.com/LFP-Battery-25.6V-344Ah",
+      "h1": 1,
+      "bytes": 34160
+    },
+    {
+      "route": "/LFP-Battery-48V-230Ah.php",
+      "status": 200,
+      "title": "LFP Battery 48V 230Ah | Lithium Battery – Exelcius Automation",
+      "description": "Discover LFP Battery 48V 230Ah by Exelcius Automation. High-capacity lithium battery designed for reliable energy storage, long life, and efficient power backup.",
+      "canonical": "https://www.exelciusautomation.com/LFP-Battery-48V-230Ah",
+      "h1": 1,
+      "bytes": 34139
+    },
+    {
+      "route": "/Lightning-Arresters.php",
+      "status": 200,
+      "title": "Lightning Arresters for Electrical Protection | Exelcius Automation",
+      "description": "Explore high-quality Lightning Arresters from Exelcius Automation designed to protect electrical systems from surge and lightning damage. Reliable and durable solutions.",
+      "canonical": "https://www.exelciusautomation.com/Lightning-Arresters",
+      "h1": 1,
+      "bytes": 46468
+    },
+    {
+      "route": "/lithium-battery-for-solar-system.php",
+      "status": 200,
+      "title": "Lithium Battery for Solar System | Exelcius Automation",
+      "description": "Get high-performance lithium batteries for solar systems with long life, fast charging, and reliable energy storage for uninterrupted power supply.",
+      "canonical": "https://www.exelciusautomation.com/lithium-battery-for-solar-system",
+      "h1": 1,
+      "bytes": 45933
+    },
+    {
+      "route": "/Lithium-Ion-battery-manufacturers-in-India.php",
+      "status": 200,
+      "title": "Lithium Ion Battery Manufacturers India | Exelcius Automations",
+      "description": "Exelcius Automation is a trusted lithium ion battery manufacturer in India, offering high-performance, durable, and efficient energy storage solutions",
+      "canonical": "https://www.exelciusautomation.com/Lithium-Ion-battery-manufacturers-in-India",
+      "h1": 1,
+      "bytes": 48116
+    },
+    {
+      "route": "/lithium-ion-battery-manufacturers-in-india-for-power-backup.php",
+      "status": 200,
+      "title": "Lithium Ion Battery Manufacturers in India for Power Backup",
+      "description": "Lithium Ion Battery Manufacturers in India provide efficient and long-term energy solutions for homes, businesses, and industries with high energy density batteries.",
+      "canonical": "https://www.exelciusautomation.com/lithium-ion-battery-manufacturers-in-india-for-power-backup",
+      "h1": 1,
+      "bytes": 65093
+    },
+    {
+      "route": "/Mono-Crystalline-solar-Panel-550W.php",
+      "status": 200,
+      "title": "On-Grid Solar Inverter Solutions | Exelcius Automation",
+      "description": "Explore On-Grid Solar Inverter solutions by Exelcius Automation for efficient solar power conversion, grid connectivity, and reliable energy performance.",
+      "canonical": "https://www.exelciusautomation.com/Mono-Crystalline-solar-Panel-550W",
+      "h1": 1,
+      "bytes": 37260
+    },
+    {
+      "route": "/Mono-Crystalline-solar-Panel.php",
+      "status": 200,
+      "title": "Mono-Crystalline Solar Panel 550W | Exelcius Automation",
+      "description": "Explore high-efficiency Mono-Crystalline Solar Panel 550W by Exelcius Automation. Reliable solar energy solution designed for maximum performance and durability.",
+      "canonical": "https://www.exelciusautomation.com/Mono-Crystalline-solar-Panel",
+      "h1": 1,
+      "bytes": 36929
+    },
+    {
+      "route": "/Loop-Detectors.php",
+      "status": 200,
+      "title": "Loop Detectors for Traffic Systems | Exelcius Automation",
+      "description": "Discover advanced Loop Detectors by Exelcius Automation for accurate vehicle detection and traffic control. Reliable solutions for highways, toll systems, and smart infrastructure.",
+      "canonical": "https://www.exelciusautomation.com/Loop-Detectors",
+      "h1": 1,
+      "bytes": 53781
+    },
+    {
+      "route": "/MPPT-Solar-Charge-Controller.php",
+      "status": 200,
+      "title": "MPPT Solar Charge Controller | Exelcius Automation",
+      "description": "Explore MPPT Solar Charge Controller solutions by Exelcius Automation for efficient solar energy management, improved battery charging, and reliable power performance.",
+      "canonical": "https://www.exelciusautomation.com/MPPT-Solar-Charge-Controller",
+      "h1": 1,
+      "bytes": 36775
+    },
+    {
+      "route": "/MS-Poles.php",
+      "status": 200,
+      "title": "MS Poles for Highway & Infrastructure Projects",
+      "description": "Premium MS Poles designed for highway electrical systems, lighting installations and industrial infrastructure applications.",
+      "canonical": "https://www.exelciusautomation.com/MS-Poles",
+      "h1": 1,
+      "bytes": 50178
+    },
+    {
+      "route": "/On-Grid-Solar-Inverter.php",
+      "status": 200,
+      "title": "On-Grid Solar Inverter Solutions | Exelcius Automation",
+      "description": "Explore On-Grid Solar Inverter solutions by Exelcius Automation for efficient solar power conversion, grid connectivity, and reliable energy performance.",
+      "canonical": "https://www.exelciusautomation.com/On-Grid-Solar-Inverter",
+      "h1": 1,
+      "bytes": 35751
+    },
+    {
+      "route": "/pcc-and-mcc-panel.php",
+      "status": 200,
+      "title": "EXELCIUS AUTOMATION PVT. LTD || HOME",
+      "canonical": "https://www.exelciusautomation.com/pcc-and-mcc-panel",
+      "h1": 1,
+      "bytes": 56059
+    },
+    {
+      "route": "/Poly-Crystalline-Solar-Panel-330W.php",
+      "status": 200,
+      "title": "Poly-Crystalline Solar Panel 330W | Exelcius Automation",
+      "description": "Discover Poly-Crystalline Solar Panel 330W by Exelcius Automation for efficient solar energy generation, durability, and reliable performance.",
+      "canonical": "https://www.exelciusautomation.com/Poly-Crystalline-Solar-Panel-330W",
+      "h1": 1,
+      "bytes": 35804
+    },
+    {
+      "route": "/power-supplies.php",
+      "status": 200,
+      "title": "Switched Mode Power Supply (SMPS) | Exelcius Automation",
+      "description": "Explore high-quality Switched Mode Power Supply (SMPS) solutions by Exelcius Automation for reliable power conversion, efficiency, and stable performance.",
+      "canonical": "https://www.exelciusautomation.com/power-supplies",
+      "h1": 1,
+      "bytes": 97831
+    },
+    {
+      "route": "/power.php",
+      "status": 200,
+      "title": "EXELCIUS AUTOMATION PVT. LTD || HOME",
+      "canonical": "https://www.exelciusautomation.com/power",
+      "h1": 1,
+      "bytes": 64622
+    },
+    {
+      "route": "/Precautionary-Guidelines-for-Electrical.php",
+      "status": 200,
+      "title": "Precautionary Guidelines for Electrical HT/LT PanelsE",
+      "description": "High Tension (HT) and Low Tension (LT) panels are critical components in electrical power systems and protecting electrical energy in industrial",
+      "canonical": "https://www.exelciusautomation.com/Precautionary-Guidelines-for-Electrical",
+      "h1": 1,
+      "bytes": 46592
+    },
+    {
+      "route": "/Programmable-Logic-Controllers.php",
+      "status": 200,
+      "title": "Programmable Logic Controller (PLC) | Exelcius Automation India",
+      "description": "Discover reliable Programmable Logic Controllers (PLC) from Exelcius Automation for efficient industrial automation, precise control, and improved system performance.",
+      "canonical": "https://www.exelciusautomation.com/Programmable-Logic-Controllers",
+      "h1": 1,
+      "bytes": 76762
+    },
+    {
+      "route": "/Roadside-and-Pole.php",
+      "status": 200,
+      "title": "Roadside and Pole Systems for Highway Projects",
+      "description": "Durable Roadside and Pole systems designed for highway electrical automation, surveillance mounting and traffic infrastructure applications.",
+      "canonical": "https://www.exelciusautomation.com/Roadside-and-Pole",
+      "h1": 1,
+      "bytes": 62024
+    },
+    {
+      "route": "/Rooftop-Solar-Mounting-Structure.php",
+      "status": 200,
+      "title": "Rooftop Solar Mounting Structure | Exelcius Automation India",
+      "description": "Buy Rooftop Solar Mounting Structure from Exelcius Automation. Durable, corrosion-resistant structures designed for secure solar panel installation and long-term performance.",
+      "canonical": "https://www.exelciusautomation.com/Rooftop-Solar-Mounting-Structure",
+      "h1": 1,
+      "bytes": 35422
+    },
+    {
+      "route": "/SCADA.php",
+      "status": 200,
+      "title": "SCADA Systems for Industrial Automation",
+      "description": "High-performance SCADA systems for monitoring, control and data acquisition across industrial automation and electrical applications.",
+      "canonical": "https://www.exelciusautomation.com/SCADA",
+      "h1": 1,
+      "bytes": 78610
+    },
+    {
+      "route": "/Solar-charge-controller.php",
+      "status": 200,
+      "title": "Best Solar Charge Controller for Home & Industrial Use",
+      "description": "Get the right Solar Charge Controller for efficient battery management and longer system life. Ideal for home and industrial solar power solutions.",
+      "canonical": "https://www.exelciusautomation.com/Solar-charge-controller",
+      "h1": 1,
+      "bytes": 37165
+    },
+    {
+      "route": "/solar-solution-providers.php",
+      "status": 200,
+      "title": "Solar Solution Providers in India | Exelcius Automation",
+      "description": "Looking for reliable Solar Solution Providers? Exelcius Automation offers customized solar solutions for commercial, industrial, and infrastructure projects.",
+      "canonical": "https://www.exelciusautomation.com/solar-solution-providers",
+      "h1": 1,
+      "bytes": 72004
+    },
+    {
+      "route": "/SPD.php",
+      "status": 200,
+      "title": "SPDs (Surge Protection Devices) | Exelcius Automation",
+      "description": "Explore SPDs (Surge Protection Devices) by Exelcius Automation designed to safeguard electrical systems from voltage surges and lightning damage.",
+      "canonical": "https://www.exelciusautomation.com/SPD",
+      "h1": 1,
+      "bytes": 38584
+    },
+    {
+      "route": "/toll-lane.php",
+      "status": 200,
+      "title": "Toll Lane Controller (TLC) Systems | Exelcius Automation",
+      "description": "Explore Toll Lane Controller (TLC) solutions by Exelcius Automation for efficient toll management, automated lane control, and reliable highway traffic operations.",
+      "canonical": "https://www.exelciusautomation.com/toll-lane",
+      "h1": 1,
+      "bytes": 36878
+    },
+    {
+      "route": "/top-solar-solution-providers-for-clean-energy-systems.php",
+      "status": 200,
+      "title": "Top Solar Solution Providers for Clean Energy Systems",
+      "description": "Solar Solution Providers are firms which specialize in designing, installing and maintaining solar energy systems for commercial, industrial and infrastructure development.",
+      "canonical": "https://www.exelciusautomation.com/top-solar-solution-providers-for-clean-energy-systems",
+      "h1": 1,
+      "bytes": 67680
+    },
+    {
+      "route": "/top-solar-solution-providers-for-sustainable-energy.php",
+      "status": 200,
+      "title": "Top Solar Solution Providers for Sustainable Energy & Automation",
+      "description": "Leading solar solution providers offering lithium battery for solar system, advanced automation solutions for industries, highway and tunnel electrical automation services.",
+      "canonical": "https://www.exelciusautomation.com/top-solar-solution-providers-for-sustainable-energy",
+      "h1": 1,
+      "bytes": 70993
+    },
+    {
+      "route": "/Variable-Frequency-Drives.php",
+      "status": 200,
+      "title": "Variable Frequency Drives in India | VFD Experts",
+      "description": "Advanced Variable Frequency Drives designed for energy savings, motor speed control and automation solutions for industries and infrastructure projects.",
+      "canonical": "https://www.exelciusautomation.com/Variable-Frequency-Drives",
+      "h1": 1,
+      "bytes": 48002
+    },
+    {
+      "route": "/ups.php",
+      "status": 200,
+      "title": "Uninterruptible Power Supply (UPS) | Exelcius Automation",
+      "description": "Get reliable Uninterruptible Power Supply (UPS) solutions from Exelcius Automation. Ensure continuous power backup, protect equipment, and maintain productivity",
+      "canonical": "https://www.exelciusautomation.com/ups",
+      "h1": 1,
+      "bytes": 68518
+    },
+    {
+      "route": "/What-is-ACDB.php",
+      "status": 200,
+      "title": "ACDB for Solar Systems – Safe & Reliable Power Control",
+      "description": "Choose a high-quality ACDB for efficient AC power distribution in solar systems. Ensures safety, circuit protection, and stable performance for home and industrial use.",
+      "canonical": "https://www.exelciusautomation.com/What-is-ACDB",
+      "h1": 1,
+      "bytes": 43816
+    },
+    {
+      "route": "/What-is-Synchronizing-Panel.php",
+      "status": 200,
+      "title": "What is a Synchronizing Panel",
+      "description": "A synchronizing panel, also known as a synchronization panel, is a specialized control panel used in electrical systems to ensure the safe and efficient operation of multiple power sources.",
+      "canonical": "https://www.exelciusautomation.com/What-is-Synchronizing-Panel",
+      "h1": 1,
+      "bytes": 42521
+    },
+    {
+      "route": "/who-are-the-best-industrial-automation-service-providers.php",
+      "status": 200,
+      "title": "Best Industrial Automation Service Providers for Industries",
+      "description": "Explore the best industrial automation service providers offering PLC, SCADA, VFD, HMI, and smart automation solutions for modern industries.",
+      "canonical": "https://www.exelciusautomation.com/who-are-the-best-industrial-automation-service-providers",
+      "h1": 1,
+      "bytes": 71589
+    },
+    {
+      "route": "/blog.php?slug=how-to-find-the-best-companies-for-electrical-automation",
+      "status": 200,
+      "title": "How to Find Best Companies for Electrical Automation Guide",
+      "description": "Discover how to choose the best companies for electrical automation with expert tips on experience, technology, reliability.",
+      "canonical": "how-to-find-the-best-companies-for-electrical-automation",
+      "h1": 1,
+      "bytes": 63855
+    },
+    {
+      "route": "/blog.php?slug=how-do-best-companies-for-automation-solutions-help",
+      "status": 200,
+      "title": "Best Companies for Automation Solutions for Industries",
+      "description": "Boost productivity with Best Companies for Automation Solutions, offering smart industrial systems and efficient control solutions by Exelcius Automation.",
+      "canonical": "how-do-best-companies-for-automation-solutions-help",
+      "h1": 1,
+      "bytes": 69331
+    },
+    {
+      "route": "/blog.php?slug=best-companies-for-industrial-automation-solutions",
+      "status": 200,
+      "title": "Best Companies for Industrial Automation Services in India",
+      "description": "Find the Best Companies for Industrial Automation offering smart solutions, process control, and reliable systems for modern industries by Exelcius Automation",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-industrial-automation-solutions",
+      "h1": 1,
+      "bytes": 80781
+    },
+    {
+      "route": "/blog.php?slug=automation-solutions-for-industries-helping-businesses-grow-faster",
+      "status": 200,
+      "title": "Automation Solutions for Industries | Exelcius Automation",
+      "description": "Looking for reliable Automation Solutions for Industries? Exelcius Automation provides advanced industrial automation systems that improve productivity, efficie",
+      "canonical": "https://www.exelciusautomation.com/automation-solutions-for-industries-helping-businesses-grow-faster",
+      "h1": 1,
+      "bytes": 72425
+    },
+    {
+      "route": "/blog.php?slug=best-companies-for-automation-solutions-you-can-trust",
+      "status": 200,
+      "title": "Best Companies for Automation Solutions | Smart Industry",
+      "description": "Discover the Best Companies for Automation Solutions delivering smart industrial automation, advanced technology, reliable systems, and customized solutions.",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-automation-solutions-you-can-trust",
+      "h1": 1,
+      "bytes": 85377
+    },
+    {
+      "route": "/blog.php?slug=best-industrial-automation-service-providers-in-2026",
+      "status": 200,
+      "title": "Industrial Automation Service Providers for Smart Industries",
+      "description": "Looking for reliable Industrial Automation Service Providers? Exelcius Automation delivers smart automation solutions that improve productivity, efficiency, and",
+      "canonical": "https://www.exelciusautomation.com/best-industrial-automation-service-providers-in-2026",
+      "h1": 1,
+      "bytes": 63203
+    },
+    {
+      "route": "/blog.php?slug=best-companies-for-industrial-automation-in-india",
+      "status": 200,
+      "title": "Trusted Best Companies for Industrial Automation in India",
+      "description": "Looking for the Best Companies for Industrial Automation? Exelcius Automation delivers innovative automation solutions that improve productivity, efficiency, an",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-industrial-automation-in-india",
+      "h1": 1,
+      "bytes": 80650
+    },
+    {
+      "route": "/blog.php?slug=best-companies-for-automation-solutions-for-reliable-systems",
+      "status": 200,
+      "title": "Best Companies for Automation Solutions | Exelcius",
+      "description": "Looking for the Best Companies for Automation Solutions? Exelcius Automation delivers reliable automation systems that improve productivity and efficiency.",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-automation-solutions-for-reliable-systems",
+      "h1": 1,
+      "bytes": 76365
+    },
+    {
+      "route": "/blog.php?slug=industrial-automation-service-providers-for-modern-industry",
+      "status": 200,
+      "title": "Industrial Automation Service Providers for Smart Industry",
+      "description": "Discover reliable Industrial Automation Service Providers offering smart automation solutions to improve productivity, efficiency and process control,",
+      "canonical": "https://www.exelciusautomation.com/industrial-automation-service-providers-for-modern-industry",
+      "h1": 1,
+      "bytes": 60806
+    },
+    {
+      "route": "/blog.php?slug=automation-solutions-for-industries-for-improved-efficiency",
+      "status": 200,
+      "title": "Advanced Automation Solutions for Industries | Improved Effi",
+      "description": "Discover how smart industrial automation can improve productivity, reduce downtime, enhance process control, and support efficient, reliable business operations",
+      "canonical": "https://www.exelciusautomation.com/automation-solutions-for-industries-for-improved-efficiency",
+      "h1": 1,
+      "bytes": 72994
+    },
+    {
+      "route": "/blog.php?slug=how-to-choose-the-best-companies-for-industrial-automation",
+      "status": 200,
+      "title": "Best Companies for Industrial Automation | Exelcius Automation",
+      "description": "Looking for the Best Companies for Industrial Automation? Discover how to choose the right partner for reliable, scalable, and efficient industrial automation.",
+      "canonical": "https://www.exelciusautomation.com/how-to-choose-the-best-companies-for-industrial-automation",
+      "h1": 1,
+      "bytes": 68519
+    },
+    {
+      "route": "/blog.php?slug=who-are-the-best-industrial-automation-service-providers",
+      "status": 200,
+      "title": "Best Industrial Automation Service Providers for Industries",
+      "description": "Explore the best industrial automation service providers offering PLC, SCADA, VFD, HMI, and smart automation solutions for modern industries.",
+      "canonical": "https://www.exelciusautomation.com/who-are-the-best-industrial-automation-service-providers",
+      "h1": 1,
+      "bytes": 66512
+    },
+    {
+      "route": "/blog.php?slug=best-companies-for-electrical-automation-solutions",
+      "status": 200,
+      "title": "Best Companies for Electrical Automation Solutions in India",
+      "description": "Discover the Best Companies for Electrical Automation Solutions offering industrial automation, highway systems, and tunnel automation services across industries.",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-electrical-automation-solutions",
+      "h1": 1,
+      "bytes": 60335
+    },
+    {
+      "route": "/blog.php?slug=lithium-ion-battery-manufacturers-in-india-for-power-backup",
+      "status": 200,
+      "title": "Lithium Ion Battery Manufacturers in India for Power Backup",
+      "description": "Lithium Ion Battery Manufacturers in India provide efficient and long-term energy solutions for homes, businesses, and industries with high energy density batteries.",
+      "canonical": "https://www.exelciusautomation.com/lithium-ion-battery-manufacturers-in-india-for-power-backup",
+      "h1": 1,
+      "bytes": 60104
+    },
+    {
+      "route": "/blog.php?slug=top-solar-solution-providers-for-sustainable-energy",
+      "status": 200,
+      "title": "Top Solar Solution Providers for Sustainable Energy & Automation",
+      "description": "Leading solar solution providers offering lithium battery for solar system, advanced automation solutions for industries, highway and tunnel electrical automation services.",
+      "canonical": "https://www.exelciusautomation.com/top-solar-solution-providers-for-sustainable-energy",
+      "h1": 1,
+      "bytes": 65601
+    },
+    {
+      "route": "/blog.php?slug=top-solar-solution-providers-for-clean-energy-systems",
+      "status": 200,
+      "title": "Top Solar Solution Providers for Clean Energy Systems",
+      "description": "Solar Solution Providers are firms which specialize in designing, installing and maintaining solar energy systems for commercial, industrial and infrastructure development.",
+      "canonical": "https://www.exelciusautomation.com/top-solar-solution-providers-for-clean-energy-systems",
+      "h1": 1,
+      "bytes": 62479
+    },
+    {
+      "route": "/blog.php?slug=best-highway-electrical-automation-service-providers",
+      "status": 200,
+      "title": "Highway Electrical Automation Service Providers in India",
+      "description": "Highway Electrical Automation Service Providers are very vital here. They also make certain that all the electrical elements are in coordination with the automation systems to provide real-time control and dependable operations.",
+      "canonical": "https://www.exelciusautomation.com/best-highway-electrical-automation-service-providers",
+      "h1": 1,
+      "bytes": 62978
+    },
+    {
+      "route": "/blog.php?slug=What-is-ACDB",
+      "status": 200,
+      "title": "ACDB for Solar Systems – Safe & Reliable Power Control",
+      "description": "Choose a high-quality ACDB for efficient AC power distribution in solar systems. Ensures safety, circuit protection, and stable performance for home and industrial use.",
+      "canonical": "https://www.exelciusautomation.com/What-is-ACDB",
+      "h1": 1,
+      "bytes": 38787
+    },
+    {
+      "route": "/blog.php?slug=Different-Types-Electric-Panels",
+      "status": 200,
+      "title": "Different Types of Electric Panels",
+      "description": "Electric panels are a critical part of electrical systems, facilitating the safe and efficient distribution of power to various loads.",
+      "canonical": "https://www.exelciusautomation.com/Different-Types-Electric-Panels",
+      "h1": 1,
+      "bytes": 47571
+    },
+    {
+      "route": "/blog.php?slug=Precautionary-Guidelines-for-Electrical",
+      "status": 200,
+      "title": "Precautionary Guidelines for Electrical HT/LT PanelsE",
+      "description": "High Tension (HT) and Low Tension (LT) panels are critical components in electrical power systems and protecting electrical energy in industrial",
+      "canonical": "https://www.exelciusautomation.com/Precautionary-Guidelines-for-Electrical",
+      "h1": 1,
+      "bytes": 41516
+    },
+    {
+      "route": "/blog.php?slug=What-is-Synchronizing-Panel",
+      "status": 200,
+      "title": "What is a Synchronizing Panel",
+      "description": "A synchronizing panel, also known as a synchronization panel, is a specialized control panel used in electrical systems to ensure the safe and efficient operation of multiple power sources.",
+      "canonical": "https://www.exelciusautomation.com/What-is-Synchronizing-Panel",
+      "h1": 1,
+      "bytes": 37380
+    },
+    {
+      "route": "/blog.php?slug=lithium-battery-for-solar-system-for-better-performance",
+      "status": 200,
+      "title": "Lithium Battery for Solar System for Efficient Energy Storag",
+      "description": "Discover how lithium battery solutions support efficient solar energy storage, reliable power management, and better performance for modern solar applications.",
+      "canonical": "https://www.exelciusautomation.com/lithium-battery-for-solar-system-for-better-performance",
+      "h1": 1,
+      "bytes": 60071
+    },
+    {
+      "route": "/blog.php?slug=industrial-automation-service-providers-for-reliable-systems",
+      "status": 200,
+      "title": "Industrial Automation Service Providers for Smart Systems",
+      "description": "Explore reliable industrial automation solutions designed to improve process control, equipment monitoring, operational efficiency, and industrial performance.",
+      "canonical": "https://www.exelciusautomation.com/industrial-automation-service-providers-for-reliable-systems",
+      "h1": 1,
+      "bytes": 60443
+    },
+    {
+      "route": "/blog.php?slug=best-companies-for-industrial-automation-reliable-solutions",
+      "status": 200,
+      "title": "Best Companies for Industrial Automation for Modern Industri",
+      "description": "Best Companies for Industrial Automation, offering reliable solutions to improve productivity, process control, machine monitoring, and efficiency.",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-industrial-automation-reliable-solutions",
+      "h1": 1,
+      "bytes": 61629
+    },
+    {
+      "route": "/blog.php?slug=smart-industrial-automation-for-reliable-system-performance",
+      "status": 200,
+      "title": "Best Companies for Automation Solutions for Modern Systems",
+      "description": "Explore smart industrial automation solutions that support reliable system performance, efficient process control, and machine monitoring",
+      "canonical": "https://www.exelciusautomation.com/smart-industrial-automation-for-reliable-system-performance",
+      "h1": 1,
+      "bytes": 58970
+    },
+    {
+      "route": "/blog.php?slug=advanced-battery-technology-for-reliable-energy-storage",
+      "status": 200,
+      "title": "Lithium Battery Suppliers & Solutions in India",
+      "description": "Discover advanced lithium battery technology, energy storage applications",
+      "canonical": "https://www.exelciusautomation.com/advanced-battery-technology-for-reliable-energy-storage",
+      "h1": 1,
+      "bytes": 57960
+    },
+    {
+      "route": "/blog.php?slug=advanced-automation-solutions-for-modern-industries",
+      "status": 200,
+      "title": "Smart Industrial Systems for Better Productivity",
+      "description": "Explore modern industrial technologies, advanced control systems, and smart automation methods that help businesses improve productivity, streamline operations",
+      "canonical": "https://www.exelciusautomation.com/advanced-automation-solutions-for-modern-industries",
+      "h1": 1,
+      "bytes": 58775
+    },
+    {
+      "route": "/blog.php?slug=best-lithium-battery-for-solar-system-performance",
+      "status": 200,
+      "title": "Lithium Battery for Solar System for Efficient Energy",
+      "description": "Upgrade your power backup with a Lithium Battery for Solar System. Get high efficiency, long life, fast charging, and reliable energy storage solutions.",
+      "canonical": "https://www.exelciusautomation.com/best-lithium-battery-for-solar-system-performance",
+      "h1": 1,
+      "bytes": 60235
+    },
+    {
+      "route": "/blog.php?slug=advanced-electrical-systems-for-modern-tunnel-projects",
+      "status": 200,
+      "title": "Tunnel Automation Systems & Electrical Solutions | Exelcius",
+      "description": "Explore advanced tunnel electrical and automation solutions, including lighting, ventilation and integrated control systems for modern  infrastructure.",
+      "canonical": "https://www.exelciusautomation.com/advanced-electrical-systems-for-modern-tunnel-projects",
+      "h1": 1,
+      "bytes": 60890
+    },
+    {
+      "route": "/blog.php?slug=how-solar-power-supports-business-energy-needs",
+      "status": 200,
+      "title": "Solar Energy Solutions for Reliable Business Power",
+      "description": "Explore how businesses can use solar technology to manage electricity needs, improve energy efficiency, and support long-term sustainable operations.",
+      "canonical": "https://www.exelciusautomation.com/how-solar-power-supports-business-energy-needs",
+      "h1": 1,
+      "bytes": 67985
+    },
+    {
+      "route": "/blog?slug=how-do-best-companies-for-automation-solutions-help",
+      "status": 200,
+      "title": "Best Companies for Automation Solutions for Industries",
+      "description": "Boost productivity with Best Companies for Automation Solutions, offering smart industrial systems and efficient control solutions by Exelcius Automation.",
+      "canonical": "how-do-best-companies-for-automation-solutions-help",
+      "h1": 1,
+      "bytes": 69323
+    },
+    {
+      "route": "/blog?slug=how-to-find-the-best-companies-for-electrical-automation",
+      "status": 200,
+      "title": "How to Find Best Companies for Electrical Automation Guide",
+      "description": "Discover how to choose the best companies for electrical automation with expert tips on experience, technology, reliability.",
+      "canonical": "how-to-find-the-best-companies-for-electrical-automation",
+      "h1": 1,
+      "bytes": 63847
+    },
+    {
+      "route": "/blog?slug=best-companies-for-industrial-automation-solutions",
+      "status": 200,
+      "title": "Best Companies for Industrial Automation Services in India",
+      "description": "Find the Best Companies for Industrial Automation offering smart solutions, process control, and reliable systems for modern industries by Exelcius Automation",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-industrial-automation-solutions",
+      "h1": 1,
+      "bytes": 80773
+    },
+    {
+      "route": "/blog?slug=automation-solutions-for-industries-helping-businesses-grow-faster",
+      "status": 200,
+      "title": "Automation Solutions for Industries | Exelcius Automation",
+      "description": "Looking for reliable Automation Solutions for Industries? Exelcius Automation provides advanced industrial automation systems that improve productivity, efficie",
+      "canonical": "https://www.exelciusautomation.com/automation-solutions-for-industries-helping-businesses-grow-faster",
+      "h1": 1,
+      "bytes": 72417
+    },
+    {
+      "route": "/blog?slug=best-companies-for-automation-solutions-you-can-trust",
+      "status": 200,
+      "title": "Best Companies for Automation Solutions | Smart Industry",
+      "description": "Discover the Best Companies for Automation Solutions delivering smart industrial automation, advanced technology, reliable systems, and customized solutions.",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-automation-solutions-you-can-trust",
+      "h1": 1,
+      "bytes": 85369
+    },
+    {
+      "route": "/blog?slug=best-industrial-automation-service-providers-in-2026",
+      "status": 200,
+      "title": "Industrial Automation Service Providers for Smart Industries",
+      "description": "Looking for reliable Industrial Automation Service Providers? Exelcius Automation delivers smart automation solutions that improve productivity, efficiency, and",
+      "canonical": "https://www.exelciusautomation.com/best-industrial-automation-service-providers-in-2026",
+      "h1": 1,
+      "bytes": 63195
+    },
+    {
+      "route": "/blog?slug=best-companies-for-industrial-automation-in-india",
+      "status": 200,
+      "title": "Trusted Best Companies for Industrial Automation in India",
+      "description": "Looking for the Best Companies for Industrial Automation? Exelcius Automation delivers innovative automation solutions that improve productivity, efficiency, an",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-industrial-automation-in-india",
+      "h1": 1,
+      "bytes": 80642
+    },
+    {
+      "route": "/blog?slug=best-companies-for-automation-solutions-for-reliable-systems",
+      "status": 200,
+      "title": "Best Companies for Automation Solutions | Exelcius",
+      "description": "Looking for the Best Companies for Automation Solutions? Exelcius Automation delivers reliable automation systems that improve productivity and efficiency.",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-automation-solutions-for-reliable-systems",
+      "h1": 1,
+      "bytes": 76357
+    },
+    {
+      "route": "/blog?slug=automation-solutions-for-industries-for-improved-efficiency",
+      "status": 200,
+      "title": "Advanced Automation Solutions for Industries | Improved Effi",
+      "description": "Discover how smart industrial automation can improve productivity, reduce downtime, enhance process control, and support efficient, reliable business operations",
+      "canonical": "https://www.exelciusautomation.com/automation-solutions-for-industries-for-improved-efficiency",
+      "h1": 1,
+      "bytes": 72986
+    },
+    {
+      "route": "/blog?slug=industrial-automation-service-providers-for-modern-industry",
+      "status": 200,
+      "title": "Industrial Automation Service Providers for Smart Industry",
+      "description": "Discover reliable Industrial Automation Service Providers offering smart automation solutions to improve productivity, efficiency and process control,",
+      "canonical": "https://www.exelciusautomation.com/industrial-automation-service-providers-for-modern-industry",
+      "h1": 1,
+      "bytes": 60798
+    },
+    {
+      "route": "/blog?slug=how-to-choose-the-best-companies-for-industrial-automation",
+      "status": 200,
+      "title": "Best Companies for Industrial Automation | Exelcius Automation",
+      "description": "Looking for the Best Companies for Industrial Automation? Discover how to choose the right partner for reliable, scalable, and efficient industrial automation.",
+      "canonical": "https://www.exelciusautomation.com/how-to-choose-the-best-companies-for-industrial-automation",
+      "h1": 1,
+      "bytes": 68511
+    },
+    {
+      "route": "/blog?slug=who-are-the-best-industrial-automation-service-providers",
+      "status": 200,
+      "title": "Best Industrial Automation Service Providers for Industries",
+      "description": "Explore the best industrial automation service providers offering PLC, SCADA, VFD, HMI, and smart automation solutions for modern industries.",
+      "canonical": "https://www.exelciusautomation.com/who-are-the-best-industrial-automation-service-providers",
+      "h1": 1,
+      "bytes": 66504
+    },
+    {
+      "route": "/blog?slug=best-companies-for-electrical-automation-solutions",
+      "status": 200,
+      "title": "Best Companies for Electrical Automation Solutions in India",
+      "description": "Discover the Best Companies for Electrical Automation Solutions offering industrial automation, highway systems, and tunnel automation services across industries.",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-electrical-automation-solutions",
+      "h1": 1,
+      "bytes": 60327
+    },
+    {
+      "route": "/blog?slug=top-solar-solution-providers-for-sustainable-energy",
+      "status": 200,
+      "title": "Top Solar Solution Providers for Sustainable Energy & Automation",
+      "description": "Leading solar solution providers offering lithium battery for solar system, advanced automation solutions for industries, highway and tunnel electrical automation services.",
+      "canonical": "https://www.exelciusautomation.com/top-solar-solution-providers-for-sustainable-energy",
+      "h1": 1,
+      "bytes": 65593
+    },
+    {
+      "route": "/blog?slug=lithium-ion-battery-manufacturers-in-india-for-power-backup",
+      "status": 200,
+      "title": "Lithium Ion Battery Manufacturers in India for Power Backup",
+      "description": "Lithium Ion Battery Manufacturers in India provide efficient and long-term energy solutions for homes, businesses, and industries with high energy density batteries.",
+      "canonical": "https://www.exelciusautomation.com/lithium-ion-battery-manufacturers-in-india-for-power-backup",
+      "h1": 1,
+      "bytes": 60096
+    },
+    {
+      "route": "/blog?slug=top-solar-solution-providers-for-clean-energy-systems",
+      "status": 200,
+      "title": "Top Solar Solution Providers for Clean Energy Systems",
+      "description": "Solar Solution Providers are firms which specialize in designing, installing and maintaining solar energy systems for commercial, industrial and infrastructure development.",
+      "canonical": "https://www.exelciusautomation.com/top-solar-solution-providers-for-clean-energy-systems",
+      "h1": 1,
+      "bytes": 62471
+    },
+    {
+      "route": "/blog?slug=What-is-ACDB",
+      "status": 200,
+      "title": "ACDB for Solar Systems – Safe & Reliable Power Control",
+      "description": "Choose a high-quality ACDB for efficient AC power distribution in solar systems. Ensures safety, circuit protection, and stable performance for home and industrial use.",
+      "canonical": "https://www.exelciusautomation.com/What-is-ACDB",
+      "h1": 1,
+      "bytes": 38779
+    },
+    {
+      "route": "/blog?slug=best-highway-electrical-automation-service-providers",
+      "status": 200,
+      "title": "Highway Electrical Automation Service Providers in India",
+      "description": "Highway Electrical Automation Service Providers are very vital here. They also make certain that all the electrical elements are in coordination with the automation systems to provide real-time control and dependable operations.",
+      "canonical": "https://www.exelciusautomation.com/best-highway-electrical-automation-service-providers",
+      "h1": 1,
+      "bytes": 62970
+    },
+    {
+      "route": "/blog?slug=Precautionary-Guidelines-for-Electrical",
+      "status": 200,
+      "title": "Precautionary Guidelines for Electrical HT/LT PanelsE",
+      "description": "High Tension (HT) and Low Tension (LT) panels are critical components in electrical power systems and protecting electrical energy in industrial",
+      "canonical": "https://www.exelciusautomation.com/Precautionary-Guidelines-for-Electrical",
+      "h1": 1,
+      "bytes": 41508
+    },
+    {
+      "route": "/blog?slug=Different-Types-Electric-Panels",
+      "status": 200,
+      "title": "Different Types of Electric Panels",
+      "description": "Electric panels are a critical part of electrical systems, facilitating the safe and efficient distribution of power to various loads.",
+      "canonical": "https://www.exelciusautomation.com/Different-Types-Electric-Panels",
+      "h1": 1,
+      "bytes": 47563
+    },
+    {
+      "route": "/blog?slug=What-is-Synchronizing-Panel",
+      "status": 200,
+      "title": "What is a Synchronizing Panel",
+      "description": "A synchronizing panel, also known as a synchronization panel, is a specialized control panel used in electrical systems to ensure the safe and efficient operation of multiple power sources.",
+      "canonical": "https://www.exelciusautomation.com/What-is-Synchronizing-Panel",
+      "h1": 1,
+      "bytes": 37372
+    },
+    {
+      "route": "/blog?slug=lithium-battery-for-solar-system-for-better-performance",
+      "status": 200,
+      "title": "Lithium Battery for Solar System for Efficient Energy Storag",
+      "description": "Discover how lithium battery solutions support efficient solar energy storage, reliable power management, and better performance for modern solar applications.",
+      "canonical": "https://www.exelciusautomation.com/lithium-battery-for-solar-system-for-better-performance",
+      "h1": 1,
+      "bytes": 60063
+    },
+    {
+      "route": "/blog?slug=best-companies-for-industrial-automation-reliable-solutions",
+      "status": 200,
+      "title": "Best Companies for Industrial Automation for Modern Industri",
+      "description": "Best Companies for Industrial Automation, offering reliable solutions to improve productivity, process control, machine monitoring, and efficiency.",
+      "canonical": "https://www.exelciusautomation.com/best-companies-for-industrial-automation-reliable-solutions",
+      "h1": 1,
+      "bytes": 61621
+    },
+    {
+      "route": "/blog?slug=industrial-automation-service-providers-for-reliable-systems",
+      "status": 200,
+      "title": "Industrial Automation Service Providers for Smart Systems",
+      "description": "Explore reliable industrial automation solutions designed to improve process control, equipment monitoring, operational efficiency, and industrial performance.",
+      "canonical": "https://www.exelciusautomation.com/industrial-automation-service-providers-for-reliable-systems",
+      "h1": 1,
+      "bytes": 60435
+    },
+    {
+      "route": "/blog?slug=smart-industrial-automation-for-reliable-system-performance",
+      "status": 200,
+      "title": "Best Companies for Automation Solutions for Modern Systems",
+      "description": "Explore smart industrial automation solutions that support reliable system performance, efficient process control, and machine monitoring",
+      "canonical": "https://www.exelciusautomation.com/smart-industrial-automation-for-reliable-system-performance",
+      "h1": 1,
+      "bytes": 58962
+    },
+    {
+      "route": "/blog?slug=advanced-battery-technology-for-reliable-energy-storage",
+      "status": 200,
+      "title": "Lithium Battery Suppliers & Solutions in India",
+      "description": "Discover advanced lithium battery technology, energy storage applications",
+      "canonical": "https://www.exelciusautomation.com/advanced-battery-technology-for-reliable-energy-storage",
+      "h1": 1,
+      "bytes": 57952
+    },
+    {
+      "route": "/blog?slug=best-lithium-battery-for-solar-system-performance",
+      "status": 200,
+      "title": "Lithium Battery for Solar System for Efficient Energy",
+      "description": "Upgrade your power backup with a Lithium Battery for Solar System. Get high efficiency, long life, fast charging, and reliable energy storage solutions.",
+      "canonical": "https://www.exelciusautomation.com/best-lithium-battery-for-solar-system-performance",
+      "h1": 1,
+      "bytes": 60227
+    },
+    {
+      "route": "/blog?slug=advanced-electrical-systems-for-modern-tunnel-projects",
+      "status": 200,
+      "title": "Tunnel Automation Systems & Electrical Solutions | Exelcius",
+      "description": "Explore advanced tunnel electrical and automation solutions, including lighting, ventilation and integrated control systems for modern  infrastructure.",
+      "canonical": "https://www.exelciusautomation.com/advanced-electrical-systems-for-modern-tunnel-projects",
+      "h1": 1,
+      "bytes": 60882
+    },
+    {
+      "route": "/blog?slug=advanced-automation-solutions-for-modern-industries",
+      "status": 200,
+      "title": "Smart Industrial Systems for Better Productivity",
+      "description": "Explore modern industrial technologies, advanced control systems, and smart automation methods that help businesses improve productivity, streamline operations",
+      "canonical": "https://www.exelciusautomation.com/advanced-automation-solutions-for-modern-industries",
+      "h1": 1,
+      "bytes": 58767
+    },
+    {
+      "route": "/blog?slug=how-solar-power-supports-business-energy-needs",
+      "status": 200,
+      "title": "Solar Energy Solutions for Reliable Business Power",
+      "description": "Explore how businesses can use solar technology to manage electricity needs, improve energy efficiency, and support long-term sustainable operations.",
+      "canonical": "https://www.exelciusautomation.com/how-solar-power-supports-business-energy-needs",
+      "h1": 1,
+      "bytes": 67977
+    },
+    {
+      "route": "/page.php?slug=Programmable-Logic-Controllers",
+      "status": 200,
+      "title": "Programmable Logic Controller (PLC) | Exelcius Automation India",
+      "description": "Discover reliable Programmable Logic Controllers (PLC) from Exelcius Automation for efficient industrial automation, precise control, and improved system performance.",
+      "canonical": "https://www.exelciusautomation.com/Programmable-Logic-Controllers",
+      "h1": 1,
+      "bytes": 76782
+    },
+    {
+      "route": "/gallery?project=jltl-demo",
+      "status": 200,
+      "title": "EXELCIUS AUTOMATION PVT. LTD || Gallery",
+      "canonical": "https://www.exelciusautomation.com/gallery",
+      "h1": 1,
+      "bytes": 30115
+    },
+    {
+      "route": "/gallery?view=projects",
+      "status": 200,
+      "title": "EXELCIUS AUTOMATION PVT. LTD || Gallery",
+      "canonical": "https://www.exelciusautomation.com/gallery",
+      "h1": 1,
+      "bytes": 33832
+    },
+    {
+      "route": "/sitemap.html",
+      "status": 200,
+      "title": "Sitemap",
+      "description": "www.exelciusautomation.com Sitemap",
+      "canonical": "https://www.exelciusautomation.com/sitemap.html",
+      "h1": 1,
+      "bytes": 48818
+    }
+  ]
+}
