@@ -73,7 +73,7 @@ export default function Header() {
             <div id="solutions-menu" className="mega" hidden={!mega}>
               <div>
                 <span className="eyebrow">CONNECTED CAPABILITIES</span>
-                <h3>Engineering for the whole system.</h3>
+                <p className="display-h3 mega-title">Engineering for the whole system.</p>
                 <p>
                   From field devices to control rooms. From power to
                   performance.

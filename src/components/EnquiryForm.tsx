@@ -16,7 +16,7 @@ export default function EnquiryForm() {
       }}
     >
       <span className="eyebrow">LET’S START A CONVERSATION</span>
-      <h2>Tell us about your project.</h2>
+      <p className="display-h2">Tell us about your project.</p>
       <p>Share a few details with our engineering team.</p>
       <div className="form-grid">
         <label>

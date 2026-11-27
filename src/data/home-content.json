@@ -1,0 +1,201 @@
+{
+  "primary": "Transforming Industries with Cutting-Edge Automation Solutions",
+  "introduction": "Welcome to Exelcius Automation, a premier engineering solutions provider committed to revolutionizing industrial automation through innovation and reliability.",
+  "introductionPoints": [
+    "Premium solar infrastructure",
+    "High-performance energy storage systems",
+    "Dependable power management technologies"
+  ],
+  "blogExcerpts": {
+    "how-solar-power-supports-business-energy-needs": "Access to electricity is one of the most valuable commodities for any business. Whether they are tiny commercial operati...",
+    "advanced-automation-solutions-for-modern-industries": "Throughout the world, businesses are using technology to become more productive, to have better quality products and opt...",
+    "advanced-electrical-systems-for-modern-tunnel-projects": "Today's tunnels play a vital role in highway routes, urban mobility, rail and underground construction. As traffic volum...",
+    "advanced-battery-technology-for-reliable-energy-storage": "Energy Storage has become an integral part of our daily lives and industrial progress. Lithium-ion Batteries provide bac...",
+    "smart-industrial-automation-for-reliable-system-performance": "Automation is in greater use in industries to control machines, electrical devices, manufacturing processes and monitori...",
+    "industrial-automation-service-providers-for-reliable-systems": "Industrial processes require dependable machinery, electrical equipment, control devices and monitoring technology in or...",
+    "best-companies-for-industrial-automation-reliable-solutions": "Industrial automation is the modern process of managing industrial systems and manufacturing units. Automated machines a...",
+    "lithium-battery-for-solar-system-for-better-performance": "Reliable Energy Storage Solutions Exelon AI™ focuses on providing energy storage solutions that enable the safe, and rel..."
+  },
+  "industries": [
+    {
+      "title": "Highways & Railways",
+      "detailTitle": "Highways & Railways",
+      "description": "We deliver automation systems and monitoring solutions for seamless highway and railway operations, ensuring safety, efficiency for long-term infrastructure management.",
+      "src": "/images/industries/train.webp",
+      "alt": "Highways and Railways Industry Solution"
+    },
+    {
+      "title": "Highways",
+      "detailTitle": "Highways",
+      "description": "Highways are wide roads that connect cities, towns, and villages for fast and safe transportation.",
+      "src": "/images/industries/2.webp",
+      "alt": "Highways Office Solutions"
+    },
+    {
+      "title": "Chemical and Agrochemical",
+      "detailTitle": "Chemical and Agrochemical",
+      "description": "We enable precise chemical process control, monitoring, and storage automation, improving safety, productivity, and environmental compliance in the chemical and agrochemical industries.",
+      "src": "/images/industries/chemical-industries.webp",
+      "alt": "Chemical and Agrochemical"
+    },
+    {
+      "title": "Power plant",
+      "detailTitle": "Power plant",
+      "description": "We provide automation solutions for power generation, distribution, and monitoring systems, ensuring reliable operations, optimized resource usage, and high energy efficiency.",
+      "src": "/images/industries/power---plant.webp",
+      "alt": "Power Plant Home Solution"
+    },
+    {
+      "title": "Pulp and Paper",
+      "detailTitle": "Pulp and Paper",
+      "description": "We deliver smart automation for paper mills, improving control, reducing waste, enhancing quality.",
+      "src": "/images/industries/pepar-industrie.webp",
+      "alt": "Pulp and Paper Industry Solution"
+    },
+    {
+      "title": "Cement industries",
+      "detailTitle": "Cement industries",
+      "description": "Our advanced automation systems enhance cement production by streamlining processes, reducing energy consumption, and improving the quality and consistency of cement across the manufacturing cycle.",
+      "src": "/images/industries/cement-industreis.webp",
+      "alt": "Cement Industries Retail Solution"
+    },
+    {
+      "title": "Sugar industries",
+      "detailTitle": "Sugar industries",
+      "description": "We deliver automation solutions for sugar processing plants, optimizing production cycles, reducing waste, and enhancing the quality and scalability of refined sugar production.",
+      "src": "/images/industries/sugar-industries.webp",
+      "alt": "Sugar Industries Hospitality Solution"
+    }
+  ],
+  "services": [
+    {
+      "title": "PCC and MCC Control Panel",
+      "description": "A PCC (Power Control Center) panel distributes and controls electrical power in industrial and commercial applications, while an MCC (Motor Control Center) panel manages multiple motors, ensuring efficient operation, monitoring, and protection.",
+      "src": "/images/product/pcc-panel.webp",
+      "alt": "pcc panel"
+    },
+    {
+      "title": "VFD Control Panel",
+      "description": "VFD control panels are mainly used to control the speed of the electric motors and also of the feed pumps that are used in various industrial facilities. Every motor has varying frequency and voltage.",
+      "src": "/images/product/VFD.webp",
+      "alt": "VFD"
+    },
+    {
+      "title": "APFC Control Panel",
+      "description": "Automatic Power factor correction panel is fully automatic in operation and can achieve desired power factor under fluctuating load conditions",
+      "src": "/images/product/apfc.webp",
+      "alt": "apfc"
+    },
+    {
+      "title": "Power Distribution Panel",
+      "description": "This type of panel distributes and controls power supply to multiple circuits, ensuring safe and efficient electricity distribution in buildings or industrial setups.",
+      "src": "/images/product/Power-distribution.webp",
+      "alt": "Power distribution"
+    },
+    {
+      "title": "Roadside Panel Cabinets",
+      "description": "We manufacture all types of Roadside panel cabinets like Toll Lane Controller (TLC), Automatic traffic counter & classifier (ATCC), Video incident detection system (VIDS), Variable Message Sign (VMS), PTZ Camera, Vehicle actuated speed display (VASD) etc.",
+      "src": "/images/product/roadside-panel-cabinets1.webp",
+      "alt": "Cabinets"
+    },
+    {
+      "title": "Energy Metering System",
+      "description": "An Energy Metering System is used to measure, monitor, and analyse electrical energy consumption in industrial, commercial, and residential applications. It helps in energy management, cost optimization, and power quality analysis.",
+      "src": "/images/product/energy-market.webp",
+      "alt": "Energy Metering System"
+    },
+    {
+      "title": "PLC/HMI/SCADA",
+      "description": "PLC, HMI and SCADA are the main components of the industrial automation. Together, they form a complete industrial automation system, improving efficiency, monitoring, and control in various industries like manufacturing, power, and infrastructure.",
+      "src": "/images/product/PLC-HMI-SCADA.avif",
+      "alt": "Exelcius Automation"
+    },
+    {
+      "title": "Field Instrumentation",
+      "description": "The diligent demands of process operations require to have reliable, accurate devices that gives the measurements to meet the user’s requirements.",
+      "src": "/images/product/Field-Instrumentation.webp",
+      "alt": "Field Instrumentation"
+    },
+    {
+      "title": "RFID Based Tracing & Tracking Solutions",
+      "description": "The ability to track and trace complete information at item level in an efficient and trustworthy manner is becoming more and more important for companies,",
+      "src": "/images/product/RFID.webp",
+      "alt": "RFID Solutions"
+    },
+    {
+      "title": "System Integration",
+      "description": "System integration is essential to reap the benefits of big data, IoT, and digital transformation. However, with all your different data silos and specialized systems, integration is not an easy business.",
+      "src": "/images/product/Systems-Integration-1.webp",
+      "alt": "System Integration"
+    },
+    {
+      "title": "Alarm Management",
+      "description": "Implementation of a successful alarm management program can seem complex in the beginning. Knowing where and how to start can be a daunting experience.",
+      "src": "/images/product/alarm-system.webp",
+      "alt": "Alarm Management"
+    },
+    {
+      "title": "Sensors, IOT Solutions",
+      "description": "Sensors and IoT work together to create smart systems by detecting physical changes and transmitting real-time data over the internet. Sensors collect data, while IoT enables connectivity, remote monitoring, and intelligent decision-making.",
+      "src": "/images/product/Sensors.jpg",
+      "alt": "Sensors"
+    }
+  ],
+  "partners": [
+    {
+      "src": "/images/customer_logo/ABB.png",
+      "alt": "ABB"
+    },
+    {
+      "src": "/images/customer_logo/Allen-Bradley.png",
+      "alt": "Allen Bradley"
+    },
+    {
+      "src": "/images/customer_logo/Siemens.png",
+      "alt": "Siemens"
+    },
+    {
+      "src": "/images/customer_logo/BAlaji-Switchgears.png",
+      "alt": "Balaji Switchgears"
+    },
+    {
+      "src": "/images/customer_logo/Commscope.png",
+      "alt": "Commscope"
+    },
+    {
+      "src": "/images/customer_logo/DATUM.png",
+      "alt": "DATUM"
+    },
+    {
+      "src": "/images/customer_logo/EEZYPC.png",
+      "alt": "EEZYPC"
+    },
+    {
+      "src": "/images/customer_logo/iec.png",
+      "alt": "IEC"
+    },
+    {
+      "src": "/images/customer_logo/worldwide.png",
+      "alt": "Worldwide"
+    }
+  ],
+  "advantages": [
+    {
+      "title": "Innovative Engineering",
+      "description": "We seamlessly integrate cutting-edge technologies with industry best practices to deliver solutions that exceed expectations."
+    },
+    {
+      "title": "Expert Team",
+      "description": "Our team of highly skilled professionals specializes in mechanics, electricity, automation, instrumentation, and information systems."
+    },
+    {
+      "title": "Proven Experience",
+      "description": "With over 3000+ panels, 2000+ poles, and 8000+ brackets successfully delivered, our track record speaks for itself."
+    },
+    {
+      "title": "Quality and Reliability",
+      "description": "Partnering with globally recognized brands such as Siemens, ABB, Allen Bradley, Schneider, Omron, Eaton & PROCON, we ensure the highest standards of quality & performance."
+    }
+  ],
+  "projectHtml": "\n   <div>\n    <div>\n      \n    </div>\n    <div>\n      <div>\n        <div>\n          <div>\n            <p><b>Cubehighways, India -</b> Supplied 2000+ Panels for their ATMS Projects.</p>\n          </div>\n          <div>\n            <p><b>TrafikSol, India –</b> Supplied 50+Panels for their TMS, ATMS, and Tunnel Projects.</p>\n          </div>\n          <div>\n            <p><b>KENGIC, China –</b> Supplied Electrical and Automation System for their warehouses projects.</p>\n          </div>\n          <div>\n            <p><b>Global Engineering, India –</b> Completed 2 Projects for their Electro-plating Plants including\n              electrical &amp; automation systems.</p>\n          </div>\n        </div>\n      </div>\n      <div>\n        <div>\n          <div>\n            <p><b>Hindalco Industries, India –</b> Completed ASSET Management Software Project.</p>\n          </div>\n          <div>\n            <p><b>VaaaN Infra, India –</b> Supplied Electrical Panels for their ATMS Projects. </p>\n          </div>\n          <div>\n            <p><b>Indian Railways, India –</b> Completed Project for their yard and train system. </p>\n          </div>\n          <div>\n            <p><b>Nuberg, India –</b> Supplied PLC and Electrical Systems for Oxygen plant. Star Cement, India –\n              Supplied PCC, MCC and VFD System for their Grinding Control system.</p>\n          </div>\n        </div>\n      </div>\n    </div>\n   </div>\n"
+}

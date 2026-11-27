@@ -1,5 +1,6 @@
 import Image from "./SiteImage";
 import Link from "next/link";
+import ClientSlider from "./ClientSlider";
 import { getSchemas } from "@/lib/content";
 export function SourceFAQs({ slug }: { slug: string }) {
   const faqs = getSchemas(slug)
@@ -39,7 +40,6 @@ import {
 } from "lucide-react";
 import {
   advantages,
-  clients,
   contact,
   phone,
   solutions,
@@ -49,15 +49,17 @@ export function SectionHeading({
   label,
   title,
   text,
+  as: Title = "p",
 }: {
   label: string;
   title: string;
   text?: string;
+  as?: "h2" | "h3" | "p";
 }) {
   return (
     <div className="section-heading">
       <span className="eyebrow">{label}</span>
-      <h2>{title}</h2>
+      <Title className="section-title">{title}</Title>
       {text && <p>{text}</p>}
     </div>
   );
@@ -68,10 +70,10 @@ export function EnquiryCTA() {
       <div className="container cta-inner">
         <div>
           <span className="eyebrow">LET’S ENGINEER WHAT’S NEXT</span>
-          <h2>
+          <p className="display-h2 cta-heading">
             Have an engineering or
             <br /> automation project in mind?
-          </h2>
+          </p>
           <p>
             Let’s discuss your requirements and identify the right solution for
             your project.
@@ -90,22 +92,7 @@ export function EnquiryCTA() {
   );
 }
 export function ClientLogoStrip() {
-  return (
-    <section className="clients container">
-      <p className="eyebrow">TRUSTED ACROSS INDUSTRY & INFRASTRUCTURE</p>
-      <div className="client-logos">
-        {clients.map((c) => (
-          <Image
-            key={c.name}
-            src={"/profile/" + c.image}
-            alt={c.name}
-            width={150}
-            height={65}
-          />
-        ))}
-      </div>
-    </section>
-  );
+  return <ClientSlider />;
 }
 export function Advantages() {
   const icons = [CircuitBoard, Cable, Factory, Cog, Headset, Handshake];
@@ -122,7 +109,7 @@ export function Advantages() {
             return (
               <div key={title}>
                 <Icon size={28} strokeWidth={1.4} />
-                <h3>{title}</h3>
+                <p className="display-h3">{title}</p>
                 <p>{text}</p>
               </div>
             );
@@ -160,7 +147,7 @@ export function Footer() {
             </div>
           </div>
           <div>
-            <h3>Explore</h3>
+            <h3>Quick Link</h3>
             <Link href="/about-us">About Us</Link>
             <Link href="/gallery?view=projects">Our Projects</Link>
             <Link href="/gallery">Gallery</Link>
@@ -169,7 +156,7 @@ export function Footer() {
             <Link href="/contact">Contact</Link>
           </div>
           <div>
-            <h3>Our solutions</h3>
+            <h3>Products</h3>
             {solutions.map((s) => (
               <Link key={s.href} href={s.href}>
                 {s.title}
@@ -177,7 +164,7 @@ export function Footer() {
             ))}
           </div>
           <div className="footer-contact">
-            <h3>Let’s connect</h3>
+            <h3>contact us</h3>
             <a href={`tel:${phone}`}>
               <Phone size={15} />
               {contact.phone_primary}
@@ -195,6 +182,8 @@ export function Footer() {
               WhatsApp our team
             </a>
             <span>{contact.working_hours}</span>
+            <h3 className="footer-enquiry-heading">Enquiry Form</h3>
+            <Link href="/contact#enquiry">Discuss Your Project</Link>
           </div>
         </div>
         <div className="container footer-bottom">

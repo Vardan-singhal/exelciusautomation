@@ -1,0 +1,64 @@
+/* Typography is independent of the preserved source heading level. */
+.display-h2, .display-h3, .section-heading .section-title {
+  color: var(--ink); font-weight: 500; line-height: 1.13; letter-spacing: -.04em; margin-top: 0; margin-bottom: .83em;
+}
+.display-h2.display-h2, .section-heading .section-title { font-size: clamp(2rem, 3.25vw, 3.25rem); }
+.display-h3.display-h3 { font-size: 1.55rem; }
+.section-heading .section-title { margin-bottom: 20px; max-width: none; }
+.mega .mega-title { font-size: 2rem; color: inherit; }
+.solution-copy .display-h3, .project-copy .display-h3 { font-size: 1.7rem; line-height: 1.16; margin-bottom: 13px; }
+.project-wide .display-h3 { color: inherit; font-size: 1.8rem; margin-bottom: 12px; }
+.product-links .display-h3 { font-size: 1.2rem; line-height: 1.4; letter-spacing: -.02em; margin: 0 0 8px; }
+.related-projects .display-h3 { font-size: 1.4rem; }
+.leadership .display-h3 { font-size: 1.5rem; }
+.project-overview .display-h2 { font-size: 2.5rem; }
+.project-overview .display-h3 { font-size: 1.2rem; margin: 30px 0 15px; }
+.blog-card h3 { font-size: 1.5rem; line-height: 1.25; margin: 12px 0 20px; }
+.detail-aside .display-h2 { font-size: 1.6rem; }
+.detail-aside .display-h3 { font-size: 1rem; letter-spacing: 0; margin-top: 35px; }
+.enquiry-form .display-h2 { font-size: 2rem; }
+.cta-inner .cta-heading { color: white; font-size: clamp(2rem, 3vw, 3rem); line-height: 1.13; margin-bottom: 20px; }
+.why .section-title, .why .display-h3 { color: inherit; }
+.footer-enquiry-heading { margin-top: 24px; }
+.source-heading-line { display: block; }
+.source-industry-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 28px; }
+.source-industry-grid article { min-width: 0; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
+.source-industry-grid img { display: block; width: 100%; height: 200px; object-fit: cover; margin-bottom: 24px; }
+.source-industry-grid h3 { margin-bottom: 16px; }
+.source-industry-grid h4 { font-size: 1.1rem; margin: 20px 0 12px; }
+.source-industry-grid summary, .source-services summary, .source-project-detail summary { cursor: pointer; color: var(--teal); }
+.source-services { margin-top: 48px; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 20px; align-items: start; }
+.source-services details { padding: 20px; background: white; border: 1px solid var(--line); min-width: 0; }
+.source-services summary h4 { display: inline; font-size: 1.1rem; letter-spacing: -.02em; line-height: 1.5; }
+.source-services img { display: block; width: 100%; height: auto; margin-top: 20px; }
+.source-services p { margin-top: 20px; margin-bottom: 0; }
+.source-partner-logos { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 28px; }
+.source-partner-logos img { width: 100%; height: 90px; object-fit: contain; }
+.source-advantages { grid-template-columns: repeat(4,minmax(0,1fr)); }
+.source-advantages h4 { font-size: 1.4rem; margin-bottom: 18px; }
+.source-home-blogs h4 { font-size: 1.35rem; margin-bottom: 20px; }
+.source-home-blogs { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: calc((100% - 48px) / 3); gap: 24px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 18px; }
+.source-home-blogs .blog-card { scroll-snap-align: start; min-width: 0; }
+.source-home-blogs:focus-visible { outline: 3px solid var(--teal); outline-offset: 4px; }
+.source-project-detail { margin-top: 40px; }
+.source-project-detail > summary { padding: 12px 0; }
+.source-project-detail .legacy-content { margin-top: 24px; }
+@media(max-width:1000px) {
+  .source-industry-grid, .source-services { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .source-advantages { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .source-partner-logos { grid-template-columns: repeat(3,minmax(0,1fr)); }
+  .source-home-blogs { grid-auto-columns: calc((100% - 24px) / 2); }
+}
+@media(max-width:760px) {
+  .source-industry-grid, .source-services { grid-template-columns: 1fr; }
+  .source-industry-grid img { height: 230px; }
+  .source-partner-logos { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .source-advantages { grid-template-columns: 1fr; }
+  .cta-inner .cta-heading { font-size: 2.1rem; }
+  .enquiry-form .display-h2 { font-size: 1.9rem; }
+  .project-wide .display-h3 { font-size: 1.55rem; }
+  .leadership .display-h3 { font-size: 1.4rem; }
+  .project-overview .display-h2 { font-size: 2rem; }
+  .blog-card h3 { font-size: 1.6rem; }
+  .source-home-blogs { grid-auto-columns: 86%; }
+}

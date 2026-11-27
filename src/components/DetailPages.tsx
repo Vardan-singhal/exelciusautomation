@@ -51,7 +51,7 @@ export function SolutionPage({
       <PageHero
         label="OUR SOLUTIONS"
         banner={pageBanners[solution.href]}
-        title={solution.title}
+        title={p.heading}
         text={solution.description}
       />
       <section className="section container solution-detail">
@@ -87,7 +87,7 @@ export function SolutionPage({
           <div className="product-links">
             {related.map((p) => (
               <Link key={p.slug} href={p.url}>
-                <h3>{p.heading}</h3>
+                <p className="display-h3">{p.heading}</p>
                 <span>Explore technical details</span>
               </Link>
             ))}
@@ -106,12 +106,12 @@ export function SolutionPage({
         </div>
         {relevantProjects.length > 0 && (
           <>
-            <h2 className="subheading">Related project experience</h2>
+            <p className="display-h2 subheading">Related project experience</p>
             <div className="related-projects">
               {relevantProjects.map((p) => (
                 <Link href={"/gallery?project=" + p.id} key={p.id}>
                   <span className="eyebrow">{p.status}</span>
-                  <h3>{p.name}</h3>
+                  <p className="display-h3">{p.name}</p>
                   <p>{p.description}</p>
                   <span className="text-link">View Project</span>
                 </Link>
@@ -148,7 +148,7 @@ export function ProductPage({ slug }: { slug: string }) {
         />
         <aside className="detail-aside">
           <span className="eyebrow">ENGINEERING SUPPORT</span>
-          <h2>Find the right fit for your project.</h2>
+          <p className="display-h2">Find the right fit for your project.</p>
           <p>
             Discuss selection, technical requirements and system integration
             with our team.
@@ -161,7 +161,7 @@ export function ProductPage({ slug }: { slug: string }) {
               Read the related insight
             </Link>
           )}
-          <h3>Related information</h3>
+          <p className="display-h3">Related information</p>
           {related.map((x) => (
             <Link key={x.slug} href={x.url}>
               {x.heading}
@@ -180,7 +180,7 @@ export function AboutPage() {
       <PageHero
         label="ABOUT EXELCIUS"
         banner={pageBanners["/about-us"]}
-        title="Engineering expertise. A shared commitment."
+        title={findPage("about-us")!.heading}
         text="An industrial automation, electrical engineering and infrastructure solutions partner."
       />
       <section className="section container about-intro">
@@ -215,11 +215,11 @@ export function AboutPage() {
         <div className="container two-column">
           <div>
             <span className="eyebrow">OUR VISION</span>
-            <h2>
+            <p className="display-h2">
               Smart automation.
               <br />
               Sustainable infrastructure.
-            </h2>
+            </p>
             <p>
               To become a global leader in smart automation and sustainable
               infrastructure solutions, shaping the future of industries,
@@ -228,11 +228,11 @@ export function AboutPage() {
           </div>
           <div>
             <span className="eyebrow">OUR MISSION</span>
-            <h2>
+            <p className="display-h2">
               Reliable systems.
               <br />
               Long-term value.
-            </h2>
+            </p>
             <p>
               By integrating advanced automation, renewable energy, and
               intelligent monitoring systems, we help industries and governments
@@ -256,7 +256,7 @@ export function AboutPage() {
             />
             <div>
               <span className="eyebrow">BUSINESS & SALES DIRECTOR</span>
-              <h3>Puneet Audichya</h3>
+              <p className="display-h3">Puneet Audichya</p>
               <p>
                 Puneet leads company operations and business responsibilities
                 across regions. His previous experience includes Emerson
@@ -274,7 +274,7 @@ export function AboutPage() {
             />
             <div>
               <span className="eyebrow">FINANCE DIRECTOR</span>
-              <h3>Shikha Audichya</h3>
+              <p className="display-h3">Shikha Audichya</p>
               <p>
                 A founding team member, Shikha brings more than 15 years of
                 experience. Her professional background includes Bharti Airtel,
@@ -299,13 +299,13 @@ export function ContactPage() {
       <PageHero
         label="CONTACT OUR TEAM"
         banner={pageBanners["/contact"]}
-        title="Good engineering starts with a conversation."
+        title={findPage("contact")!.heading}
         text="Consultation, product selection or a new project — tell us what you have in mind."
       />
       <section className="section container contact-layout">
         <div>
           <span className="eyebrow">EXELCIUS AUTOMATION PRIVATE LIMITED</span>
-          <h2>Let’s find the right solution.</h2>
+          <p className="display-h2">Let’s find the right solution.</p>
           <p>
             Reach our team directly, or prepare an enquiry with your project
             requirements.
@@ -343,13 +343,13 @@ export function BlogsPage() {
       <PageHero
         label="BLOGS"
         banner={pageBanners["/blogs"]}
-        title="Ideas for a better-engineered world."
+        title={findPage("blogs")!.heading}
         text="Explore automation, electrical systems, infrastructure and energy."
       />
       <section className="section container">
         <div className="blog-grid">
           {[...blogs]
-            .sort((a, b) => b.blog_date.localeCompare(a.blog_date))
+            .sort((a, b) => b.blog_date.localeCompare(a.blog_date) || Number(b.id) - Number(a.id))
             .map((b) => (
               <Link className="blog-card" href={"/" + b.slug} key={b.slug}>
                 {b.image && (
@@ -370,7 +370,7 @@ export function BlogsPage() {
                     timeZone: "Asia/Kolkata",
                   })}
                 </time>
-                <h2>{b.title}</h2>
+                <h3>{b.title}</h3>
                 <span className="text-link">Read Insight</span>
               </Link>
             ))}
@@ -427,8 +427,8 @@ export function GalleryPage({
           <div className="project-overview">
             <div>
               <span className="eyebrow">{p.status}</span>
-              <h2>{p.client}</h2>
-              <h3>Scope & supplied solutions</h3>
+              <p className="display-h2">{p.client}</p>
+              <p className="display-h3">Scope & supplied solutions</p>
               <ul className="capability-list">
                 {p.scope.map((s) => (
                   <li key={s}>{s}</li>
@@ -487,7 +487,7 @@ export function GalleryPage({
             view === "projects" ? "/gallery?view=projects" : "/gallery"
           ]
         }
-        title="Experience you can build on."
+        title={findPage("gallery")!.heading}
         text="Original photographs, delivered systems and project experience from our company portfolio."
       />
       <section className="section container">
@@ -545,7 +545,7 @@ export function CareerPage() {
     <>
       <PageHero
         label="CAREERS"
-        title="Build systems. Build your future."
+        title={findPage("career")!.heading}
         text="Engineering, consulting, manufacturing and automation — work on the systems that keep industry moving."
       />
       <section className="section container two-column">
@@ -560,7 +560,7 @@ export function CareerPage() {
           />
         </div>
         <div className="career-contact">
-          <h2>Start a conversation with us.</h2>
+          <p className="display-h2">Start a conversation with us.</p>
           <p>
             Tell us about your experience, skills and the role you are
             interested in. Attach your résumé when sending your email.

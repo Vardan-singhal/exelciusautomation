@@ -49,7 +49,7 @@ export default function ProjectGallery() {
               )}
               <div className="project-copy">
                 <span className="eyebrow">{p.category}</span>
-                <h2>{p.name}</h2>
+                <p className="display-h2">{p.name}</p>
                 {!p.image && <small>{p.status}</small>}
                 <p>{p.description}</p>
                 <span className="text-link">View Project</span>

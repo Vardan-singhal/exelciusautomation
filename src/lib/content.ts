@@ -4,6 +4,7 @@ import rawBlogs from "@/data/blogs.json";
 import seo from "@/data/seo.json";
 import seoConfig from "@/data/seo-config.json";
 import sourcePresentation from "@/data/source-presentation.json";
+import sourceHeadings from "@/data/source-headings.json";
 import { siteUrl, solutions } from "@/data/site";
 import { imageHtml, imageSrc, imageData } from "./image-urls.mjs";
 type SourcePresentation = {
@@ -21,6 +22,7 @@ function retainedPresentation(slug: string) {
 }
 export const pages = rawPages.map((page) => ({
   ...page,
+  heading: (sourceHeadings as Record<string, { primary: string }>)[page.slug].primary,
   html: imageHtml(retainedPresentation(page.slug) + page.html),
 }));
 export const blogs = rawBlogs.map((blog) => ({

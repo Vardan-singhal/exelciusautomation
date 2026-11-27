@@ -1,19 +1,17 @@
 import Image from "./SiteImage";
 import Link from "next/link";
-import { Check, ChevronDown, Cpu, Network, Wrench } from "lucide-react";
-import { industries, projects, solutions } from "@/data/site";
+import { ChevronDown, Cpu, Network, Wrench } from "lucide-react";
+import { projects, solutions } from "@/data/site";
+import home from "@/data/home-content.json";
 import testimonials from "@/data/testimonials.json";
-import {
-  Advantages,
-  ClientLogoStrip,
-  EnquiryCTA,
-  SectionHeading,
-} from "./Common";
+import { blogs } from "@/lib/content";
+import { imageHtml } from "@/lib/image-urls.mjs";
+import { ClientLogoStrip, EnquiryCTA, SourceFAQs } from "./Common";
 import HeroMedia from "./HeroMedia";
-import { SourceFAQs } from "./Common";
-import { RetainedContent } from "./DetailPages";
-import { findPage } from "@/lib/content";
+import CertificatesSection from "./CertificatesSection";
+
 export default function Home() {
+  const latestBlogs = [...blogs].sort((a, b) => b.blog_date.localeCompare(a.blog_date) || Number(b.id) - Number(a.id)).slice(0, 8);
   return (
     <>
       <HeroMedia>
@@ -21,14 +19,7 @@ export default function Home() {
           <span className="eyebrow">
             ENGINEERING POSSIBILITY. DELIVERING RELIABILITY.
           </span>
-          <h1>
-            Engineering intelligent
-            <br /> automation for{" "}
-            <em>
-              industries
-              <br className="desktop-break" /> & infrastructure.
-            </em>
-          </h1>
+          <h1>{home.primary}</h1>
           <p>
             Integrated automation, electrical engineering, highway, tunnel and
             solar solutions. Designed for reliable performance.
@@ -72,65 +63,38 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <section className="section about-intro container" id="about">
         <div className="about-copy">
-          <SectionHeading
-            label="WE ARE EXELCIUS AUTOMATION"
-            title="Technology, power & infrastructure. Connected."
-            text="An engineering partner with the capability to see the whole system — and the expertise to make it work."
-          />
-          <p>
-            We bring together engineering, consulting, manufacturing and system
-            integration for industrial processes and infrastructure. From the
-            control panel to the field, we work alongside your team through
-            design, installation and commissioning.
-          </p>
-          <ul className="check-list">
-            <li>
-              <Check />
-              Multidisciplinary engineering expertise
-            </li>
-            <li>
-              <Check />
-              Manufacturing and system integration
-            </li>
-            <li>
-              <Check />
-              On-site execution and technical support
-            </li>
-          </ul>
-          <Link className="text-link" href="/about-us">
-            Discover Exelcius
-          </Link>
+          <span className="eyebrow">WE ARE EXELCIUS AUTOMATION</span>
+          <p className="display-h2">Technology, power &amp; infrastructure. Connected.</p>
+          <p>{home.introduction}</p>
+          <ul className="source-introduction-points">{home.introductionPoints.map(point => <li key={point}>{point}</li>)}</ul>
+          <p>We bring together engineering, consulting, manufacturing and system integration for industrial processes and infrastructure. From the control panel to the field, we work alongside your team through design, installation and commissioning.</p>
+          <Link className="text-link" href="/about-us">Discover Exelcius</Link>
         </div>
         <div className="about-photo">
-          <Image
-            src="/images/gallery-img/6.jpeg"
-            alt="Exelcius electrical panel assembly"
-            fill
-            sizes="(max-width: 760px) 100vw, 45vw"
-          />
-          <div className="photo-caption">
-            <span>ENGINEERED TO WORK TOGETHER</span>
-            <strong>
-              From concept.
-              <br />
-              To commissioning.
-            </strong>
+          <Image src="/images/gallery-img/6.jpeg" alt="Exelcius electrical panel assembly" fill sizes="(max-width:760px) 100vw,45vw" />
+          <div className="photo-caption"><span>ENGINEERED TO WORK TOGETHER</span><strong>From concept.<br />To commissioning.</strong></div>
+        </div>
+      </section>
+      <section className="section industries-section">
+        <div className="container">
+          <div className="section-heading"><span className="eyebrow">INDUSTRY EXPERIENCE</span><h2>Our Focused Industries</h2></div>
+          <div className="source-industry-grid">
+            {home.industries.map((industry) => (
+              <article key={industry.title}>
+                <Image src={industry.src} alt={industry.alt} width={600} height={350} sizes="(max-width:760px) 100vw,33vw" />
+                <h3>{industry.title}</h3>
+                <details><summary>Industry applications</summary><h4>{industry.detailTitle}</h4><p>{industry.description}</p></details>
+              </article>
+            ))}
           </div>
         </div>
       </section>
       <section className="section solutions-section" id="solutions">
         <div className="container">
-          <div className="section-heading-row">
-            <SectionHeading
-              label="OUR CORE SOLUTIONS"
-              title="Five capabilities. One engineering partner."
-            />
-            <p>
-              Purpose-built solutions for the systems your operations depend on.
-            </p>
-          </div>
+          <div className="section-heading-row"><div className="section-heading"><span className="eyebrow">OUR CORE SOLUTIONS</span><h3 className="section-title">Our Main Leading Services</h3></div><p>Purpose-built solutions for the systems your operations depend on.</p></div>
           <div className="solution-editorial">
             {solutions.map((s, i) => (
               <Link
@@ -153,25 +117,43 @@ export default function Home() {
                 </div>
                 <div className="solution-copy">
                   <span className="eyebrow">{s.short}</span>
-                  <h3>{s.title}</h3>
+                  <p className="display-h3">{s.title}</p>
                   <p>{s.description}</p>
                   <span className="text-link">Explore Solution</span>
                 </div>
               </Link>
             ))}
           </div>
+
+
+          <div className="source-services">
+            {home.services.map((service) => (
+              <details key={service.title}><summary><h4>{service.title}</h4></summary><Image src={service.src} alt={service.alt} width={755} height={397} sizes="(max-width:760px) 100vw,33vw" /><p>{service.description}</p></details>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section className="section container source-partners">
+        <div className="section-heading"><span className="eyebrow">TECHNOLOGY &amp; EQUIPMENT</span><h3 className="section-title">Our Trusted Partners</h3></div>
+        <div className="source-partner-logos">{home.partners.map((partner) => <Image key={partner.src} src={partner.src} alt={partner.alt} width={210} height={110} />)}</div>
+      </section>
+      <section className="section why">
+        <div className="container">
+          <div className="section-heading"><span className="eyebrow">THE EXELCIUS APPROACH</span><h3 className="section-title">Why to Choose Exelcius Automation</h3></div>
+          <div className="advantages source-advantages">{home.advantages.map((advantage) => <div key={advantage.title}><h4>{advantage.title}</h4><p>{advantage.description}</p></div>)}</div>
         </div>
       </section>
       <section className="section container">
-        <div className="section-heading-row">
-          <SectionHeading
-            label="ENGINEERING IN ACTION"
-            title="Real projects. Practical impact."
-          />
-          <Link href="/gallery?view=projects" className="text-link">
-            View All Projects
+        <div className="section-heading-row"><div className="section-heading"><span className="eyebrow">ENGINEERING KNOWLEDGE</span><h3 className="section-title">Our Blogs</h3></div><Link href="/blogs" className="text-link">View All Blogs</Link></div>
+        <div className="blog-grid source-home-blogs" tabIndex={0} aria-label="Latest blogs; scroll to explore all eight posts">{latestBlogs.map((blog) => (
+          <Link className="blog-card" href={"/" + blog.slug} key={blog.slug}>
+            <div className="blog-image"><Image src={blog.image} alt={blog.title} fill sizes="(max-width:760px) 100vw,33vw" /></div>
+            <time dateTime={blog.blog_date}>{blog.blog_date}</time><h4>{blog.title}</h4><p>{(home.blogExcerpts as Record<string, string>)[blog.slug]}</p><span className="text-link">Read Blog</span>
           </Link>
-        </div>
+        ))}</div>
+      </section>
+      <section className="section container">
+        <div className="section-heading-row"><div className="section-heading"><span className="eyebrow">ENGINEERING IN ACTION</span><h3 className="section-title">Major Delivered Projects</h3></div><Link href="/gallery?view=projects" className="text-link">View All Projects</Link></div>
         <div className="featured-projects">
           {[projects[0], projects[3]].map((p) => (
             <Link
@@ -190,7 +172,7 @@ export default function Home() {
               </div>
               <div className="project-copy">
                 <span className="eyebrow">{p.category}</span>
-                <h3>{p.name}</h3>
+                <p className="display-h3">{p.name}</p>
                 <p>{p.description}</p>
                 <span className="text-link">View Project</span>
               </div>
@@ -199,7 +181,7 @@ export default function Home() {
           <Link href="/gallery?project=hindalco" className="project-wide">
             <div>
               <span className="eyebrow">INDUSTRIAL & DIGITAL SYSTEMS</span>
-              <h3>Connected operations at Hindalco Industries.</h3>
+              <p className="display-h3">Connected operations at Hindalco Industries.</p>
               <p>
                 Asset management software, energy monitoring and smelter-plant
                 PLC expansion.
@@ -214,52 +196,22 @@ export default function Home() {
             />
           </Link>
         </div>
+
+
+        <details className="source-project-detail"><summary>More delivered project experience</summary><div className="legacy-content" dangerouslySetInnerHTML={{ __html: imageHtml(home.projectHtml) }} /></details>
       </section>
-      <Advantages />
-      <section className="section industries-section">
-        <div className="container industries-layout">
-          <SectionHeading
-            label="INDUSTRY EXPERIENCE"
-            title="Different industries. Shared engineering standards."
-            text="Automation and electrical capabilities shaped around the demands of your operations."
-          />
-          <div className="industries-grid">
-            {industries.map((i) => (
-              <span key={i}>{i}</span>
+      <CertificatesSection />
+      <section className="section testimonials">
+        <div className="container">
+          <div className="section-heading"><span className="eyebrow">OUR CUSTOMERS&rsquo; PERSPECTIVE</span><h2>What Our Clients Say<span className="source-heading-line">About Our Solar Solutions</span></h2></div>
+          <div className="testimonial-grid">
+            {testimonials.map((testimonial) => (
+              <figure key={testimonial.name}><span className="quote-mark">&ldquo;</span><blockquote>{testimonial.text}</blockquote><figcaption><Image src={testimonial.image} alt={testimonial.name} width={54} height={54} /><div><strong>{testimonial.name}</strong>{testimonial.roles.map((role) => <span key={role}>{role}</span>)}</div></figcaption></figure>
             ))}
           </div>
         </div>
       </section>
       <ClientLogoStrip />
-      <section className="section testimonials">
-        <div className="container">
-          <SectionHeading
-            label="OUR CUSTOMERS’ PERSPECTIVE"
-            title="Trust, built through delivery."
-          />
-          <div className="testimonial-grid">
-            {testimonials.slice(1, 3).map((t) => (
-              <figure key={t.name}>
-                <span className="quote-mark">“</span>
-                <blockquote>{t.text}</blockquote>
-                <figcaption>
-                  <Image src={t.image} alt={t.name} width={54} height={54} />
-                  <div>
-                    <strong>{t.name}</strong>
-                    {t.roles.map((r) => (
-                      <span key={r}>{r}</span>
-                    ))}
-                  </div>
-                </figcaption>
-              </figure>
-            ))}
-          </div>
-        </div>
-      </section>
-      <RetainedContent
-        html={findPage("")!.html}
-        label="Explore more engineering capabilities & company information"
-      />
       <SourceFAQs slug="" />
       <EnquiryCTA />
     </>
