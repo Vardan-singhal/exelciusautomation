@@ -5,7 +5,7 @@ import { ChevronDown, Cpu, Network, Wrench } from "lucide-react";
 import { solutions } from "@/data/site";
 import home from "@/data/home-content.json";
 import testimonials from "@/data/testimonials.json";
-import { blogs } from "@/lib/content";
+import { blogs, getBlogExcerpt } from "@/lib/content";
 import { ClientLogoStrip, EnquiryCTA, SourceFAQs } from "./Common";
 import HeroMedia from "./HeroMedia";
 import CertificatesSection from "./CertificatesSection";
@@ -156,7 +156,7 @@ export default function Home() {
         <div className="blog-grid source-home-blogs" tabIndex={0} aria-label="Latest blogs; scroll to explore all eight posts">{latestBlogs.map((blog) => (
           <Link className="blog-card" href={"/" + blog.slug} key={blog.slug}>
             <div className="blog-image"><Image src={blog.image} alt={blog.title} fill sizes="(max-width:760px) 100vw,33vw" /></div>
-            <time dateTime={blog.blog_date}>{blog.blog_date}</time><h4>{blog.title}</h4><p>{(home.blogExcerpts as Record<string, string>)[blog.slug]}</p><span className="text-link">Read Blog</span>
+            <h4>{blog.title}</h4><p className="blog-excerpt">{getBlogExcerpt(blog)}</p><time dateTime={blog.blog_date}>{blog.blog_date}</time><span className="text-link">Read Blog</span>
           </Link>
         ))}</div>
       </section>

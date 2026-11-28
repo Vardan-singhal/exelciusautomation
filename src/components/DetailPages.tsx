@@ -2,7 +2,7 @@ import Image from "./SiteImage";
 import Link from "next/link";
 import { EnquiryButton } from "./EnquiryProvider";
 import { contact, industries, projects, solutions } from "@/data/site";
-import { pages, blogs, findBlog, findPage } from "@/lib/content";
+import { pages, blogs, findBlog, findPage, getBlogExcerpt } from "@/lib/content";
 import {
   Advantages,
   EnquiryCTA,
@@ -373,6 +373,8 @@ export function BlogsPage() {
                     />
                   </div>
                 )}
+                <h3>{b.title}</h3>
+                <p className="blog-excerpt">{getBlogExcerpt(b)}</p>
                 <time dateTime={b.blog_date}>
                   {new Date(b.blog_date).toLocaleDateString("en-IN", {
                     year: "numeric",
@@ -381,7 +383,6 @@ export function BlogsPage() {
                     timeZone: "Asia/Kolkata",
                   })}
                 </time>
-                <h3>{b.title}</h3>
                 <span className="text-link">Read Insight</span>
               </Link>
             ))}

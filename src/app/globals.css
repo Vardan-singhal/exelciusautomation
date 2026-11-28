@@ -1558,18 +1558,20 @@ p {
   gap: 45px 35px;
 }
 .blog-image {
-  height: 230px;
+  height: auto;
+  aspect-ratio: 16 / 9;
   background: var(--pale);
   position: relative;
   overflow: hidden;
   margin-bottom: 20px;
 }
 .blog-image img {
-  object-fit: cover;
-  transition: transform 0.4s;
+  object-fit: contain;
 }
-.blog-card:hover img {
-  transform: scale(1.03);
+.blog-excerpt {
+  color: var(--muted);
+  line-height: 1.6;
+  margin: 0 0 16px;
 }
 .blog-card time {
   font-size: 0.875rem;
@@ -2412,7 +2414,8 @@ p {
     gap: 40px;
   }
   .blog-image {
-    height: 250px;
+    height: auto;
+    aspect-ratio: 16 / 9;
   }
   .blog-card h2 {
     font-size: 1.6rem;

@@ -32,6 +32,24 @@ export const blogs = rawBlogs.map((blog) => ({
   ...blog,
   html: imageHtml(blog.html),
 }));
+export function getBlogExcerpt(blog: (typeof blogs)[number]) {
+  const text = blog.description
+    .replace(/<[^>]*>/g, " ")
+    .replace(/&nbsp;|&#160;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&quot;|&#34;/gi, '"')
+    .replace(/&#39;|&apos;/gi, "'")
+    .replace(/&lt;/gi, "<")
+    .replace(/&gt;/gi, ">")
+    .replace(/&#(\d+);/g, (_, code: string) => String.fromCodePoint(Number(code)))
+    .replace(/&#x([\da-f]+);/gi, (_, code: string) => String.fromCodePoint(parseInt(code, 16)))
+    .replace(/\s+/g, " ")
+    .trim();
+  if (text.length <= 120) return text;
+  const candidate = text.slice(0, 117);
+  const wordBoundary = candidate.lastIndexOf(" ");
+  return `${(wordBoundary >= 100 ? candidate.slice(0, wordBoundary) : candidate).trimEnd()}…`;
+}
 export function findPage(slug: string) {
   return pages.find((p) => p.slug.toLowerCase() === slug.replace(/\.php$/i, "").toLowerCase());
 }
