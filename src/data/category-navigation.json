@@ -1,0 +1,384 @@
+{
+  "categories": [
+    {
+      "id": "industrial-automation",
+      "title": "Industrial Automation",
+      "href": "/industrial-automation-service-providers",
+      "items": [
+        {
+          "slug": "Programmable-Logic-Controllers",
+          "label": "Programmable Logic Controller (PLC)"
+        },
+        {
+          "slug": "Variable-Frequency-Drives",
+          "label": "Variable Frequency Drive (VFD)"
+        },
+        {
+          "slug": "Human-Machine-Interfaces",
+          "label": "Human Machine Interface (HMI)"
+        },
+        {
+          "slug": "SCADA",
+          "label": "SCADA Systems"
+        }
+      ],
+      "sidebarItems": [
+        {
+          "slug": "industrial-automation-service-providers",
+          "label": "Industrial Automation"
+        },
+        {
+          "slug": "Programmable-Logic-Controllers",
+          "label": "Programmable Logic Controller"
+        },
+        {
+          "slug": "Variable-Frequency-Drives",
+          "label": "Variable Frequency Drive"
+        },
+        {
+          "slug": "Human-Machine-Interfaces",
+          "label": "Human Machine Interface"
+        },
+        {
+          "slug": "SCADA",
+          "label": "SCADA Systems"
+        }
+      ]
+    },
+    {
+      "id": "infrastructure-solutions",
+      "title": "Infrastructure Solutions",
+      "href": "/MS-Poles",
+      "items": [
+        {
+          "slug": "MS-Poles",
+          "label": "MS Poles"
+        },
+        {
+          "slug": "Camera-Mounting-Brackets",
+          "label": "Camera Mounting Brackets"
+        },
+        {
+          "slug": "Roadside-and-Pole",
+          "label": "Roadside and Pole Cabinets"
+        },
+        {
+          "slug": "ATCC",
+          "label": "ATCC Aluminum Cabinets"
+        }
+      ],
+      "sidebarItems": [
+        {
+          "slug": "MS-Poles",
+          "label": "MS Poles"
+        },
+        {
+          "slug": "Camera-Mounting-Brackets",
+          "label": "Camera Mounting Brackets"
+        },
+        {
+          "slug": "Roadside-and-Pole",
+          "label": "Roadside Cabinets"
+        },
+        {
+          "slug": "ATCC",
+          "label": "ATCC Aluminum Cabinets"
+        }
+      ]
+    },
+    {
+      "id": "electrical-solutions",
+      "title": "Electrical Solutions",
+      "href": "/ups",
+      "items": [
+        {
+          "slug": "ups",
+          "label": "Uninterruptible Power Supply (UPS)"
+        },
+        {
+          "slug": "power-supplies",
+          "label": "Switched Mode Power Supply (SMPS)"
+        },
+        {
+          "slug": "cables",
+          "label": "Industrial Cables"
+        }
+      ],
+      "sidebarItems": [
+        {
+          "slug": "ups",
+          "label": "Uninterruptible Power Supply (UPS)"
+        },
+        {
+          "slug": "power-supplies",
+          "label": "Switched Mode Power Supply (SMPS)"
+        },
+        {
+          "slug": "cables",
+          "label": "Cables"
+        }
+      ]
+    },
+    {
+      "id": "lfp-batteries",
+      "title": "LFP Batteries",
+      "href": "/LFP-Battery-25.6V-310Ah",
+      "items": [
+        {
+          "slug": "LFP-Battery-25.6V-310Ah",
+          "label": "LFP Battery 25.6V 310Ah"
+        },
+        {
+          "slug": "LFP-Battery-25.6V-120Ah",
+          "label": "LFP Battery 25.6V 120Ah"
+        },
+        {
+          "slug": "LFP-Battery-48V-230Ah",
+          "label": "LFP Battery 48V 230Ah"
+        },
+        {
+          "slug": "LFP-Battery-25.6V-240Ah",
+          "label": "LFP Battery 25.6V 240Ah"
+        },
+        {
+          "slug": "LFP-Battery-25.6V-100Ah",
+          "label": "LFP Battery 25.6V 100Ah"
+        },
+        {
+          "slug": "LFP-Battery-25.6V-344Ah",
+          "label": "LFP Battery 25.6V 344Ah"
+        }
+      ],
+      "sidebarItems": [
+        {
+          "slug": "LFP-Battery-25.6V-310Ah",
+          "label": "LFP Battery 25.6 310Ah"
+        },
+        {
+          "slug": "LFP-Battery-25.6V-120Ah",
+          "label": "LFP Battery 25.6V 120Ah"
+        },
+        {
+          "slug": "LFP-Battery-48V-230Ah",
+          "label": "LFP Battery 48V 230Ah"
+        },
+        {
+          "slug": "LFP-Battery-25.6V-240Ah",
+          "label": "LFP Battery 25.6V 240Ah"
+        },
+        {
+          "slug": "LFP-Battery-25.6V-100Ah",
+          "label": "LFP Battery 25.6V 100Ah"
+        },
+        {
+          "slug": "LFP-Battery-25.6V-344Ah",
+          "label": "LFP Battery 25.6V 344Ah"
+        }
+      ]
+    },
+    {
+      "id": "highway-solutions",
+      "title": "Highway Solutions",
+      "href": "/highway-electrical-automation-service-providers",
+      "items": [
+        {
+          "slug": "Loop-Detectors",
+          "label": "Loop Detectors"
+        },
+        {
+          "slug": "Joint-Enclosures",
+          "label": "Joint Enclosures"
+        },
+        {
+          "slug": "Lightning-Arresters",
+          "label": "Lightning Arresters"
+        },
+        {
+          "slug": "toll-lane",
+          "label": "Toll Lane Controller (TLC)"
+        }
+      ],
+      "sidebarItems": [
+        {
+          "slug": "highway-electrical-automation-service-providers",
+          "label": "Highway Solutions"
+        },
+        {
+          "slug": "Loop-Detectors",
+          "label": "Loop Detectors"
+        },
+        {
+          "slug": "Joint-Enclosures",
+          "label": "Joint Enclosures"
+        },
+        {
+          "slug": "Lightning-Arresters",
+          "label": "Lightning Arresters"
+        },
+        {
+          "slug": "toll-lane",
+          "label": "Toll Lane Controller (TLC)"
+        }
+      ]
+    },
+    {
+      "id": "solar-solutions",
+      "title": "Solar Solutions",
+      "href": "/solar-solution-providers",
+      "items": [
+        {
+          "slug": "Lithium-Ion-battery-manufacturers-in-India",
+          "label": "Lithium Ion Battery"
+        },
+        {
+          "slug": "MPPT-Solar-Charge-Controller",
+          "label": "MPPT Solar Charge Controller"
+        },
+        {
+          "slug": "SPD",
+          "label": "SPDs (Surge Protection Devices)"
+        },
+        {
+          "slug": "Mono-Crystalline-solar-Panel-550W",
+          "label": "Mono-Crystalline Solar Panel 550W"
+        },
+        {
+          "slug": "Poly-Crystalline-Solar-Panel-330W",
+          "label": "Poly-Crystalline Solar Panel 330W"
+        },
+        {
+          "slug": "On-Grid-Solar-Inverter",
+          "label": "On-Grid Solar Inverter"
+        },
+        {
+          "slug": "Hybrid-Solar-MPPT-Inverter-10.2KW",
+          "label": "Hybrid Solar MPPT Inverter 10.2KW"
+        },
+        {
+          "slug": "Rooftop-Solar-Mounting-Structure",
+          "label": "Rooftop Solar Mounting Structure"
+        },
+        {
+          "slug": "lithium-battery-for-solar-system",
+          "label": "Lithium Battery for Solar System"
+        },
+        {
+          "slug": "Mono-Crystalline-solar-Panel",
+          "label": "Mono-Crystalline Solar Panel"
+        },
+        {
+          "slug": "Solar-charge-controller",
+          "label": "Solar Charge Controllers"
+        }
+      ],
+      "sidebarItems": [
+        {
+          "slug": "solar-solution-providers",
+          "label": "Solar Solutions"
+        },
+        {
+          "slug": "Lithium-Ion-battery-manufacturers-in-India",
+          "label": "Lithium Ion Battery"
+        },
+        {
+          "slug": "Solar-charge-controller",
+          "label": "Solar Charge Controllers"
+        },
+        {
+          "slug": "SPD",
+          "label": "SPDs (Surge Protection Devices)"
+        },
+        {
+          "slug": "Mono-Crystalline-solar-Panel-550W",
+          "label": "Mono-Crystalline solar Panel 550W"
+        },
+        {
+          "slug": "Poly-Crystalline-Solar-Panel-330W",
+          "label": "Poly-Crystalline Solar Panel 330W"
+        },
+        {
+          "slug": "On-Grid-Solar-Inverter",
+          "label": "On-Grid Solar Inverter"
+        },
+        {
+          "slug": "Hybrid-Solar-MPPT-Inverter-10.2KW",
+          "label": "Hybrid Solar MPPT Inverter 10.2KW"
+        },
+        {
+          "slug": "Rooftop-Solar-Mounting-Structure",
+          "label": "Rooftop Solar Mounting Structure"
+        },
+        {
+          "slug": "MPPT-Solar-Charge-Controller",
+          "label": "MPPT Solar Charge Controller"
+        },
+        {
+          "slug": "lithium-battery-for-solar-system",
+          "label": "Lithium Battery for Solar System"
+        },
+        {
+          "slug": "Mono-Crystalline-solar-Panel",
+          "label": "Mono-Crystalline Solar Panel"
+        }
+      ]
+    },
+    {
+      "id": "field-instruments",
+      "title": "Field Instruments",
+      "href": "/field-instruments",
+      "items": [
+        {
+          "slug": "field-instruments",
+          "label": "Field Instruments"
+        }
+      ],
+      "sidebarItems": [
+        {
+          "slug": "field-instruments",
+          "label": "Field Instruments"
+        }
+      ]
+    }
+  ],
+  "pageGroups": {
+    "ATCC": "infrastructure-solutions",
+    "best-companies-for-automation-solutions": "industrial-automation",
+    "cables": "electrical-solutions",
+    "Camera-Mounting-Brackets": "infrastructure-solutions",
+    "field-instruments": "field-instruments",
+    "highway-electrical-automation-service-providers": "highway-solutions",
+    "Human-Machine-Interfaces": "industrial-automation",
+    "Hybrid-Solar-MPPT-Inverter-10.2KW": "solar-solutions",
+    "industrial-automation-service-providers": "industrial-automation",
+    "Joint-Enclosures": "highway-solutions",
+    "LFP-Battery-25.6V-100Ah": "lfp-batteries",
+    "LFP-Battery-25.6V-120Ah": "lfp-batteries",
+    "LFP-Battery-25.6V-240Ah": "lfp-batteries",
+    "LFP-Battery-25.6V-310Ah": "lfp-batteries",
+    "LFP-Battery-25.6V-344Ah": "lfp-batteries",
+    "LFP-Battery-48V-230Ah": "lfp-batteries",
+    "Lightning-Arresters": "highway-solutions",
+    "lithium-battery-for-solar-system": "solar-solutions",
+    "Lithium-Ion-battery-manufacturers-in-India": "solar-solutions",
+    "Loop-Detectors": "highway-solutions",
+    "Mono-Crystalline-solar-Panel-550W": "solar-solutions",
+    "Mono-Crystalline-solar-Panel": "solar-solutions",
+    "MPPT-Solar-Charge-Controller": "solar-solutions",
+    "MS-Poles": "infrastructure-solutions",
+    "On-Grid-Solar-Inverter": "solar-solutions",
+    "pcc-and-mcc-panel": "electrical-solutions",
+    "Poly-Crystalline-Solar-Panel-330W": "solar-solutions",
+    "power-supplies": "electrical-solutions",
+    "power": "electrical-solutions",
+    "Programmable-Logic-Controllers": "industrial-automation",
+    "Roadside-and-Pole": "infrastructure-solutions",
+    "Rooftop-Solar-Mounting-Structure": "solar-solutions",
+    "SCADA": "industrial-automation",
+    "Solar-charge-controller": "solar-solutions",
+    "solar-solution-providers": "solar-solutions",
+    "SPD": "solar-solutions",
+    "toll-lane": "highway-solutions",
+    "ups": "electrical-solutions",
+    "Variable-Frequency-Drives": "industrial-automation"
+  }
+}

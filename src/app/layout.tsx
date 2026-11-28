@@ -7,6 +7,7 @@ import { imageSrc } from "@/lib/image-urls.mjs";
 import { Footer } from "@/components/Common";
 import "./globals.css";
 import "@/components/SourceHeadings.css";
+import "@/components/CategoryNavigation.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.exelciusautomation.com"),
   icons: { icon: { url: imageSrc("/images/favicon.ico"), type: "image/webp" } },

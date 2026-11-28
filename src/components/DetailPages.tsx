@@ -12,6 +12,7 @@ import {
 import EnquiryForm from "./EnquiryForm";
 import ProjectGallery from "./ProjectGallery";
 import { pageBanners } from "@/data/pageBanners";
+import ProductEquipment from "./ProductEquipment";
 export function RetainedContent({
   html,
   label = "Technical information & specifications",
@@ -86,22 +87,7 @@ export function SolutionPage({
           dangerouslySetInnerHTML={{ __html: p.html }}
         />
       </section>
-      <section className="section soft">
-        <div className="container">
-          <SectionHeading
-            label="PRODUCTS & EQUIPMENT"
-            title="The detail behind the solution."
-          />
-          <div className="product-links">
-            {related.map((p) => (
-              <Link key={p.slug} href={p.url}>
-                <p className="display-h3">{p.heading}</p>
-                <span>Explore technical details</span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+      <ProductEquipment slug={p.slug} related={related} />
       <section className="section container">
         <SectionHeading
           label="APPLICATIONS"
@@ -135,9 +121,7 @@ export function SolutionPage({
 }
 export function ProductPage({ slug }: { slug: string }) {
   const p = findPage(slug)!;
-  const related = pages
-    .filter((x) => x.group === p.group && x.slug !== p.slug)
-    .slice(0, 8);
+  const related = pages.filter((x) => x.group === p.group && x.slug !== p.slug);
   return (
     <>
       <PageHero
@@ -177,6 +161,7 @@ export function ProductPage({ slug }: { slug: string }) {
           ))}
         </aside>
       </div>
+      <ProductEquipment slug={p.slug} related={related} />
       <SourceFAQs slug={p.slug} />
       <EnquiryCTA />
     </>

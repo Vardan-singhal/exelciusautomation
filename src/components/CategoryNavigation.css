@@ -1,0 +1,15 @@
+﻿.solution-menu-group { min-width: 0; align-self: start; }
+.solution-menu-label { display: flex; align-items: stretch; border-bottom: 1px solid #ffffff24; }
+.mega .solution-menu-label > a { flex: 1; min-width: 0; border: 0; }
+.solution-menu-label button { display: flex; align-items: center; justify-content: center; width: 44px; flex-shrink: 0; padding: 0; border: 0; background: transparent; color: inherit; cursor: pointer; }
+.solution-menu-label button:hover, .solution-menu-label button:focus-visible { background: #ffffff12; color: #7fe3db; }
+.solution-menu-label button[aria-expanded="true"] svg { transform: rotate(180deg); }
+.solution-submenu { padding: 10px 16px; background: #031e26; max-height: min(460px, 55svh); overflow-y: auto; }
+.solution-submenu[hidden] { display: none; }
+.solution-submenu ul { list-style: none; margin: 0; padding: 0; }
+.mega .solution-submenu a { padding: 10px 0; font-size: .875rem; line-height: 1.4; }
+.mega .solution-submenu a[aria-current="page"] { color: #7fe3db; }
+.mega .solution-submenu-title { margin: 14px 0 4px; color: #7fe3db; font-size: .8rem; font-weight: 600; letter-spacing: .04em; }
+@media (max-width: 1000px) {
+  .solution-submenu { max-height: none; overflow: visible; }
+}

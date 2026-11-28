@@ -3,8 +3,8 @@ import { useEffect, useRef, useState } from "react";
 import Image from "./SiteImage";
 import Link from "next/link";
 import { ChevronDown, Menu, X } from "lucide-react";
-import { solutions } from "@/data/site";
 import { usePathname } from "next/navigation";
+import CategoryNavigation from "./CategoryNavigation";
 export default function Header() {
   const [mobile, setMobile] = useState(false),
     [mega, setMega] = useState(false);
@@ -79,21 +79,7 @@ export default function Header() {
                   performance.
                 </p>
               </div>
-              <div>
-                {solutions.map((s) => (
-                  <Link
-                    key={s.href}
-                    href={s.href}
-                    onClick={() => {
-                      setMega(false);
-                      setMobile(false);
-                    }}
-                  >
-                    <strong>{s.title}</strong>
-                    <span>{s.short}</span>
-                  </Link>
-                ))}
-              </div>
+              <CategoryNavigation visible={mega} />
             </div>
           </div>
           <Link href="/gallery?view=projects">Projects</Link>
