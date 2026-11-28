@@ -11,7 +11,7 @@ const banners = [
     alt: "Industrial automation, highway, tunnel and solar engineering illustration",
   },
   {
-    src: "/images/new_banners/hero section -2.png.webp?v=c9d2ffb896f4",
+    src: "/images/new_banners/hero section -2.png.webp?v=d3f95cd4b1aa",
     alt: "Industrial Automation. Intelligent control, seamless operations and higher productivity.",
   },
   {
@@ -27,7 +27,7 @@ const banners = [
     alt: "Powering progress with smarter solar. Engineered solar systems, reliable energy and end-to-end support for commercial, industrial and infrastructure projects.",
   },
   {
-    src: "/images/new_banners/hero section -6.png.webp",
+    src: "/images/new_banners/hero section -6.png.webp?v=b439f31b3919",
     alt: "Highway Solutions. Intelligent highway infrastructure for safer, smarter and more efficient mobility.",
   },
 ];
