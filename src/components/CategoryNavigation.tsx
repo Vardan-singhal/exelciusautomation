@@ -31,7 +31,7 @@ export default function CategoryNavigation({ visible }: { visible: boolean }) {
             }}
           >
             <div className="solution-menu-label">
-              <Link href={solution.href} aria-current={pathname === solution.href ? "page" : undefined}>
+              <Link href={solution.href} aria-current={pathname === solution.href.toLowerCase() ? "page" : undefined}>
                 <strong>{solution.title}</strong><span>{solution.short}</span>
               </Link>
               <button type="button" ref={element => { triggers.current[id] = element; }} aria-label={`Toggle ${solution.title} pages`} aria-expanded={open === id} aria-controls={`solution-pages-${id}`} onClick={() => setOpen(open === id ? null : id)}><ChevronDown size={18} /></button>
@@ -41,7 +41,7 @@ export default function CategoryNavigation({ visible }: { visible: boolean }) {
                 <div key={category.id}>
                   {groups.length > 1 && <p className="solution-submenu-title">{category.title}</p>}
                   <ul>
-                    {category.items.map(item => <li key={item.slug}><Link href={"/" + item.slug} aria-current={pathname === "/" + item.slug ? "page" : undefined}>{item.label}</Link></li>)}
+                    {category.items.map(item => <li key={item.slug}><Link href={"/" + item.slug} aria-current={pathname === "/" + item.slug.toLowerCase() ? "page" : undefined}>{item.label}</Link></li>)}
                   </ul>
                 </div>
               ))}

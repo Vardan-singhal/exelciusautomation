@@ -907,15 +907,17 @@ p {
   margin-top: 3px;
   color: var(--teal);
 }
+.footer-bottom-bar {
+  background: #000;
+}
 .footer-bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 25px;
-  padding: 23px 0;
-  border-top: 1px solid var(--line);
+  padding: 12px 0;
   font-size: 0.875rem;
-  color: #718185;
+  color: #fff;
 }
 .floating-whatsapp {
   position: fixed;

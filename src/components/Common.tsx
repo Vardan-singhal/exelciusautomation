@@ -42,7 +42,6 @@ import {
   advantages,
   contact,
   phone,
-  solutions,
   whatsapp,
 } from "@/data/site";
 export function SectionHeading({
@@ -154,14 +153,17 @@ export function Footer() {
             <Link href="/blogs">Insights</Link>
             <Link href="/career">Careers</Link>
             <Link href="/contact">Contact</Link>
+            <Link href="/sitemap.html">Sitemap</Link>
           </div>
           <div>
             <h3>Products</h3>
-            {solutions.map((s) => (
-              <Link key={s.href} href={s.href}>
-                {s.title}
-              </Link>
-            ))}
+            <Link href="/Programmable-Logic-Controllers">Industrial Automation</Link>
+            <Link href="/MS-Poles">Infrastructure Solutions</Link>
+            <Link href="/ups">Electrical Solutions</Link>
+            <Link href="/field-instruments">Field Instruments</Link>
+            <Link href="/highway-electrical-automation-service-providers">Highway Solutions</Link>
+            <Link href="/solar-solution-providers">Solar Solutions</Link>
+            <Link href="/best-companies-for-automation-solutions">Best Companies for Automation Solutions</Link>
           </div>
           <div className="footer-contact">
             <h3>contact us</h3>
@@ -186,12 +188,13 @@ export function Footer() {
             <Link href="/contact#enquiry">Discuss Your Project</Link>
           </div>
         </div>
-        <div className="container footer-bottom">
-          <span>
-            © {new Date().getFullYear()} Exelcius Automation Private Limited.
-          </span>
-          <span>Engineering. Integration. Execution.</span>
-          <Link href="/sitemap.html">Sitemap</Link>
+        <div className="footer-bottom-bar">
+          <div className="container footer-bottom">
+            <span>© All Copyrights Reserved by Exelcius Automation Pvt. Ltd</span>
+            <a href="https://www.arkatechnovation.com/">
+              © {new Date().getFullYear()} Designed &amp; Developed by Arka Technovation Pvt Ltd
+            </a>
+          </div>
         </div>
       </footer>
       <a

@@ -29,21 +29,23 @@ type Props = {
 export async function generateMetadata({ params, searchParams }: Props) {
   let { slug } = await params;
   const query = await searchParams;
-  slug = slug.replace(/\.php$/, "");
+  slug = slug.replace(/\.php$/i, "");
   const blogQuery = slug === "blog" && !!query.slug;
   const homeQuery = slug === "page" && (!query.slug || query.slug === "index");
   if (["blog", "page"].includes(slug) && query.slug) slug = query.slug;
   if (homeQuery) slug = "";
+  slug = findPage(slug)?.slug || findBlog(slug)?.slug || slug;
   return getMetadata(slug, blogQuery);
 }
 export default async function Page({ params, searchParams }: Props) {
   let { slug } = await params;
   const query = await searchParams;
-  slug = slug.replace(/\.php$/, "");
+  slug = slug.replace(/\.php$/i, "");
   const blogQuery = slug === "blog" && !!query.slug;
   const homeQuery = slug === "page" && (!query.slug || query.slug === "index");
   if (["blog", "page"].includes(slug) && query.slug) slug = query.slug;
   if (homeQuery) slug = "";
+  slug = findPage(slug)?.slug || findBlog(slug)?.slug || slug;
   let content;
   if (!slug) content = <Home />;
   else if (blogQuery && findBlog(slug)) content = <BlogPage slug={slug} />;

@@ -33,10 +33,10 @@ export const blogs = rawBlogs.map((blog) => ({
   html: imageHtml(blog.html),
 }));
 export function findPage(slug: string) {
-  return pages.find((p) => p.slug === slug.replace(/\.php$/, ""));
+  return pages.find((p) => p.slug.toLowerCase() === slug.replace(/\.php$/i, "").toLowerCase());
 }
 export function findBlog(slug: string) {
-  return blogs.find((b) => b.slug === slug);
+  return blogs.find((b) => b.slug.toLowerCase() === slug.toLowerCase());
 }
 export function getCanonical(slug: string, blogQuery = false) {
   const p = findPage(slug),
@@ -45,11 +45,14 @@ export function getCanonical(slug: string, blogQuery = false) {
   const live = seo.find(
     (s) => s.url === (blogQuery ? siteUrl + "/blog.php?slug=" + slug : url),
   );
-  return (
+  const canonical = new URL(
     live?.canonical ||
     (blogQuery ? b?.canonical_url : p?.canonical || b?.canonical_url) ||
-    url
+    url,
+    siteUrl,
   );
+  canonical.pathname = canonical.pathname.toLowerCase();
+  return canonical.href;
 }
 export function getMetadata(slug: string, blogQuery = false): Metadata {
   if (slug === "sitemap.html")
