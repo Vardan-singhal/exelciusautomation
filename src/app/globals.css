@@ -953,10 +953,15 @@ p {
   color: var(--cyan);
   margin-top: 48px;
 }
-.page-hero h1 {
+.page-hero h1,
+.page-hero .page-hero-title {
   max-width: 1050px;
   margin-bottom: 25px;
   font-size: clamp(2.5rem, 4.4vw, 4.25rem);
+  font-weight: 500;
+  line-height: 1.13;
+  letter-spacing: -0.04em;
+  color: inherit;
 }
 .page-hero p {
   max-width: 700px;
@@ -1026,7 +1031,8 @@ p {
     color: var(--cyan);
     margin-bottom: 10px;
   }
-  .page-hero.page-hero-banner h1 {
+  .page-hero.page-hero-banner h1,
+  .page-hero.page-hero-banner .page-hero-title {
     font-size: clamp(1.6rem, 6vw, 2.2rem);
     margin-bottom: 14px;
   }
@@ -1126,6 +1132,10 @@ p {
 .related-projects .eyebrow {
   font-size: 0.875rem;
 }
+.solution-content .legacy-content {
+  max-width: 1000px;
+  margin-inline: auto;
+}
 .retained {
   padding-top: 20px;
   padding-bottom: 55px;
@@ -1157,6 +1167,14 @@ p {
   font-size: 2rem;
   margin: 40px 0 20px;
   color: var(--ink);
+}
+.legacy-content h1 {
+  font-size: clamp(2rem, 4.4vw, 3.8rem);
+  line-height: 1.2;
+  margin: 32px 0 24px;
+  color: #00aeef;
+  font-weight: 700;
+  letter-spacing: normal;
 }
 .legacy-content h3 {
   font-size: 1.4rem;
@@ -2149,7 +2167,8 @@ p {
   .page-hero > .container > .eyebrow {
     margin-top: 35px;
   }
-  .page-hero h1 {
+  .page-hero h1,
+  .page-hero .page-hero-title {
     font-size: 2.65rem;
     line-height: 1.13;
   }

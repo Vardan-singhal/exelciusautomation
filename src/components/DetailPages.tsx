@@ -52,6 +52,7 @@ export function SolutionPage({
         label="OUR SOLUTIONS"
         banner={pageBanners[solution.href]}
         title={p.heading}
+        titleAs={/<h1\b/i.test(p.html) ? "p" : "h1"}
         text={solution.description}
       />
       <section className="section container solution-detail">
@@ -77,6 +78,13 @@ export function SolutionPage({
             Discuss Your Project
           </Link>
         </div>
+      </section>
+      <section className="section container solution-content">
+        <article
+          className="legacy-content"
+          aria-label={solution.title + " details"}
+          dangerouslySetInnerHTML={{ __html: p.html }}
+        />
       </section>
       <section className="section soft">
         <div className="container">
@@ -120,7 +128,6 @@ export function SolutionPage({
           </>
         )}
       </section>
-      <RetainedContent html={p.html} />
       <SourceFAQs slug={p.slug} />
       <EnquiryCTA />
     </>
@@ -140,6 +147,7 @@ export function ProductPage({ slug }: { slug: string }) {
             : "PRODUCTS & CAPABILITIES"
         }
         title={p.heading}
+        titleAs={/<h1\b/i.test(p.html) ? "p" : "h1"}
       />
       <div className="container detail-layout">
         <article

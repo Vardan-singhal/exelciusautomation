@@ -13,6 +13,8 @@ const contract = {};
 
 function clean(html) {
   const $ = load(html.replace(/<\?(?:php|=)?[\s\S]*?\?>/g, ""), null, false);
+  // These elements also wrap editorial content and product tab labels in the CMS.
+  $("header,footer,button").each((_, el) => $(el).replaceWith($(el).contents()));
   $("script,style,iframe,form,button,input,select,textarea,link,meta,header,footer,nav,.modal,.breadcrumb,.product-sidebar,.sidebar,.openModalBtn").remove();
   $("*").each((_, el) => {
     for (const name of Object.keys(el.attribs || {})) {
@@ -47,10 +49,16 @@ for (const page of pages) {
   const $ = clean(source);
   const first = $("h1").first();
   const primary = text(first.text()) || text(page.heading);
-  first.remove();
-  // A single page title belongs in PageHero; preserve all following source levels.
-  $("h1").each((_, el) => { el.tagName = "h2"; });
-  const outline = [{ tag: "h1", text: primary }, ...$(headings).toArray().map(el => ({ tag: el.tagName, text: text($(el).text()) }))];
+  // CMS pages render their complete article, including its H1, below the product image.
+  // Static templates still supply their primary title through PageHero.
+  if (!page.content) {
+    first.remove();
+    $("h1").each((_, el) => { el.tagName = "h2"; });
+  }
+  const outline = [
+    ...(!page.content || !$("h1").length ? [{ tag: "h1", text: primary }] : []),
+    ...$(headings).toArray().map(el => ({ tag: el.tagName, text: text($(el).text()) })),
+  ];
   contract[page.slug] = { primary, outline };
   page.html = $.html();
 }

@@ -223,12 +223,14 @@ export function PageHero({
   text,
   image,
   banner,
+  titleAs: Title = "h1",
 }: {
   label: string;
   title: string;
   text?: string;
   image?: string;
   banner?: string;
+  titleAs?: "h1" | "p";
 }) {
   if (banner)
     return (
@@ -250,7 +252,7 @@ export function PageHero({
             </div>
             <div className="page-banner-accessible-copy">
               <span className="eyebrow">{label}</span>
-              <h1>{title}</h1>
+              <Title className="page-hero-title">{title}</Title>
               {text && <p>{text}</p>}
             </div>
           </div>
@@ -267,7 +269,7 @@ export function PageHero({
           <span>{label}</span>
         </div>
         <span className="eyebrow">{label}</span>
-        <h1>{title}</h1>
+        <Title className="page-hero-title">{title}</Title>
         {text && <p>{text}</p>}
       </div>
     </section>
