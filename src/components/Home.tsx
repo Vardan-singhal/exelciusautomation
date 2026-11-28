@@ -1,11 +1,10 @@
 import Image from "./SiteImage";
 import Link from "next/link";
 import { ChevronDown, Cpu, Network, Wrench } from "lucide-react";
-import { projects, solutions } from "@/data/site";
+import { solutions } from "@/data/site";
 import home from "@/data/home-content.json";
 import testimonials from "@/data/testimonials.json";
 import { blogs } from "@/lib/content";
-import { imageHtml } from "@/lib/image-urls.mjs";
 import { ClientLogoStrip, EnquiryCTA, SourceFAQs } from "./Common";
 import HeroMedia from "./HeroMedia";
 import CertificatesSection from "./CertificatesSection";
@@ -160,53 +159,11 @@ export default function Home() {
           </Link>
         ))}</div>
       </section>
-      <section className="section container">
-        <div className="section-heading-row"><div className="section-heading"><span className="eyebrow">ENGINEERING IN ACTION</span><h3 className="section-title">Major Delivered Projects</h3></div><Link href="/gallery?view=projects" className="text-link">View All Projects</Link></div>
-        <div className="featured-projects">
-          {[projects[0], projects[3]].map((p) => (
-            <Link
-              className="project-card"
-              href={"/gallery?project=" + p.id}
-              key={p.id}
-            >
-              <div className="project-image">
-                <Image
-                  src={p.image!}
-                  alt={p.name + " — original project photographs"}
-                  fill
-                  sizes="(max-width: 760px) 100vw, 50vw"
-                />
-                <span>{p.status}</span>
-              </div>
-              <div className="project-copy">
-                <span className="eyebrow">{p.category}</span>
-                <p className="display-h3">{p.name}</p>
-                <p>{p.description}</p>
-                <span className="text-link">View Project</span>
-              </div>
-            </Link>
-          ))}
-          <Link href="/gallery?project=hindalco" className="project-wide">
-            <div>
-              <span className="eyebrow">INDUSTRIAL & DIGITAL SYSTEMS</span>
-              <p className="display-h3">Connected operations at Hindalco Industries.</p>
-              <p>
-                Asset management software, energy monitoring and smelter-plant
-                PLC expansion.
-              </p>
-              <span className="text-link">Explore the Project</span>
-            </div>
-            <Image
-              src="/profile/image84.png"
-              alt="Hindalco Industries"
-              width={150}
-              height={125}
-            />
-          </Link>
+      <section className="home-delivered-projects" aria-labelledby="delivered-projects-heading">
+        <div className="container">
+          <h3 id="delivered-projects-heading">Major Delivered Projects</h3>
+          <div className="delivered-project-list" dangerouslySetInnerHTML={{ __html: home.projectHtml }} />
         </div>
-
-
-        <details className="source-project-detail"><summary>More delivered project experience</summary><div className="legacy-content" dangerouslySetInnerHTML={{ __html: imageHtml(home.projectHtml) }} /></details>
       </section>
       <CertificatesSection />
       <section className="section testimonials">
