@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Suspense } from "react";
 import Header from "@/components/Header";
+import EnquiryProvider from "@/components/EnquiryProvider";
 import NavigationScroll from "@/components/NavigationScroll";
 import { imageSrc } from "@/lib/image-urls.mjs";
 import { Footer } from "@/components/Common";
@@ -29,12 +30,14 @@ export default function RootLayout({
         <a className="skip-link" href="#main-content">
           Skip to content
         </a>
-        <Header />
-        <main id="main-content">{children}</main>
-        <Suspense fallback={null}>
-          <NavigationScroll />
-        </Suspense>
-        <Footer />
+        <EnquiryProvider>
+          <Header />
+          <main id="main-content">{children}</main>
+          <Suspense fallback={null}>
+            <NavigationScroll />
+          </Suspense>
+          <Footer />
+        </EnquiryProvider>
       </body>
     </html>
   );

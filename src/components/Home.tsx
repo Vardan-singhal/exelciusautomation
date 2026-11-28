@@ -1,5 +1,6 @@
 import Image from "./SiteImage";
 import Link from "next/link";
+import { EnquiryButton } from "./EnquiryProvider";
 import { ChevronDown, Cpu, Network, Wrench } from "lucide-react";
 import { solutions } from "@/data/site";
 import home from "@/data/home-content.json";
@@ -24,9 +25,9 @@ export default function Home() {
             solar solutions. Designed for reliable performance.
           </p>
           <div className="hero-actions">
-            <Link className="button" href="/contact#enquiry">
+            <EnquiryButton className="button">
               Discuss Your Project
-            </Link>
+            </EnquiryButton>
             <a className="button outline" href="#solutions">
               Explore Our Solutions
             </a>

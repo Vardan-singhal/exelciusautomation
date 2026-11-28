@@ -1,5 +1,6 @@
 import Image from "./SiteImage";
 import Link from "next/link";
+import { EnquiryButton } from "./EnquiryProvider";
 import { contact, industries, projects, solutions } from "@/data/site";
 import { pages, blogs, findBlog, findPage } from "@/lib/content";
 import {
@@ -9,8 +10,8 @@ import {
   SectionHeading,
   SourceFAQs,
 } from "./Common";
-import EnquiryForm from "./EnquiryForm";
 import ProjectGallery from "./ProjectGallery";
+import EnquiryForm from "./EnquiryForm";
 import { pageBanners } from "@/data/pageBanners";
 import ProductEquipment from "./ProductEquipment";
 export function RetainedContent({
@@ -75,9 +76,9 @@ export function SolutionPage({
               <li key={c}>{c}</li>
             ))}
           </ul>
-          <Link href="/contact#enquiry" className="button">
+          <EnquiryButton className="button">
             Discuss Your Project
-          </Link>
+          </EnquiryButton>
         </div>
       </section>
       <section className="section container solution-content">
@@ -145,9 +146,9 @@ export function ProductPage({ slug }: { slug: string }) {
             Discuss selection, technical requirements and system integration
             with our team.
           </p>
-          <Link className="button" href="/contact#enquiry">
+          <EnquiryButton className="button">
             Discuss Your Project
-          </Link>
+          </EnquiryButton>
           {findBlog(slug) && (
             <Link className="text-link" href={"/blog.php?slug=" + slug}>
               Read the related insight
@@ -326,6 +327,23 @@ export function ContactPage() {
           </address>
         </div>
         <EnquiryForm />
+      </section>
+      <section className="container contact-location" aria-label="Office location">
+        <div className="contact-map">
+          <iframe
+            src={contact.map_embed_url}
+            title="Exelcius Automation office location in Noida on Google Maps"
+            width="800"
+            height="520"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            allowFullScreen
+          />
+          <div className="contact-map-caption">
+            <p>Visit our Noida office</p>
+            <a href={contact.map_link} target="_blank" rel="noreferrer">Get directions</a>
+          </div>
+        </div>
       </section>
     </>
   );

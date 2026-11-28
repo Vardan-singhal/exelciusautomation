@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import Image from "./SiteImage";
 import Link from "next/link";
+import { EnquiryButton } from "./EnquiryProvider";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { usePathname } from "next/navigation";
 import CategoryNavigation from "./CategoryNavigation";
@@ -87,9 +88,9 @@ export default function Header() {
           <Link href="/blogs">Blogs</Link>
           <Link href="/contact">Contact</Link>
         </nav>
-        <Link href="/contact#enquiry" className="button header-cta">
+        <EnquiryButton className="button header-cta">
           Discuss Your Project
-        </Link>
+        </EnquiryButton>
         <button
           ref={mobileTrigger}
           className="menu-toggle"

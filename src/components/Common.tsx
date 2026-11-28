@@ -1,5 +1,6 @@
 import Image from "./SiteImage";
 import Link from "next/link";
+import { EnquiryButton } from "./EnquiryProvider";
 import ClientSlider from "./ClientSlider";
 import { getSchemas } from "@/lib/content";
 export function SourceFAQs({ slug }: { slug: string }) {
@@ -79,9 +80,9 @@ export function EnquiryCTA() {
           </p>
         </div>
         <div className="cta-actions">
-          <Link className="button light" href="/contact#enquiry">
+          <EnquiryButton className="button light">
             Discuss Your Project
-          </Link>
+          </EnquiryButton>
           <a className="text-link" href={`tel:${phone}`}>
             Talk to Our Team
           </a>
@@ -185,7 +186,7 @@ export function Footer() {
             </a>
             <span>{contact.working_hours}</span>
             <h3 className="footer-enquiry-heading">Enquiry Form</h3>
-            <Link href="/contact#enquiry">Discuss Your Project</Link>
+            <EnquiryButton>Discuss Your Project</EnquiryButton>
           </div>
         </div>
         <div className="footer-bottom-bar">
@@ -215,7 +216,7 @@ export function Footer() {
           <MessageCircle size={18} />
           WhatsApp
         </a>
-        <Link href="/contact#enquiry">Discuss Your Project</Link>
+        <EnquiryButton>Discuss Your Project</EnquiryButton>
       </div>
     </>
   );

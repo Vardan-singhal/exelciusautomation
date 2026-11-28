@@ -1,0 +1,43 @@
+﻿.enquiry-dialog {
+  width: min(900px, calc(100% - 32px));
+  max-width: none;
+  max-height: calc(100dvh - 40px);
+  margin: auto;
+  padding: 0;
+  border: 0;
+  border-radius: 12px;
+  background: var(--pale);
+  color: var(--ink);
+  box-shadow: 0 20px 80px #0005;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+.enquiry-dialog::backdrop { background: rgb(3 29 38 / 70%); }
+.enquiry-dialog .enquiry-form { padding: 38px 40px; margin: 0; }
+.enquiry-dialog .enquiry-form .eyebrow { padding-right: 30px; }
+.enquiry-dialog-close {
+  position: sticky;
+  top: 12px;
+  float: right;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  margin: 12px 12px -48px 0;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: white;
+  color: var(--ink);
+  cursor: pointer;
+}
+.enquiry-dialog-close:hover { color: var(--teal); background: var(--pale); }
+.enquiry-trigger:where(:not(.button)) { padding: 0; border: 0; background: transparent; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.footer-grid > div > .enquiry-trigger { display: block; font-size: .875rem; color: var(--muted); margin: 10px 0; }
+.footer-grid > div > .enquiry-trigger:hover { color: var(--teal); }
+@media (max-width: 760px) {
+  .enquiry-dialog { width: calc(100% - 20px); max-height: calc(100dvh - 20px); }
+  .enquiry-dialog .enquiry-form { padding: 32px 20px 24px; }
+}
