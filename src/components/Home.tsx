@@ -135,7 +135,15 @@ export default function Home() {
       </section>
       <section className="section container source-partners">
         <div className="section-heading"><span className="eyebrow">TECHNOLOGY &amp; EQUIPMENT</span><h3 className="section-title">Our Trusted Partners</h3></div>
-        <div className="source-partner-logos">{home.partners.map((partner) => <Image key={partner.src} src={partner.src} alt={partner.alt} width={210} height={110} />)}</div>
+        <div className="source-partner-logos" tabIndex={0} role="region" aria-label="Trusted partner logos; hover or focus to pause scrolling">
+          <div className="source-partner-track">
+            {[false, true].map((duplicate) => (
+              <div className="source-partner-group" key={String(duplicate)} aria-hidden={duplicate ? true : undefined}>
+                {home.partners.map((partner) => <Image key={partner.src} src={partner.src} alt={duplicate ? "" : partner.alt} width={210} height={110} />)}
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
       <section className="section why">
         <div className="container">
