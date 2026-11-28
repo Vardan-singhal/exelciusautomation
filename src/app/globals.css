@@ -1208,6 +1208,28 @@ p {
   margin: 28px auto;
   aspect-ratio: auto;
 }
+.legacy-content .solar-solution-images {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: 30px;
+  margin: 28px 0;
+}
+.legacy-content .solar-solution-images img {
+  width: 100%;
+  height: auto;
+  max-height: none;
+  min-width: 0;
+  margin: 0;
+  border: 12px solid white;
+  box-shadow: 0 4px 16px rgb(0 0 0 / 10%);
+}
+@media (max-width: 600px) {
+  .legacy-content .solar-solution-images {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
 .legacy-content table {
   display: block;
   overflow: auto;

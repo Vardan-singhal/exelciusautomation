@@ -18,7 +18,10 @@ function retainedPresentation(slug: string) {
   const images = source.images.filter((image) => !image.unavailable).map((image) =>
     `<img src="${escapeHtml(image.src)}" alt="${escapeHtml(image.alt)}" width="${image.width}" height="${image.height}" loading="lazy" decoding="async">`,
   ).join("\n");
-  return images + (source.subtitle ? `<p>${escapeHtml(source.subtitle)}</p>` : "");
+  const gallery = slug === "solar-solution-providers"
+    ? `<div class="solar-solution-images">${images}</div>`
+    : images;
+  return gallery + (source.subtitle ? `<p>${escapeHtml(source.subtitle)}</p>` : "");
 }
 export const pages = rawPages.map((page) => ({
   ...page,
